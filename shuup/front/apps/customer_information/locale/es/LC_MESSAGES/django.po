@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Panu Tulimäki <panu@shuup.com>, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: Shuup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-10 20:10+0000\n"
+"PO-Revision-Date: 2021-05-11 12:25+0000\n"
+"Last-Translator: Transifex Bot <>\n"
+"Language-Team: Spanish (http://www.transifex.com/shuup/shuup/language/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.1.1\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Shuup Frontend - Customer Information Editing"
+msgstr "Shuup Frontend: edición de información del cliente"
+
+msgid "Customer Information"
+msgstr "Información al cliente"
+
+msgid "Company Information"
+msgstr "Información de la empresa"
+
+msgid "Edit Company Information."
+msgstr "Editar la información de la empresa."
+
+msgid "Address Book"
+msgstr "Directorio"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Will become default user email when linked."
+msgstr "Se convertirá en el correo electrónico del usuario predeterminado cuando se vincule."
+
+msgid "Given Tax Number already exists. Please contact support."
+msgstr "El número fiscal dado ya existe. Póngase en contacto con el servicio de asistencia."
+
+msgid "Address Title"
+msgstr "Título Dirección"
+
+msgid "Address Type"
+msgstr "Tipo de dirección"
+
+msgid "Address Status"
+msgstr "Estado de la dirección"
+
+msgid "Company information was saved."
+msgstr "Se guardó la información de la empresa."
+
+msgid ""
+"Company information was saved. Please follow the instructions sent to your "
+"email address."
+msgstr "Se guardó la información de la empresa. Siga las instrucciones enviadas a su dirección de correo electrónico."
+
+msgid "Customer Email"
+msgstr "Correo electrónico del cliente"
+
+msgid "Home"
+msgstr "Casa"
+
+msgid "Dashboard"
+msgstr "Tablero"
+
+msgid "General Information"
+msgstr "Información general"
+
+msgid "Contact Information"
+msgstr "Información del contacto"
+
+msgid "Address"
+msgstr "Habla a"
+
+msgid "Default Addresses"
+msgstr "Direcciones predeterminadas"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Default Billing Address"
+msgstr "direccion de FACTURACION por defecto"
+
+msgid "No Default Billing Address set."
+msgstr "No se ha establecido una dirección de facturación predeterminada."
+
+msgid "Default Shipping Address"
+msgstr "Dirección de entrega por defecto"
+
+msgid "No Default Shipping Address set."
+msgstr "No se ha establecido una dirección de envío predeterminada."
+
+msgid "Additional Addresses"
+msgstr "Direcciones adicionales"
+
+msgid "Create new"
+msgstr "Crear nuevo"
+
+msgid "Role"
+msgstr "Papel"
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid "You don't have any additional addresses"
+msgstr "No tienes direcciones adicionales"
+
+msgid "Change Password"
+msgstr "Cambia la contraseña"
+
+msgid "Change password"
+msgstr "Cambia la contraseña"
+
+msgid "Basic Information"
+msgstr "Información básica"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Email"
+msgstr "Correo electrónico"
+
+msgid "Phone"
+msgstr "Teléfono"
+
+msgid "Tax Number"
+msgstr "Número de impuesto"
+
+msgid "Birth Date"
+msgstr "Fecha de nacimiento"
+
+msgid "Gender"
+msgstr "Género"
+
+msgid "Marketing Permission"
+msgstr "Permiso de comercialización"
+
+msgid "Yes"
+msgstr "si"
+
+msgid "No"
+msgstr "No"
+
+msgid "Company account information"
+msgstr "Información de la cuenta de la empresa"
+
+msgid ""
+"You have already linked your account to a company and it is pending "
+"approval."
+msgstr "Ya ha vinculado su cuenta a una empresa y está pendiente de aprobación."
+
+msgid "Not specified"
+msgstr "No especificado"
+
+msgid "Street"
+msgstr "Calle"
+
+msgid "Postal code"
+msgstr "código postal"
+
+msgid "City"
+msgstr "Ciudad"
+
+msgid "Country"
+msgstr "País"
+
+msgid "Billing information"
+msgstr "Datos de facturación"
+
+msgid "Copy to shipping information"
+msgstr "Copiar a la información de envío"
+
+msgid "Shipping information"
+msgstr "Información de envío"
+
+msgid "Copy to billing information"
+msgstr "Copiar a la información de facturación"
+
+msgid "Edit customer information"
+msgstr ""
+
+msgid "Save password"
+msgstr "Guardar contraseña"
+
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+msgid "Edit company information"
+msgstr "Editar la información de la empresa"
+
+msgid "Link account to company"
+msgstr "Vincular cuenta a empresa"
+
+msgid "Company information"
+msgstr "Información de la empresa"
+
+msgid "Password changed."
+msgstr "Contraseña cambiada."
+
+msgid "Account information was saved."
+msgstr "Se guardó la información de la cuenta."
+
+msgid "Address information was saved."
+msgstr "Se guardó la información de la dirección."
+
+msgid "Cannot remove address because it doesn't exist."
+msgstr "No se puede eliminar la dirección porque no existe."

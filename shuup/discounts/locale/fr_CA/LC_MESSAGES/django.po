@@ -1,0 +1,314 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Panu Tulimäki <panu@shuup.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-03 19:01+0000\n"
+"PO-Revision-Date: 2018-10-02 06:50+0000\n"
+"Last-Translator: Panu Tulimäki <panu@shuup.com>, 2020\n"
+"Language-Team: French (Canada) (https://www.transifex.com/shuup/teams/55306/fr_CA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_CA\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Archive Product Discounts"
+msgstr "Archiver les remises sur les produits"
+
+msgid "Unarchive Discounts"
+msgstr "Désarchiver les remises"
+
+msgid "Delete Discounts"
+msgstr "Supprimer les remises"
+
+msgid "Discounts"
+msgstr "Réductions"
+
+msgid "Product Discounts"
+msgstr "Remises sur les produits"
+
+msgid "Allow the user to select discounts in admin."
+msgstr ""
+
+msgid "Archived Product Discounts"
+msgstr "Remises sur les produits archivés"
+
+msgid "Discounts Happy Hours"
+msgstr "Réductions Happy Hours"
+
+msgid "Product Discounts Happy Hours"
+msgstr "Remises sur les produits Happy Hours"
+
+msgid "Discount Name"
+msgstr "Nom de la remise"
+
+msgid "Filter by name..."
+msgstr "Filtrer par nom ..."
+
+msgid "Product"
+msgstr "Produit"
+
+msgid "Filter by product..."
+msgstr "Filtrer par produit ..."
+
+msgid "Category"
+msgstr "Catégorie"
+
+msgid "Filter by category..."
+msgstr "Filtrer par catégorie ..."
+
+msgid "Contact Group"
+msgstr "Groupe de contact"
+
+msgid "Filter by contact group..."
+msgstr "Filtrer par groupe de contact ..."
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Filter by contact..."
+msgstr "Filtrer par contact ..."
+
+msgid "Effect"
+msgstr "Effet"
+
+msgid "End Date and Time"
+msgstr "Date et heure de fin"
+
+#, python-format
+msgid "%s has been deleted."
+msgstr "%s a été supprimé."
+
+msgid "Discount percentage"
+msgstr "Pourcentage de remise"
+
+msgid "The discount percentage for this discount."
+msgstr "Le pourcentage de remise pour cette remise."
+
+msgid "Happy Hour Name"
+msgstr "Nom de l'happy hour"
+
+msgid "Select discounts for this happy hour."
+msgstr "Sélectionnez des réductions pour cet happy hour."
+
+msgid ""
+"12pm is considered noon and 12am as midnight. Start hour is included to the "
+"discount."
+msgstr ""
+"12h est considéré comme midi et 12h comme minuit. L'heure de départ est "
+"incluse dans la réduction."
+
+msgid ""
+"12pm is considered noon and 12am as midnight. End hours is included to the "
+"discount."
+msgstr ""
+"12h est considéré comme midi et 12h comme minuit. Les heures de fin sont "
+"incluses dans la réduction."
+
+msgid "Weekdays the happy hour is active."
+msgstr "En semaine, l'happy hour est active."
+
+msgid "name"
+msgstr "Nom"
+
+msgid ""
+"The name for this discount. Used internally with discount lists for "
+"filtering."
+msgstr ""
+"Le nom de cette réduction. Utilisé en interne avec des listes de remises "
+"pour le filtrage."
+
+msgid "shop"
+msgstr ""
+
+msgid "created by"
+msgstr "créé par"
+
+msgid "modified by"
+msgstr "modifié par"
+
+msgid "created on"
+msgstr "créé sur"
+
+msgid "modified on"
+msgstr "modifié le"
+
+msgid "supplier"
+msgstr "fournisseur"
+
+msgid "Select supplier for this discount."
+msgstr "Sélectionnez le fournisseur pour cette remise."
+
+msgid "active"
+msgstr "actif"
+
+msgid ""
+"Enable this if the discount is currently active. Please also set a start and"
+" an end date."
+msgstr ""
+"Activez cette option si la remise est actuellement active. Veuillez "
+"également définir une date de début et une date de fin."
+
+msgid "start date and time"
+msgstr "date et heure de début"
+
+msgid ""
+"The date and time the discount starts. This is only applicable if the "
+"discount is marked as active."
+msgstr ""
+"La date et l'heure de début de la réduction. Ceci n'est applicable que si la"
+" réduction est marquée comme active."
+
+msgid "end date and time"
+msgstr "date et heure de fin"
+
+msgid ""
+"The date and time the discount ends. This is only applicable if the discount"
+" is marked as active."
+msgstr ""
+"La date et l'heure de fin de la réduction. Ceci n'est applicable que si la "
+"réduction est marquée comme active."
+
+msgid "happy hours"
+msgstr "heures heureuses"
+
+msgid "Select happy hours for this discount."
+msgstr "Sélectionnez des happy hours pour cette réduction."
+
+msgid "product"
+msgstr "produit"
+
+msgid "Select product for this discount."
+msgstr "Sélectionnez le produit pour cette remise."
+
+msgid "exclude selected category"
+msgstr "exclure la catégorie sélectionnée"
+
+msgid "Exclude products in selected category from this discount."
+msgstr "Exclure les produits de la catégorie sélectionnée de cette réduction."
+
+msgid "category"
+msgstr "Catégorie"
+
+msgid "Select category for this discount."
+msgstr "Sélectionnez la catégorie pour cette réduction."
+
+msgid "contact"
+msgstr "contact"
+
+msgid "Select contact for this discount."
+msgstr "Sélectionnez le contact pour cette réduction."
+
+msgid "contact group"
+msgstr "groupe de contact"
+
+msgid "Select contact group for this discount."
+msgstr "Sélectionnez le groupe de contact pour cette réduction."
+
+msgid "discounted price"
+msgstr "prix réduit"
+
+msgid "Discounted product price for this discount."
+msgstr "Prix du produit réduit pour cette réduction."
+
+msgid "discount amount"
+msgstr "montant de la remise"
+
+msgid "Discount amount value for this discount."
+msgstr "Valeur du montant de la remise pour cette remise."
+
+msgid "discount percentage"
+msgstr "pourcentage de remise"
+
+msgid "Discount percentage for this discount."
+msgstr "Pourcentage de remise pour cette remise."
+
+msgid "product discount"
+msgstr "remise de produit"
+
+msgid "product discounts"
+msgstr "remises sur les produits"
+
+msgid "Start date and end date are required when the discount is active."
+msgstr ""
+
+msgid ""
+"Either discounted price or discount percentage or discount amount should be "
+"configured."
+msgstr ""
+
+msgid ""
+"The name for this HappyHour. Used internally with exception lists for "
+"filtering."
+msgstr ""
+"Le nom de cette HappyHour. Utilisé en interne avec des listes d'exceptions "
+"pour le filtrage."
+
+msgid "happy hour"
+msgstr "Heureux Heure"
+
+msgid "parent"
+msgstr "parent"
+
+msgid "from hour"
+msgstr "de l'heure"
+
+msgid "to hour"
+msgstr "à l'heure"
+
+msgid "weekday"
+msgstr "jour de la semaine"
+
+msgid "time range"
+msgstr "intervalle de temps"
+
+msgid "time ranges"
+msgstr "plages de temps"
+
+msgid ""
+"The value of the field `to hour` has to be later than that of `from hour`."
+msgstr ""
+"La valeur du champ «à l'heure» doit être postérieure à celle de «de "
+"l'heure»."
+
+msgid ""
+"Select all discounts to render products from. Only active discounts that "
+"have product or category linked are available."
+msgstr ""
+"Sélectionnez toutes les remises à partir desquelles afficher les produits. "
+"Seules les remises actives associées à un produit ou à une catégorie sont "
+"disponibles."
+
+msgid "Discounted Products"
+msgstr "Produits à prix réduit"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Count"
+msgstr "Compter"
+
+msgid "Only show in-stock and orderable items"
+msgstr "Afficher uniquement les articles en stock et pouvant être commandés"
+
+msgid ""
+"Warning: The final number of products can be lower than 'Count' as it will "
+"filter out unorderable products from a set of 'Count' products."
+msgstr ""
+"Attention: le nombre final de produits peut être inférieur à «Count» car il "
+"filtrera les produits non commandables d'un ensemble de produits «Count»."
+
+msgid "Availability"
+msgstr "Disponibilité"
+
+msgid "Condition"
+msgstr "État"

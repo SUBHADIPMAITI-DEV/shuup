@@ -1,0 +1,1365 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Antônio Carlos Dias <antoniocarlosdff@gmail.com>, 2020
+# Christian Hess <christianhess.rlz@gmail.com>, 2020
+# Christian Hess, 2021
+# 2e5f34f1c58eda4787a14c9dc139ca5f, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Shuup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 15:24+0000\n"
+"PO-Revision-Date: 2021-07-14 20:24+0000\n"
+"Last-Translator: Transifex Bot <>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/shuup/shuup/language/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.1.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+
+msgid "Abandoned Cart Value"
+msgstr "Valor de Carrinhos Abandonados"
+
+#, python-brace-format
+msgid "Based on {b} carts over the last {d} days"
+msgstr "Baseado em {b} carrinhos nos últimos {d} dias"
+
+msgid "Carts"
+msgstr "Carrinhos"
+
+msgid "Show carts"
+msgstr "Mostrar carrinhos"
+
+msgid "Cart Inactivity Delay (hours)"
+msgstr "Tempo inativo para o carrinho (horas)"
+
+msgid ""
+"Set the number of hours the cart must be inactive before it's displayed in "
+"Orders > Carts"
+msgstr "Escolher o número de horas do carrinho antes dele desaparecer em Pedidos > Carrinhos"
+
+msgid "Key"
+msgstr "Chave"
+
+msgid "Last updated on"
+msgstr "Última atualização em"
+
+msgid "Completed"
+msgstr "Concluído"
+
+msgid "yes"
+msgstr "sim"
+
+msgid "no"
+msgstr "não"
+
+msgid "Shop"
+msgstr "Loja"
+
+msgid "Supplier"
+msgstr "Fornecedor"
+
+msgid "Customer"
+msgstr "Cliente"
+
+msgid "Product count"
+msgstr "Estoque do produto"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Created on"
+msgstr "Criado em"
+
+msgid "Ordered"
+msgstr "Comprado"
+
+msgid "Require shipping method"
+msgstr "Exigir método de envio"
+
+msgid "Whether to require the shipping method in checkout phases."
+msgstr "Se é necessário solicitar o método de envio nas fases de finalização de compra."
+
+msgid "Require payment method"
+msgstr "Exigir método de pagamento"
+
+msgid "Whether to require the payment method in checkout phases."
+msgstr "Se é necessário solicitar o método de pagamento nas fases de finalização de compra."
+
+msgid "Registration Settings"
+msgstr "Configurações de Cadastro"
+
+msgid "Allow company registration"
+msgstr "Aceitar cadastro de empresa."
+
+msgid "If you select this, companies can register into your store."
+msgstr "Se você selecionar isso, as empresas poderão se registrar em sua loja."
+
+msgid "Company registration requires approval"
+msgstr "O registro da empresa requer aprovação."
+
+msgid ""
+"Registered companies must be manually approved by admin if this is checked. "
+"This option has no effect if company registration is not allowed on your "
+"site."
+msgstr "As empresas registradas devem ser aprovadas manualmente pelo administrador, se isso estiver marcado. Esta opção não tem efeito se o registro da empresa não for permitido no seu site."
+
+msgid "Company tax number validation"
+msgstr "Validação do número de contribuinte"
+
+msgid "Company tax number format is validated for European countries."
+msgstr "O formato do número de contribuinte da empresa é validado para países europeus."
+
+msgid "Override shop's default configuration"
+msgstr "Substituir a configuração padrão da loja"
+
+msgid ""
+"If checked, this configuration will be used instead of the shop's default "
+"configuration."
+msgstr "Se marcada, essa configuração será usada em vez da configuração padrão da loja."
+
+msgid "Available languages in storefront"
+msgstr "Idiomas disponíveis na loja"
+
+msgid ""
+"Select all the languages that should be available in storefront. Blank means"
+" that all languages should be available."
+msgstr "Selecione todos os idiomas que devem estar disponíveis na loja. Em branco significa que todos os idiomas devem estar disponíveis."
+
+msgid "Try to remove some products from the basket and order them separately."
+msgstr "Tente remover alguns produtos do carrinho e faça o pedido separadamente."
+
+#, python-format
+msgid "Products in basket can't be shipped together. %s"
+msgstr "Os produtos na cesta não podem ser enviados juntos. %s"
+
+#, python-format
+msgid "Products in basket have no common payment method. %s"
+msgstr "Os produtos no carrinho não têm formas de pagamento em comum. %s"
+
+msgid "Tax number is required with the company name."
+msgstr "Número do registro fiscal é obrigatório com o nome da empresa."
+
+msgid "Company name is required with the tax number."
+msgstr "O nome da empresa é obrigatório com número do registro fiscal."
+
+msgid "Use a saved address"
+msgstr "Use um endereço salvo"
+
+msgid "Addresses"
+msgstr "Endereços"
+
+msgid "Saved addresses."
+msgstr "Endereços salvos."
+
+msgid "Checkout as Guest"
+msgstr "Checkout Anônimo"
+
+msgid "Register"
+msgstr "Cadastrar-se"
+
+msgid "Register with us for future convenience"
+msgstr "Cadastre-se para conveniência futura"
+
+msgid "Checkout Method Choice"
+msgstr "Método de Checkout"
+
+msgid "I accept the terms and conditions"
+msgstr "Eu aceito os termos e condições"
+
+msgid "I want to receive marketing material"
+msgstr "Eu quero receber material de marketing"
+
+msgid "Comment"
+msgstr "Comentário"
+
+msgid ""
+"There has been a change in product availability. Please review your cart and"
+" reconfirm your order."
+msgstr "Houve uma mudança na disponibilidade do produto. Por favor, reveja o seu carrinho e reconfirme o seu pedido."
+
+msgid "Confirmation"
+msgstr "Confirmação"
+
+msgid "Starting to create order."
+msgstr "Começando a criar pedido."
+
+msgid "Empty Basket"
+msgstr "Carrinho Vazio"
+
+msgid "shipping method"
+msgstr "forma de entrega"
+
+msgid "payment method"
+msgstr "forma de pagamento"
+
+msgid "Shipping & Payment"
+msgstr "Entrega & Pagamento"
+
+msgid "Saved services."
+msgstr "Serviços salvos."
+
+msgid "Sort products by name"
+msgstr "Ordenar produtos por nome"
+
+msgid "Ordering for sort by name"
+msgstr "Posição de orderação por nome"
+
+msgid "Sort"
+msgstr "Ordenar"
+
+msgid "Name - A-Z"
+msgstr "Nome - A-Z"
+
+msgid "Name - Z-A"
+msgstr "Nome - Z-A"
+
+msgid "Enable this to allow products to be sortable by product name."
+msgstr "Ative para permitir que os produtos sejam classificados por nome de produto."
+
+msgid ""
+"Use a numeric value to set the order in which the the filter will appear on "
+"the product listing page."
+msgstr "Use um valor numérico para definir a ordem em que o filtro aparecerá na página de lista de produtos."
+
+msgid "Sort products by price"
+msgstr "Classifique os produtos por preço"
+
+msgid "Ordering for sort by price"
+msgstr "Pedido por classificação por preço"
+
+msgid "Price - Low to High"
+msgstr "Preço - Menor até Maior"
+
+msgid "Price - High to Low"
+msgstr "Preço - Maior até Menor"
+
+msgid ""
+"Enable this to allow products to be sortable by price (from low to high; "
+"from high to low)."
+msgstr "Ative esta opção para permitir que os produtos sejam classificados por preço (de baixo para alto; de alto para baixo)."
+
+msgid "Sort products by date created"
+msgstr "Classifique os produtos pela data de criação"
+
+msgid "Ordering for sort by date created"
+msgstr "Pedido de classificação por data de criação"
+
+msgid "Date created"
+msgstr "Data Criada"
+
+msgid ""
+"Enable this to allow products to be sortable from newest to oldest products."
+msgstr "Ative isso para permitir que os produtos sejam classificados do mais recente ao mais antigo."
+
+msgid ""
+"Use a numeric value to set the order in which the filter will appear on the "
+"product listing page."
+msgstr "Use um valor numérico para definir a ordem em que o filtro aparecerá na página de lista de produtos."
+
+msgid "Sort products by date created - oldest first"
+msgstr "Classifique os produtos pela data de criação - os mais antigos primeiro"
+
+msgid "Ordering for sort by date created - oldest first"
+msgstr "Ordenação por classificação por data de criação - mais antigo primeiro"
+
+msgid "Date created - oldest first"
+msgstr "Data de criação - mais antigo primeiro"
+
+msgid ""
+"Enable this to allow products to be sortable from oldest to newest products."
+msgstr "Ative isso para permitir que os produtos sejam classificados do mais antigo ao mais novo."
+
+msgid "Filter products by manufacturer"
+msgstr "Filtrar produtos por fabricante"
+
+msgid "Ordering for filter by manufacturer"
+msgstr "Pedido de filtro pelo fabricante"
+
+msgid "Manufacturers"
+msgstr "Fabricantes"
+
+msgid ""
+"Enable this to allow products to be filterable by manufacturer for this "
+"category."
+msgstr "Ative para permitir que os produtos sejam filtrados pelo fabricante para esta categoria."
+
+msgid ""
+"Use a numeric value to set the order in which the manufacturer filters will "
+"appear on the product listing page."
+msgstr "Use um valor numérico para definir a ordem em que os filtros do fabricante aparecerão na página de lista de produtos."
+
+msgid "Filter products by category"
+msgstr "Filtrar produtos por categoria"
+
+msgid "Ordering for filter by category"
+msgstr "Ordenação de filtro por categoria"
+
+msgid "Categories"
+msgstr "Categorias"
+
+msgid ""
+"Enable this to allow products to be filterable by any visible product "
+"category. "
+msgstr "Ative para permitir que os produtos sejam filtrados por qualquer categoria de produto visível."
+
+msgid ""
+"Use a numeric value to set the order in which the category list filters will"
+" appear on the product listing page."
+msgstr "Use um valor numérico para definir a ordem em que os filtros da lista de categorias aparecerão na página de lista de produtos."
+
+msgid "Limit page size"
+msgstr "Limite o tamanho da página"
+
+msgid "Ordering for limit page size"
+msgstr "Pedidos para limite de tamanho de página"
+
+msgid "Products per page"
+msgstr "Produtos por página"
+
+msgid ""
+"Enable this to allow the customer to be able to select the number of "
+"products to display."
+msgstr "Ative isso para permitir que o cliente possa selecionar o número de produtos a serem exibidos."
+
+msgid ""
+"Use a numeric value to set the order in which the page size filter will "
+"appear on the product listing page."
+msgstr "Use um valor numérico para definir a ordem em que o filtro de tamanho de página aparecerá na página de lista de produtos."
+
+msgid "Filter products by variation"
+msgstr "Filtrar produtos por variação"
+
+msgid "Ordering for filter by variation"
+msgstr "Ordenação de filtro por variação"
+
+msgid ""
+"Enable this to allow products to be filterable by their different "
+"variations. For example, size or color."
+msgstr "Ative isso para permitir que os produtos sejam filtrados por suas diferentes variações. Por exemplo, tamanho ou cor."
+
+msgid ""
+"Use a numeric value to set the order in which the variation filters will "
+"appear on the product listing page."
+msgstr "Use um valor numérico para definir a ordem em que os filtros de variação aparecerão na página de lista de produtos."
+
+msgid "Filter products by price"
+msgstr "Filtrar produtos por preço"
+
+msgid "Ordering for filter by price"
+msgstr "Pedido de filtro por preço"
+
+msgid "Price"
+msgstr "Preço"
+
+msgid ""
+"Enable this to allow products to be filtered by price. Prices will be listed"
+" in groups from the price range minimum to price range maximum in increments"
+" of the configured price range step."
+msgstr "Ative para permitir que os produtos sejam filtrados por preço. Os preços serão listados em grupos da faixa de preço mínimo ao máximo da faixa de preço em incrementos da faixa de faixa de preço configurada."
+
+msgid ""
+"Use a numeric value to set the order in which the price range filters will "
+"appear on the product listing page."
+msgstr "Use um valor numérico para definir a ordem em que os filtros de faixa de preço aparecerão na página de lista de produtos."
+
+msgid "Price range minimum"
+msgstr "Faixa de preço mínimo"
+
+msgid ""
+"Set the minimum price for the filter. The first range will be from zero to "
+"this value."
+msgstr "Defina o preço mínimo do filtro. O primeiro intervalo será de zero a este valor."
+
+msgid "Price range maximum"
+msgstr "Faixa de preço máxima"
+
+msgid ""
+"Set the maximum price for the filter. The last range will include this value"
+" and above."
+msgstr "Defina o preço máximo do filtro. O último intervalo incluirá este valor e acima."
+
+msgid "Price range step"
+msgstr "Etapa de faixa de preço"
+
+msgid ""
+"Set the price step for each range. Each range will increment by this value."
+msgstr "Defina a etapa de preço para cada faixa. Cada intervalo será incrementado por este valor."
+
+msgid "Filter products by its attributes"
+msgstr "Filtrar produtos por seus atributos"
+
+msgid "Allow products to be filtered according to their attributes."
+msgstr "Permite que os produtos sejam filtrados de acordo com seus atributos."
+
+msgid "Attributes that can be filtered"
+msgstr "Atributos que podem ser filtrados"
+
+msgid "Select attributes that can used for filtering the products."
+msgstr "Selecione os atributos que podem ser usados para filtrar os produtos."
+
+#, python-format
+msgid "Under %(min_limit)s"
+msgstr "Sob %(min_limit)s"
+
+#, python-format
+msgid "%(min)s to %(max)s"
+msgstr "%(min)s a %(max)s"
+
+#, python-format
+msgid "%(max_limit)s & Above"
+msgstr "%(max_limit)s e acima"
+
+msgid "Filter products by supplier"
+msgstr "Filtrar produtos por fornecedor"
+
+msgid "Ordering for filter by supplier"
+msgstr "Pedido de filtro por fornecedor"
+
+msgid "Suppliers"
+msgstr "Fornecedores"
+
+msgid "Enable this to allow products to be filterable by supplier."
+msgstr "Ative isso para permitir que os produtos sejam filtrados por fornecedor."
+
+msgid ""
+"Use a numeric value to set the order in which the supplier filters will "
+"appear."
+msgstr "Use um valor numérico para definir a ordem em que os filtros de fornecedor aparecerão."
+
+msgid "Allow multiselect suppliers"
+msgstr "Permitir fornecedores multisselecionados"
+
+msgid "Filter by multiple suppliers at a time."
+msgstr "Filtre por vários fornecedores ao mesmo tempo."
+
+msgid "Logged out since this account is inactive."
+msgstr "Desconectado uma vez que esta conta está inativa."
+
+msgid "key"
+msgstr "chave"
+
+msgid "shop"
+msgstr "loja"
+
+msgid "supplier"
+msgstr "fornecedor"
+
+msgid "customer"
+msgstr "cliente"
+
+msgid "orderer"
+msgstr "comprador"
+
+msgid "creator"
+msgstr "criador"
+
+msgid "created on"
+msgstr "criado em"
+
+msgid "updated on"
+msgstr "atualizado em"
+
+msgid "persistent"
+msgstr "persistente"
+
+msgid "deleted"
+msgstr "excluído"
+
+msgid "finished"
+msgstr "finalizado"
+
+msgid "title"
+msgstr "título"
+
+msgid "data"
+msgstr "dados"
+
+msgid "taxless total price"
+msgstr "preço total sem impostos"
+
+msgid "taxful total price"
+msgstr "preço total tributável"
+
+msgid "currency"
+msgstr "moeda"
+
+msgid "prices include tax"
+msgstr "preços incluem impostos"
+
+msgid "product_count"
+msgstr "estoque do produto"
+
+msgid "products"
+msgstr "produtos"
+
+msgid "class spec"
+msgstr "especificação de classe"
+
+msgid "stored basket"
+msgstr "cesta armazenada"
+
+msgid "stored baskets"
+msgstr "cestas armazenadas"
+
+msgid "ID"
+msgstr "EU IA"
+
+msgid "Reference Number"
+msgstr "Número de referência"
+
+msgid "Currency"
+msgstr "Moeda"
+
+msgid "Customer Name"
+msgstr "nome do cliente"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Shipping Method"
+msgstr "método de envio"
+
+msgid "Order Received"
+msgstr "Pedido Recebido"
+
+msgid "Order"
+msgstr "Pedido"
+
+msgid "Customer Email"
+msgstr "E-mail do Cliente"
+
+msgid "Customer Phone"
+msgstr "Telefone do Cliente"
+
+msgid "Shop Email"
+msgstr "Email da loja"
+
+msgid "Shop Phone"
+msgstr "Loja Telefone"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Order Status Changed"
+msgstr "Status do pedido alterado"
+
+msgid "Old Status"
+msgstr "Status Antigo"
+
+msgid "New Status"
+msgstr "Novo Status"
+
+msgid "Shipment Created"
+msgstr "Remessa Criada"
+
+msgid "Shipment"
+msgstr "Remessa"
+
+msgid "Order Shipping Status"
+msgstr "Status de Entrega do Pedido"
+
+msgid "Shipment Status"
+msgstr "Status da Remessa"
+
+msgid "Shipment Tracking Code"
+msgstr "Código de Rastreamento de Remessa"
+
+msgid "Shipment Tracking URL"
+msgstr "URL de rastreamento de remessa"
+
+msgid "Shipment Sent"
+msgstr "Remessa Enviada"
+
+msgid "Shipment Deleted"
+msgstr "Remessa Excluída"
+
+msgid "Payment Created"
+msgstr "Pagamento Criado"
+
+msgid "Order Payment Status"
+msgstr "Status do Pagamento do Pedido"
+
+msgid "Payment"
+msgstr "Pagamento"
+
+msgid "Refund Created"
+msgstr "Devolução Criada"
+
+msgid ""
+"<p>Dear {{ order.customer }},</p>\n"
+"<p>A shipment has been created for your order and here are the details:</p>\n"
+"\n"
+"{% if shipment.tracking_code %}\n"
+"<p>Tracking code: {{ shipment.tracking_code }}</p>\n"
+"{% endif %}\n"
+"\n"
+"<p>Contents:</p>\n"
+"<table>\n"
+"    <thead>\n"
+"        <tr>\n"
+"            <th>Product</th>\n"
+"            <th>Quantity</th>\n"
+"        </tr>\n"
+"    </thead>\n"
+"    <tbody>\n"
+"{% for shipment_product in shipments.total_products %}\n"
+"        <tr>\n"
+"            <td>{{ shipment_product.product }}</td>\n"
+"            <td>{{ shipment_product.quantity }}</td>\n"
+"        </tr>\n"
+"{% endif %}\n"
+"    </tbody>\n"
+"</table>\n"
+msgstr "<p>Caro {{order.customer}},</p><p> Uma remessa foi criada para seu pedido e aqui estão os detalhes:</p> {% if shipment.tracking_code%}<p> Código de rastreamento: {{shipment.tracking_code}}</p> {% fim se %}<p> Conteúdo:</p><table><thead><tr><th> produtos</th><th> Quantidade</th></tr></thead><tbody> {% para shipment_product em shipments.total_products%}<tr><td> {{shipment_product.product}}</td><td> {{shipment_product.quantity}}</td></tr> {% fim se %}</tbody></table>\n"
+
+msgid "Send Shipment Created Email"
+msgstr "Enviar e-mail criado para remessa"
+
+msgid "Send an email to customer when a shipment is created."
+msgstr "Envie um e-mail ao cliente quando uma remessa for criada."
+
+msgid ""
+"This script will send an email to customer when a shipment of his order has "
+"been created."
+msgstr "Este script enviará um e-mail ao cliente quando uma remessa de seu pedido for criada."
+
+msgid "{{ order.shop }} - Shipment created for order {{ order.identifier }}"
+msgstr "{{order.shop}} - Remessa criada para o pedido {{order.identifier}}"
+
+msgid "Send Shipment Deleted Email"
+msgstr "Enviar e-mail de remessa excluída"
+
+msgid "Send email when a shipment is deleted."
+msgstr "Envie um e-mail quando uma remessa for excluída."
+
+msgid ""
+"This script will send an email to customer or to any configured email right "
+"after a shipment gets deleted."
+msgstr "Este script enviará um e-mail ao cliente ou a qualquer e-mail configurado logo após a exclusão de uma remessa."
+
+msgid "{{ order.shop }} - Shipment deleted for order {{ order.identifier }}"
+msgstr "{{order.shop}} - Remessa excluída para o pedido {{order.identifier}}"
+
+msgid "Send Payment Created Email"
+msgstr "Enviar email criado para pagamento"
+
+msgid "Send email to customer when a payment is created."
+msgstr "Envie um e-mail para o cliente quando um pagamento for criado."
+
+msgid ""
+"This script will send an email to customer or to any configured email right "
+"after a payment gets created."
+msgstr "Este script enviará um e-mail para o cliente ou para qualquer e-mail configurado logo após a criação de um pagamento."
+
+msgid "{{ order.shop }} - Payment created for order {{ order.identifier }}"
+msgstr "{{order.shop}} - Pagamento criado para o pedido {{order.identifier}}"
+
+msgid "Send Refund Created Email"
+msgstr "Enviar reembolso criado por e-mail"
+
+msgid "Send email when a refund is created."
+msgstr "Envie um e-mail quando um reembolso for criado."
+
+msgid ""
+"This script will send an email to customer or to any configured email right "
+"after a refund gets created."
+msgstr "Este script enviará um e-mail ao cliente ou a qualquer e-mail configurado logo após a criação de um reembolso."
+
+msgid "{{ order.shop }} - Refund created for order {{ order.identifier }}"
+msgstr "{{order.shop}} - Reembolso criado para o pedido {{order.identifier}}"
+
+msgid "Send Order Confirmation Email"
+msgstr "Enviar e-mail de confirmação do pedido"
+
+msgid "Send a confirmation email when the order is created."
+msgstr "Envie um email de confirmação quando o pedido for criado."
+
+msgid ""
+"This script will send an email to customer or to any configured email right "
+"after an order is created. The order contents can be put on email body as "
+"well as other informations like shipping method and payment method."
+msgstr "Este script enviará um e-mail ao cliente ou a qualquer e-mail configurado logo após a criação de um pedido. O conteúdo do pedido pode ser colocado no corpo do e-mail, bem como outras informações como forma de envio e forma de pagamento."
+
+msgid "Cart Inactivity Delay"
+msgstr "Atraso de inatividade do carrinho"
+
+msgid "Checkout configuration"
+msgstr "Configuração de checkout"
+
+msgid "Product list sorts and filters"
+msgstr "Classificações e filtros da lista de produtos"
+
+msgid "Vendor"
+msgstr "Fornecedor"
+
+msgid "Created Date"
+msgstr "Data de criação"
+
+msgid "Updated Date"
+msgstr "Data de Atualização"
+
+msgid "Ordered by"
+msgstr "Ordenado por"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Phone"
+msgstr "Telefone"
+
+msgid "Tax Number"
+msgstr "Número de identificação fiscal"
+
+msgid "Customer Comment"
+msgstr "Comentário do cliente"
+
+msgid "Payment Method"
+msgstr "Forma de pagamento"
+
+msgid "Total Price"
+msgstr "Preço total"
+
+msgid "Address Information"
+msgstr "Informação de Endereço"
+
+msgid "Billing address"
+msgstr "Endereço de cobrança"
+
+msgid "No billing address defined."
+msgstr "Nenhum endereço de cobrança definido."
+
+msgid "Shipping address"
+msgstr "Endereço de entrega"
+
+msgid "No shipping address defined."
+msgstr "Nenhum endereço de entrega definido."
+
+msgid "Lines"
+msgstr "Linhas"
+
+msgid "SKU"
+msgstr "SKU"
+
+msgid "Text"
+msgstr "Texto"
+
+msgid "Taxless Unit Price"
+msgstr "Preço unitário sem impostos"
+
+msgid "Quantity"
+msgstr "Quantidade"
+
+msgid "Taxless Discount"
+msgstr "Desconto sem impostos"
+
+msgid "Taxless Discount Percentage"
+msgstr "Porcentagem de desconto sem impostos"
+
+msgid "Tax"
+msgstr "Imposto"
+
+msgid "Taxless Total"
+msgstr "Total sem impostos"
+
+msgid "Total incl. Tax"
+msgstr "Total incl. Imposto"
+
+#, python-format
+msgid "Supplied by %(supplier)s"
+msgstr "Fornecido por %(supplier)s"
+
+msgid "Discount"
+msgstr "Desconto"
+
+msgid "Taxless"
+msgstr "Isento de impostos"
+
+msgid "Logs"
+msgstr "Histórico"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Type"
+msgstr "Modelo"
+
+msgid "Message"
+msgstr "Mensagem"
+
+msgid "Extra"
+msgstr "Extra"
+
+msgid "Storefront Languages"
+msgstr "Idiomas da vitrine"
+
+msgid "Shopping cart"
+msgstr "Carrinho de compras"
+
+msgid "Your shopping cart is empty."
+msgstr "Seu carrinho de compras está vazio."
+
+msgid "There were errors on following items"
+msgstr "Houve erros nos seguintes itens"
+
+msgid "You are unable to proceed to checkout!"
+msgstr "Você está impossibilitado de avançar para o check-out!"
+
+msgid "Checkout"
+msgstr "Check-out"
+
+msgid "Error! Please reload the page or move to previous step."
+msgstr "Erro! Recarregue a página ou vá para a etapa anterior."
+
+msgid "Log in"
+msgstr "Entrar"
+
+msgid "Forgot your password?"
+msgstr "Esqueceu sua senha?"
+
+msgid "There are errors"
+msgstr "Existem erros"
+
+msgid "Please wait..."
+msgstr "Por favor, aguarde..."
+
+msgid "My Dashboard"
+msgstr "Meu painel"
+
+msgid "Dashboard"
+msgstr "Painel"
+
+msgid "Home"
+msgstr "Início"
+
+msgid "Bad Request"
+msgstr "Requisição Inválida"
+
+msgid "Unfortunately the server couldn't process your request."
+msgstr "Infelizmente, o servidor não pôde processar sua solicitação."
+
+msgid "Back to Homepage"
+msgstr "Voltar à Página Inicial"
+
+msgid "Permission Denied"
+msgstr "Permissão Negada"
+
+msgid "Unfortunately you didn't have permission to display this page."
+msgstr "Infelizmente você não tem permissão para visualizar esta página."
+
+msgid "Page Not Found"
+msgstr "Página não encontrada"
+
+msgid "Unfortunately the page you were looking for does not exist."
+msgstr "Infelizmente, a página que você estava procurando não existe."
+
+msgid "Go Back"
+msgstr "Volte"
+
+msgid "Internal Server Error"
+msgstr "Erro Interno do Servidor"
+
+msgid ""
+"Unfortunately an internal server error occurred. Try refreshing the page or "
+"try again later."
+msgstr "Infelizmente ocorreu um erro interno do servidor. Experimente atualizar a página ou tente novamente mais tarde."
+
+msgid "Welcome to Shuup!"
+msgstr "Bem-vindo ao Shuup!"
+
+#, python-format
+msgid "Welcome to %(name)s!"
+msgstr "Bem-vindo à %(name)s!"
+
+msgid "your shop"
+msgstr "sua loja"
+
+msgid ""
+"You are seeing this page because there is no theme selected for the default "
+"frontend."
+msgstr "Você está visualizando esta página porque não existe nenhum tema selecionado para o front-end padrão."
+
+msgid "Log in to the administration interface"
+msgstr "Autentique-se na interface de administração"
+
+msgid "to choose a theme and set up your shop."
+msgstr "para escolher um tema e configurar a sua loja."
+
+msgid ""
+"The administration interface does not seem to be available. Use other means "
+"to choose a theme."
+msgstr "A interface de administração parece não estar disponível. Utilize outros meios para escolher um tema."
+
+msgid "Product added to cart"
+msgstr "O produto foi adicionado ao carrinho"
+
+msgid "Adding the product to the basket failed."
+msgstr "Falha ao adicionar o produto à cesta."
+
+msgid "Remove product from basket"
+msgstr "Remover produto do carrinho"
+
+#, python-brace-format
+msgid "{prop}:"
+msgstr "{prop}:"
+
+msgid ""
+"The following items are not currently available (or are not available in the"
+" desired quantity) and cannot be included in your order."
+msgstr "Os seguintes itens não estão disponíveis no momento (ou não estão disponíveis na quantidade desejada) e não podem ser incluídos em seu pedido."
+
+msgid "Continue Shopping"
+msgstr "Continuar Comprando"
+
+msgid "Proceed to checkout"
+msgstr "Fazer o check-out"
+
+msgid "Coupons applied"
+msgstr "Cupons aplicados"
+
+msgid "Do you have a coupon code? Enter it here. "
+msgstr "Você tem um código de cupom? Coloque aqui."
+
+msgid "Coupon Code"
+msgstr "Código do Cupom"
+
+msgid "Submit Code"
+msgstr "Enviar Código"
+
+msgid "Save cart"
+msgstr "Salvar carrinho"
+
+msgid "Cart Title"
+msgstr "Título do Carrinho"
+
+msgid "Save"
+msgstr "Salvar"
+
+msgid "Back to Products"
+msgstr "Voltar aos Produtos"
+
+msgid "Error!"
+msgstr "Erro!"
+
+msgid "Invalid coupon code."
+msgstr "Código de cupom inválido."
+
+msgid "Removing a coupon failed."
+msgstr "A remoção de um cupom falhou."
+
+msgid "Coupon is not available."
+msgstr "Cupom não está disponível."
+
+msgid "Adding a coupon failed."
+msgstr "Falha ao adicionar um cupom."
+
+msgid "Success!"
+msgstr "Sucesso!"
+
+msgid "Cart saved."
+msgstr "Carrinho salvo."
+
+msgid "Filter Products"
+msgstr "Produtos de filtro"
+
+msgid "Show Grid/List"
+msgstr "Mostrar Grade/Lista"
+
+msgid "Grid/list view"
+msgstr "View de grade/lista"
+
+msgid "Continue"
+msgstr "Continuar"
+
+msgid "Ordering for a company?"
+msgstr "Comprando para uma empresa?"
+
+msgid "Please fill out these fields if you are ordering for a company."
+msgstr "Por favor, preencha estes campos se está comprando para uma empresa."
+
+msgid "Ship to my billing address"
+msgstr "Enviar para o meu endereço de cobrança"
+
+msgid "Choose Shipping Method"
+msgstr "Escolha a Forma de Entrega"
+
+msgid "Choose Payment Method"
+msgstr "Escolha a Forma de Pagamento"
+
+msgid "No method is available."
+msgstr "Nenhum método está disponível."
+
+msgid "Delivery"
+msgstr "Entrega"
+
+msgid "Delivery method"
+msgstr "Forma de entrega"
+
+msgid "Billing"
+msgstr "Cobrança"
+
+msgid "Payment method"
+msgstr "Forma de pagamento"
+
+msgid "Add comment"
+msgstr "Adicionar comentário"
+
+msgid "Other information"
+msgstr "Outras informações"
+
+msgid "Place Order"
+msgstr "Fazer Pedido"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Next"
+msgstr "Próximo"
+
+#, python-format
+msgid "Items %(start_index)d to %(end_index)d of %(count)d total"
+msgstr "Itens %(start_index)d a %(end_index)d de %(count)d total"
+
+msgid "Change visibility limit to"
+msgstr "Alterar o limite de visibilidade para"
+
+msgid "show only visible products and categories"
+msgstr "mostrar apenas produtos e categorias visíveis"
+
+msgid "show all products and categories"
+msgstr "mostrar todos os produtos e categorias"
+
+msgid "Change customer to person contact mode"
+msgstr "Alterar cliente para modo de contato pessoal"
+
+msgid "Change customer to company contact mode"
+msgstr "Mude o cliente para o modo de contato da empresa"
+
+msgid "Change customer mode to guest"
+msgstr "Altere o modo do cliente para convidado"
+
+msgid "Tools"
+msgstr "Ferramentas"
+
+msgid "Maintenance"
+msgstr "Manutenção"
+
+msgid "Live"
+msgstr "Viver"
+
+msgid "Customer mode"
+msgstr "Modo cliente"
+
+msgid "GUEST"
+msgstr "CONVIDADO"
+
+msgid "COMPANY CONTACT"
+msgstr "CONTATO DA EMPRESA"
+
+msgid "PERSON CONTACT"
+msgstr "CONTATO DA PESSOA"
+
+msgid "Toggle navigation"
+msgstr "Alternar de navegação"
+
+#, python-brace-format
+msgid "Edit '{object_title}' in administration page"
+msgstr "Edite &#39;{object_title}&#39; na página de administração"
+
+#, python-brace-format
+msgid "Edit {object_name} in Admin"
+msgstr "Edite {object_name} no Admin"
+
+msgid "Shop Administration"
+msgstr "Administração de loja"
+
+msgid ""
+"There were errors on submitted form fields. Please check them and try again."
+msgstr "Houve erros em alguns campos do formulário enviado. Por favor, verifique-os e tente novamente."
+
+#, python-format
+msgid "By <strong>%(supplier_name)s</strong>"
+msgstr "Por <strong>%(supplier_name)s</strong>"
+
+#, python-brace-format
+msgid "Available until: <span class=\"availability-date\">{date}</span></small>"
+msgstr "Disponível até: <span class=\"availability-date\">{date}</span>"
+
+msgid "Edit account details"
+msgstr "Editar detalhes da conta"
+
+msgid "Edit company details"
+msgstr "Editar detalhes da empresa"
+
+msgid "My orders"
+msgstr "Meus pedidos"
+
+msgid "My saved carts"
+msgstr "Meus carrinhos salvos"
+
+msgid "My wishlists"
+msgstr "Minhas listas de desejos"
+
+msgid "Admin panel"
+msgstr "Painel de administração"
+
+msgid "Log out"
+msgstr "Sair"
+
+msgid "New user? Register here!"
+msgstr "Novo usuário? Cadastre-se aqui!"
+
+msgid "Cart"
+msgstr "Carrinho"
+
+msgid "Items"
+msgstr "Itens"
+
+msgid "View cart"
+msgstr "Ver carrinho"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Products"
+msgstr "Produtos"
+
+msgid "Files"
+msgstr "Arquivos"
+
+msgid "No method selected"
+msgstr "Nenhum método selecionado"
+
+msgid "Product"
+msgstr "Produto"
+
+msgid "Unit Price"
+msgstr "Preço unitário"
+
+msgid "excl. tax"
+msgstr "excl. imposto"
+
+msgid "Products ordered"
+msgstr "Produtos comprados"
+
+msgid "Tax breakdown"
+msgstr "Detalhamento de impostos"
+
+msgid "Tax percentage"
+msgstr "Alíquota de imposto"
+
+msgid "Based on amount"
+msgstr "Baseado na quantia"
+
+msgid "Amount of tax"
+msgstr "Valor do imposto"
+
+msgid "Total including tax"
+msgstr "Total incluindo imposto"
+
+msgid "Company"
+msgstr "Empresa"
+
+msgid "Tax number"
+msgstr "Número de contribuinte"
+
+msgid "Preview"
+msgstr "Pré-visualizar"
+
+msgid "Also available in"
+msgstr "Também disponível em"
+
+#, python-format
+msgid "Save %(discount_percent)s"
+msgstr "Economizar %(discount_percent)s"
+
+msgid "Product Information"
+msgstr "Informações do Produto"
+
+msgid "Includes these products"
+msgstr "Inclui estes produtos"
+
+msgid "No product description available"
+msgstr "Nenhuma descrição do produto disponível"
+
+msgid "Barcode"
+msgstr "Código de barras"
+
+msgid "Manufacturer"
+msgstr "Fabricante"
+
+msgid "Package Size"
+msgstr "Tamanho do Pacote"
+
+msgid "Available Until"
+msgstr "Disponível até"
+
+msgid "Width"
+msgstr "Largura"
+
+msgid "Height"
+msgstr "Altura"
+
+msgid "Depth"
+msgstr "Profundidade"
+
+msgid "Net Weight"
+msgstr "Peso Líquido"
+
+msgid "Gross Weight"
+msgstr "Peso Bruto"
+
+msgid "External link"
+msgstr "Link externo"
+
+msgid "Select"
+msgstr "Selecionar"
+
+msgid "Select product"
+msgstr "Selecionar produto"
+
+msgid "One-time purchase"
+msgstr "Compra de uma só vez"
+
+msgid "Subscribe"
+msgstr "Se inscrever"
+
+msgid "Select frequency"
+msgstr "Selecione a frequência"
+
+msgid "Add to cart"
+msgstr "Adicionar ao carrinho"
+
+#, python-brace-format
+msgid "Available until: {date}"
+msgstr "Disponível até: {date}"
+
+msgid "Maintenance mode"
+msgstr "Modo de manutenção"
+
+msgid "Shop is currently down for maintenance."
+msgstr "A loja está indisponível para manutenção no momento."
+
+msgid "Thank you for your order!"
+msgstr "Obrigado pela sua preferência!"
+
+msgid ""
+"Your order has been received. You can see the details of your order below."
+msgstr "Seu pedido foi recebido. Você pode ver os detalhes do seu pedido logo abaixo."
+
+msgid "User account activation"
+msgstr "Ativação da conta de usuário"
+
+msgid ""
+"If you want to be able to see your order history, please create a password "
+"for your account: "
+msgstr "Se você quer ter a possibilidade de acompanhar o seu histórico de pedidos, por favor, crie uma senha para sua conta:"
+
+msgid "Send"
+msgstr "Enviar"
+
+msgid "Payment canceled"
+msgstr "Pagamento cancelado"
+
+msgid "You have canceled payment"
+msgstr "Você cancelou o pagamento"
+
+msgid "Retry payment"
+msgstr "Repetir pagamento"
+
+msgid "Error"
+msgstr "Erro"
+
+msgid "Combination not available"
+msgstr "Combinação não disponível"
+
+msgid "Open product page"
+msgstr "Abrir a página do produto"
+
+msgid "Hide prices"
+msgstr "Ocultar preços"
+
+msgid "Set shop in catalog mode"
+msgstr "Definir a loja no modo de catálogo"
+
+msgid "Show supplier info"
+msgstr "Mostrar informações do fornecedor"
+
+msgid ""
+"Show supplier name in product-box, product-detail, basket- and order-lines"
+msgstr "Mostrar o nome do fornecedor na caixa do produto, detalhes do produto, cesta e linhas de pedido"
+
+msgid "Show Product Details"
+msgstr "Mostrar detalhes do produto"
+
+msgid ""
+"If you enable this, extra information will be shown on product page in "
+"frontend."
+msgstr "Se você habilitar isso, informações extras serão mostradas na página do produto no frontend."
+
+msgid "Show Variations as Buttons"
+msgstr "Mostrar variações como botões"
+
+msgid ""
+"If you enable this, the variations will be shown as buttons instead of "
+"dropdowns."
+msgstr "Se você habilitar isso, as variações serão mostradas como botões em vez de menus suspensos."
+
+msgid "Product detail extra tab title"
+msgstr "Título da guia extra de detalhes do produto"
+
+msgid "Enter the title for the product detail extra tab."
+msgstr "Insira o título da guia extra de detalhes do produto."
+
+msgid "Product detail extra tab content"
+msgstr "Conteúdo da guia extra de detalhes do produto"
+
+msgid "Enter the content for the product detail extra tab."
+msgstr "Insira o conteúdo da guia extra de detalhes do produto."
+
+msgid "Description"
+msgstr "Descrição"
+
+msgid "Details"
+msgstr "Detalhes"
+
+msgid "Attributes"
+msgstr "Atributos"
+
+msgid "Product reviews"
+msgstr "Revisão de produtos"
+
+msgid "Product detail tabs"
+msgstr "Abas de detalhes do produto"
+
+msgid "Select all tabs that should be rendered in product details."
+msgstr "Selecione todas as guias que devem ser processadas nos detalhes do produto."
+
+msgid "Tax number is not valid."
+msgstr "O número fiscal não é válido."
+
+msgid "Edit"
+msgstr "Editar"
+
+#, python-brace-format
+msgid "`{language_code}` is an invalid language code."
+msgstr "`{language_code}` é um código de idioma inválido."
+
+msgid "The order is canceled so you can't pay for it."
+msgstr ""
+
+msgid "Error! This product is not available in this shop."
+msgstr "Erro! Este produto não está disponível nesta loja."
+
+msgid "Invalid timezone"
+msgstr ""
+
+#, python-format
+msgid "Maximum file size reached (%(size)s MB)."
+msgstr "Tamanho máximo do arquivo atingido (%(size)s MB)."

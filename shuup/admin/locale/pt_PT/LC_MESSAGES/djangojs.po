@@ -1,0 +1,766 @@
+# English translations for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# 
+# Translators:
+# Christian Hess, 2021
+# Christian Hess, 2021
+# João Gaspar Monteiro <joao.monteiro@qintera.pt>, 2021
+msgid ""
+msgstr ""
+"Project-Id-Version: Shuup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-11 12:15+0000\n"
+"PO-Revision-Date: 2021-08-10 19:48+0000\n"
+"Last-Translator: Ricardo Ibrahim <ricardo.ibrahim@qintera.pt>\n"
+"Language-Team: Portuguese (Portugal) (http://www.transifex.com/shuup/shuup/language/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.1.1\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Error! Unexpected error while uploading files."
+msgstr "Erro! Erro inesperado ao efetuar o upload de arquivos."
+
+msgid "Error!"
+msgstr "Erro!"
+
+msgid "Uploaded:"
+msgstr "Upload:"
+
+msgid "New file name?"
+msgstr "Nome do novo ficheiro?"
+
+#, javascript-format
+msgid "Are you sure you want to delete the file %s?"
+msgstr "Tem a certeza que pretende eliminar o ficheiro %s?"
+
+msgid "New folder name?"
+msgstr "Nome da nova pasta?"
+
+#, javascript-format
+msgid "Are you sure you want to delete the %s folder?"
+msgstr "Tem a certeza que pretende eliminar a pasta %s?"
+
+msgid "New folder"
+msgstr "Nova pasta"
+
+msgid "Oldest first"
+msgstr "Mais antigas primeiro"
+
+msgid "Newest first"
+msgstr "Mais recentes primeiro"
+
+msgid "Smallest first"
+msgstr "Mais pequenas primeiro"
+
+msgid "Largest first"
+msgstr "Maiores primeiro"
+
+msgid "Drop your files here"
+msgstr "Largue os seus ficheiros aqui"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Size"
+msgstr "Tamanho"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Click the <strong>Upload</strong> button to upload files."
+msgstr "Clicar no botão <strong>Upload</strong> para efetuar o upload de ficheiros."
+
+msgid ""
+"<span>Drag and drop</span> files here<br> or click the <span>Upload</span> "
+"button."
+msgstr "<span>Arrastar e largar</span> ficheiros aqui<br> ou clicar no botão de <span>Upload</span>."
+
+msgid "Rename file"
+msgstr "Renomear ficheiro"
+
+msgid "Delete file"
+msgstr "Eliminar ficheiro"
+
+msgid "Rename folder"
+msgstr "Renomear pasta"
+
+msgid "Delete folder"
+msgstr "Eliminar pasta"
+
+msgid "Edit folder access"
+msgstr "Editar acesso de pasta"
+
+#, javascript-format
+msgid "Success! Order %s was created."
+msgstr "Sucesso! A encomenda %s foi criada."
+
+msgid "Error! An unspecified error occurred.\n"
+msgstr "Erro! Ocorreu um erro não especificado.\n"
+
+msgid "SKU"
+msgstr "Ref."
+
+msgid "Text"
+msgstr "Texto"
+
+msgid "Quantity"
+msgstr "Quantidade"
+
+msgid "Unit Price"
+msgstr "Preço Unitário"
+
+msgid "Discounted Unit Price"
+msgstr "Preço Unitário com Desconto"
+
+msgid "Discount amount"
+msgstr "Montante de desconto"
+
+msgid "Discount percent"
+msgstr "Percentagem de desconto"
+
+msgid "Total (excluding taxes)"
+msgstr "Total (excl. impostos)"
+
+msgid "Tax percent"
+msgstr "Percentagem de imposto"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Billing address"
+msgstr "Endereço de faturação"
+
+msgid "Shipping address"
+msgstr "Endereço de envio"
+
+#, javascript-format
+msgid "Customer with same %s already exists."
+msgstr "Cliente com o mesmo %s já existe."
+
+#, javascript-format
+msgid "Click to select user %s."
+msgstr "Clicar para selecionar utilizador %s."
+
+msgid "Save customer details while creating order"
+msgstr "Guardar detalhes de cliente ao criar encomenda"
+
+msgid ""
+"Checking this box will save entered customer data to your contacts list."
+msgstr "Verificar esta caixa guardará detalhes de cliente introduzidos na sua lista de contactos."
+
+msgid "Ship to billing address"
+msgstr "Enviar para endereço de faturação"
+
+msgid ""
+"Checking this will make the shipping address the same as the billing "
+"address."
+msgstr "Verificar tornará o endereço de entrega igual ao endereço de faturação."
+
+msgid "Order for company"
+msgstr "Encomenda para empresa"
+
+msgid "Enable this if the order is for a company or business with a tax ID."
+msgstr "Ativar se a encomenda for para uma empresa ou negócio com um NIF."
+
+msgid "Billing Address"
+msgstr "Endereço de Faturação"
+
+msgid "Shipping Address"
+msgstr "Endereço de Envio"
+
+msgid "Full Name"
+msgstr "Nome Completo"
+
+msgid "Phone"
+msgstr "Telefone"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Tax Number"
+msgstr "Número de Identificação Fiscal"
+
+msgid "Groups"
+msgstr "Grupos"
+
+msgid "Companies"
+msgstr "Empresas"
+
+msgid "Merchant Notes"
+msgstr "Notas de Comerciante"
+
+msgid "Year"
+msgstr "Ano"
+
+msgid "Total Sales"
+msgstr "Total Vendas"
+
+msgid "Shipment Status"
+msgstr "Estado de Envio"
+
+msgid "Payment Status"
+msgstr "Estado de Pagamento"
+
+msgid "Order Status"
+msgstr "Estado de Encomenda"
+
+msgid "Search by name or email"
+msgstr "Pesquisar por nome ou e-mail"
+
+msgid "Customer Search"
+msgstr "Pesquisa de Cliente"
+
+msgid ""
+"Search for existing customers by searching by name or email or click the "
+"magnifying glass for more fine-grained filtering. Clear the search filter to"
+" create an order for a new customer."
+msgstr "Pesquisar clientes existentes ao pesquisar por nome ou e-mail ou clicar na lupa para uma filtragem mais minuciosa. Limpar o filtro de pesquisa para criar uma encomenda para um novo cliente."
+
+msgid "Customer"
+msgstr "Cliente"
+
+msgid "View Details"
+msgstr "Ver Detalhes"
+
+msgid "A new customer will be created based on billing address."
+msgstr "Um novo cliente será criado com base no endereço de fatura."
+
+msgid "Customer Information"
+msgstr "Informações de Cliente"
+
+msgid "Order Summary"
+msgstr "Resumo de Encomenda"
+
+msgid "Recent Orders"
+msgstr "Encomendas Recentes"
+
+msgid "Close"
+msgstr "Fechar"
+
+msgid "Warning: No customer account is currently associated with this order."
+msgstr "Aviso: Não está nenhuma conta de cliente atualmente associada a esta encomenda."
+
+msgid "Back"
+msgstr "Voltar"
+
+msgid "Confirm"
+msgstr "Confirmar"
+
+msgid "Select Shop"
+msgstr "Selecionar Loja"
+
+msgid "Discard Changes"
+msgstr "Descartar Alterações"
+
+msgid "Customer Details"
+msgstr "Detalhes de Cliente"
+
+msgid "Order Contents"
+msgstr "Conteúdos de Encomenda"
+
+msgid "Shipping Method"
+msgstr "Método de Envio"
+
+msgid "Payment Method"
+msgstr "Método de Pagamento"
+
+msgid ""
+"Method rules, taxes and possible extra discounts are calculated after "
+"proceeding."
+msgstr "As regras de método, impostos e possíveis descontos extra são calculados depois de avançar."
+
+msgid "Proceed"
+msgstr "Avançar"
+
+msgid "Logical Count"
+msgstr "Contagem Lógica"
+
+msgid "Physical Count"
+msgstr "Contagem Física"
+
+msgid "Select product"
+msgstr "Selecionar produto"
+
+msgid "Text/Comment"
+msgstr "Texto/Comentário"
+
+msgid ""
+"Enter a comment or text note about the order. This could be anything from "
+"special order requests to special shipping needs."
+msgstr "Introduzir um comentário ou nota de texto sobre a encomenda. Pode ser qualquer coisa, desde pedidos especiais de encomenda a necessidades de envio especiais."
+
+msgid "Qty"
+msgstr "Qtd"
+
+msgid "Enter the number of units of the product ordered."
+msgstr "Introduzir o número de unidades do produto encomendado."
+
+msgid ""
+"Enter the regular base price for a single unit of the product. If an "
+"existing product is selected, the price is already determined in product "
+"settings. Total price will be automatically calculated."
+msgstr "Introduzir o preço base regular de uma única unidade de produto. Se for selecionado um produto existente, o preço já está definido nas definições de produto. O preço total será calculado automaticamente."
+
+msgid "Total Price"
+msgstr "Preço Total"
+
+msgid ""
+"Enter the total amount for the line item. Unit price will be automatically "
+"calculated."
+msgstr "Introduzir o valor total para este item de linha. Preço unitário será calculado automaticamente."
+
+msgid "Base Unit Price"
+msgstr "Preço Unitário Base"
+
+msgid ""
+"Enter the regular base price for a single unit of the product. If an "
+"existing product is selected, the price is already determined in product "
+"settings."
+msgstr "Introduzir o preço base regular de uma única unidade do produto. Se for selecionado um produto existente, o preço já está definido nas definições de produto."
+
+msgid ""
+"Enter the total discounted price for a single product unit in the order. "
+"Discount percent, Total Discount Amount, and Line Total will be "
+"automatically calculated."
+msgstr "Introduzir o preço total com desconto de uma única unidade de produto na encomenda. A percentagem de Desconto, o Montante de Desconto Total e o Total de Linha serão calculados automaticamente."
+
+msgid "Discount Percent"
+msgstr "Percentagem de Desconto"
+
+msgid ""
+"Enter the discount percentage (%) for the line item. Discounted Unit Price, "
+"Total Discount Amount, and Line Total will be automatically."
+msgstr "Introduzir a percentagem de desconto (%) do item de linha. O Preço Unitário com Desconto, o Montante de Desconto Total e o Total de Linha serão calculados automaticamente."
+
+msgid "Total Discount Amount"
+msgstr "Montante de Desconto Total"
+
+msgid ""
+"Enter the total discount amount for the line item. Discounted Unit Price, "
+"Discount percent, and Line Total will be automatically calculated."
+msgstr "Introduzir o montante de desconto total do item de linha. O Preço Unitário com Desconto, a Percentagem de Desconto e o Total de Linha serão calculados automaticamente."
+
+msgid "Line Total"
+msgstr "Total de Linha"
+
+msgid ""
+"Enter the total amount for the line item. Discounted Unit Price, Discount "
+"percent, and Total Discount Amount will be automatically calculated."
+msgstr "Introduzir o valor total do item de linha. O Preço Unitário com Desconto, a Percentagem de Desconto e o Valor de Desconto Total serão calculados automaticamente."
+
+msgid "Orderline type"
+msgstr "Tipo de linha de encomenda"
+
+msgid "Search product by name, SKU, or barcode"
+msgstr "Pesquisar produto por nome, Ref. ou código de barras"
+
+msgid ""
+"If your product prices vary based on customer, you might want to select "
+"customer first."
+msgstr "Se os seus preços de produto variam com base no cliente, poderá pretender selecionar o cliente primeiro."
+
+#, javascript-format
+msgid "All prices are in %s and include taxes."
+msgstr "Todos os preços estão em %s e incluem impostos."
+
+#, javascript-format
+msgid "All prices are in %s. Taxes not included"
+msgstr "Todos os preços estão em %s. Impostos não estão incluídos"
+
+msgid "Product Quick Adder"
+msgstr "Adição Rápida de Produto"
+
+msgid ""
+"Search for products to add to the order by searching by name, SKU, or "
+"barcode or click the magnifying glass for more fine-grained filtering."
+msgstr "Pesquisar produtos para adicionar à encomenda ao pesquisar por nome, Ref. ou código de barras ou clicar na lupa para obter uma filtragem mais minuciosa."
+
+msgid "Automatically add selected product"
+msgstr "Adicionar automaticamente produto selecionado"
+
+msgid "Add new line"
+msgstr "Adicionar nova linha"
+
+msgid "No shipping method"
+msgstr "Sem método de envio"
+
+msgid ""
+"Select a shipping method for the order. These methods are defined in "
+"shipping settings."
+msgstr "Selecionar um método de envio para a encomenda. Estes métodos são definidos nas definições de envio."
+
+msgid "No payment method"
+msgstr "Sem método de pagamento"
+
+msgid ""
+"Select a payment method for the order. These methods are defined in payment "
+"settings."
+msgstr "Selecionar método de pagamento para a encomenda. Estes métodos são definidos em definições de pagamentos."
+
+msgid "Shop"
+msgstr "Loja"
+
+msgid "Product"
+msgstr "Produto"
+
+msgid "Other"
+msgstr "Outro"
+
+msgid "billing"
+msgstr "faturação"
+
+msgid "shipping"
+msgstr "envio"
+
+#, javascript-format
+msgid "Enter the name for the %s address."
+msgstr "Introduza o nome para o endereço da %s."
+
+msgid "Tax number"
+msgstr "Número de Identificação Fiscal"
+
+msgid "Enter the company tax (ID) number."
+msgstr "Introduza o número fiscal da empresa."
+
+#, javascript-format
+msgid "Enter the best %s contact phone number."
+msgstr "Introduza o melhor número de telefone de contacto %s."
+
+#, javascript-format
+msgid ""
+"Enter the %s email address for transaction receipts and communications."
+msgstr "Introduza o endereço de e-mail da %s para recibos de transação e comunicações."
+
+msgid "Street"
+msgstr "Rua"
+
+#, javascript-format
+msgid "Enter the %s street address."
+msgstr "Insira o endereço postal da %s."
+
+msgid "Street (2)"
+msgstr "Rua (2)"
+
+#, javascript-format
+msgid "Enter the %s street address (2)."
+msgstr "Insira o endereço postal (2) da %s."
+
+msgid "ZIP / Postal code"
+msgstr "CDP / Código Postal"
+
+#, javascript-format
+msgid "Enter the zip or postal code of the %s address."
+msgstr "Insira o código postal do endereço da %s."
+
+msgid "City"
+msgstr "Cidade"
+
+#, javascript-format
+msgid "Enter the city of the %s address."
+msgstr "Insira a cidade do endereço da %s."
+
+msgid "Region"
+msgstr "Zona"
+
+#, javascript-format
+msgid "Enter the region, state, or province of the %s address."
+msgstr "Introduza a zona, estado ou província do endereço da %s."
+
+msgid "Country"
+msgstr "País"
+
+#, javascript-format
+msgid "Enter the country of the %s address."
+msgstr "Introduza o país do endereço da %s."
+
+msgid "No records found."
+msgstr "Nenhum registo encontrado."
+
+msgid "Warning! Missing JavaScript dependencies detected."
+msgstr "Aviso! Detetadas dependências JavaScript em falta."
+
+msgid "No browser URL for kind:"
+msgstr "Nenhum URL de navegador para tipo:"
+
+msgid "Clear"
+msgstr "Limpar"
+
+msgid "Drop files here or click to browse."
+msgstr "Largar ficheiros aqui ou clicar para procurar."
+
+msgid "only images can be uploaded!"
+msgstr "apenas pode ser efetuado o upload de imagens!"
+
+msgid "Error happened while uploading file."
+msgstr "Ocorreu um erro durante o carregamento do ficheiro."
+
+msgid "Browse media"
+msgstr "Procurar media"
+
+#, javascript-format
+msgid "Error! For images greater than %s kb, use the media browser instead."
+msgstr "Erro! Para imagens maiores que %s kb, utilizar o Media Browser."
+
+msgid "No results."
+msgstr "Sem resultados."
+
+msgid "The results could not be loaded"
+msgstr "Não foi possível carregar resultados"
+
+#, javascript-format
+msgid "Please delete %s character"
+msgid_plural "Please delete %s characters"
+msgstr[0] "Elimine %s caracter"
+msgstr[1] "Elimine %s caracteres"
+
+#, javascript-format
+msgid "Please enter %s or more characters"
+msgstr "Introduza %s ou mais caracteres"
+
+msgid "Loading more results..."
+msgstr "A carregar mais resultados..."
+
+#, javascript-format
+msgid "You can only select %s item"
+msgid_plural "You can only select %s items"
+msgstr[0] "Pode selecionar apenas %s item"
+msgstr[1] "Pode selecionar apenas %s itens"
+
+msgid "No results found"
+msgstr "Não foram encontrados resultados"
+
+msgid "Searching..."
+msgstr "A pesquisar..."
+
+msgid "Quick Links"
+msgstr "Links Rápidos"
+
+msgid "Quick Links to your most used features."
+msgstr "Links Rápidos para as suas funcionalidades mais usadas."
+
+msgid "Orders"
+msgstr "Encomendas"
+
+msgid "Track and filter your customers’ orders here."
+msgstr "Rastrear e filtrar aqui as encomendas dos seus clientes."
+
+msgid "Products"
+msgstr "Produtos"
+
+msgid "All your exciting products and features are located here."
+msgstr "Todos os seus produtos e funcionalidades interessantes estão localizados aqui."
+
+msgid "Contacts"
+msgstr "Contactos"
+
+msgid ""
+"All your customer data is located here. Target and organize your clients "
+"details your way!"
+msgstr "Todos os seus dados de cliente estão localizados aqui. Organize e direcione os detalhes dos seus clientes à sua maneira!"
+
+msgid "Campaigns"
+msgstr "Campanhas"
+
+msgid ""
+"Great loyalty tool for creating marketing, campaigns, special offers and "
+"coupons to entice your shoppers!"
+msgstr "Ótima ferramenta de fidelização para criar marketing, campanhas, ofertas especiais para encantar os seus consumidores!"
+
+msgid ""
+"Set offers based on their previous purchase behavior to up- and cross sale "
+"your inventory."
+msgstr "Definir ofertas com base em comportamentos de compra anteriores para aumentar e cruzar vendas no seu inventário."
+
+msgid "Content"
+msgstr "Conteúdo"
+
+msgid ""
+"The make-over tool to customize you site themes, add pages and product "
+"carousels. Incorporate any media to make your store pop!"
+msgstr "A ferramenta de transformação para personalizar os temas do seu site, adicionar páginas e carrosséis de produtos. Incorpore qualquer media para fazer com que a sua loja se destaque!"
+
+msgid "Reports"
+msgstr "Relatórios"
+
+msgid ""
+"Your reporting tool to build and analyze your consumer behavior information "
+"that can assist with your business decisions."
+msgstr "A sua ferramenta de relatórios para construir e analisar informações de comportamento do consumidor que podem ajudar nas suas decisões de negócios."
+
+msgid "Shops"
+msgstr "Lojas"
+
+msgid ""
+"Place for your Shop specific settings. You can customize taxes, currencies, "
+"customer groups, and many other things in this menu."
+msgstr "Sítio para as configurações específicas da sua loja. Pode personalizar impostos, moedas, grupos de clientes e muitas outras coisas neste menu."
+
+msgid "Addons"
+msgstr "Addons"
+
+msgid ""
+"This is your connection interface. Addons and other systems you use can be "
+"attached to your store through powerful data connections."
+msgstr "Esta é a sua interface de conexão. Addons e outros sistemas que utiliza podem ser anexados à sua loja por meio de conexões de dados poderosas."
+
+msgid ""
+"Supercharge your site and gather crazy amounts of data with integrations to "
+"CRMs and ERPs, POS’s and PIM’s, or any other acronym you can think of."
+msgstr "Impulsione o seu site e reúna quantidades enormes de dados com integrações a CRMs e ERPs, POSs e PIMs ou qualquer outro acrónimo que possa imaginar."
+
+msgid "Settings"
+msgstr "Definições"
+
+msgid ""
+"The nuts and bolts of your store are found here. From individual country "
+"tax-regulations to your contact details."
+msgstr "Todas as engrenagens da sua loja encontram-se aqui. Desde regulamentos fiscais de cada país aos seus detalhes de contato."
+
+msgid "Search"
+msgstr "Pesquisar"
+
+msgid ""
+"Lost and cannot find your way? No worries, you can search contacts, "
+"settings, add-ons and more features from here."
+msgstr "Perdeu-se e não consegue encontrar o seu caminho? Não se preocupe, pode pesquisar contatos, definições, addons e mais funcionalidades aqui."
+
+msgid "View your storefront"
+msgstr "Ver a sua loja"
+
+msgid "Preview your shop and all the cool features you have created!"
+msgstr "Pré-visualizar a sua loja e funcionalidades interessantes que criou!"
+
+msgid "We're done!"
+msgstr "Está concluído!"
+
+msgid "It was nice to show you around!"
+msgstr "Foi uma boa visita guiada!"
+
+msgid ""
+"If you need to run it again, fire it up from the menu in the top right."
+msgstr "Se necessitar de a correr outra vez, ative-a no menu no canto superior direito."
+
+msgid "Learn more at the Shuup Help Center"
+msgstr "Saber mais sobre o Centro de Ajuda da Shuup"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Next"
+msgstr "Seguinte"
+
+msgid "Mass actions"
+msgstr "Ações em massa"
+
+msgid "From"
+msgstr "De"
+
+msgid "To"
+msgstr "Para"
+
+msgid "Items per page"
+msgstr "Itens por página"
+
+msgid "Page"
+msgstr "Página"
+
+msgid "Reset filters"
+msgstr "Redefinir filtros"
+
+msgid "Reset"
+msgstr "Redefinir"
+
+msgid "Apply filters"
+msgstr "Aplicar filtros"
+
+msgid "Sort by"
+msgstr "Ordenar por"
+
+msgid "ascending"
+msgstr "ascendente"
+
+msgid "descending"
+msgstr "descendente"
+
+msgid "Default sorting"
+msgstr "Ordenação padrão"
+
+#, javascript-format
+msgid "Filter by %s"
+msgstr "Filtrar por %s"
+
+msgid " Select"
+msgstr "Selecionar"
+
+msgid "Filters"
+msgstr "Filtros"
+
+msgid "Show filters"
+msgstr "Mostrar filtros"
+
+msgid "Select Action"
+msgstr "Selecionar Ação"
+
+msgid "Clear Selections"
+msgstr "Limpar Seleções"
+
+msgid "Select All"
+msgstr "Selecionar Todos"
+
+#, javascript-format
+msgid "Select All %s Items"
+msgstr "Selecionar Todos os %s Itens"
+
+#, javascript-format
+msgid "There are no %s to show"
+msgstr "Não existe %s para mostrar"
+
+msgid "There is no item to show"
+msgstr "Não existe nenhum item para mostrar"
+
+msgid "with selected filters"
+msgstr "com filtros selecionados"
+
+msgid "How about creating a new entry?"
+msgstr "Que tal criar uma nova entrada?"
+
+msgid "Success! Mass Action was completed."
+msgstr "Sucesso! A ação em massa foi concluída."
+
+msgid "Error! Something went wrong with the Mass Action."
+msgstr "Erro! Algo correu mal com a Ação em Massa."
+
+#, javascript-format
+msgid "All %s Items Selected"
+msgstr "Todos os %s Itens Selecionados"
+
+msgid "Warning! You didn't select anything."
+msgstr "Aviso! Não selecionou nada."
+
+msgid "Confirm action by clicking OK!"
+msgstr "Confirmar ação ao clicar em OK!"
+
+msgid "Are you sure you want to delete this media?"
+msgstr "Tem a certeza que pretende eliminar este media?"
+
+msgid "Set as primary image"
+msgstr "Definir como imagem principal"
+
+msgid "Primary image"
+msgstr "Imagem principal"
+
+msgid "Finish"
+msgstr "Terminar"
+
+msgid "Skip"
+msgstr "Saltar"

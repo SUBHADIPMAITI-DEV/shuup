@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# An Nesterov <arch.nesterov@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 19:58+0000\n"
+"PO-Revision-Date: 2018-06-01 17:37+0000\n"
+"Last-Translator: An Nesterov <arch.nesterov@gmail.com>, 2021\n"
+"Language-Team: Russian (https://www.transifex.com/shuup/teams/55306/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+msgid "Tasks"
+msgstr "Задачи"
+
+msgid "Show Tasks"
+msgstr "Показать задачи"
+
+msgid "Task Types"
+msgstr "Типы задач"
+
+msgid "Show Task Types"
+msgstr "Показать типы задач"
+
+#, python-brace-format
+msgid "Changed assigment from {from_contact_name} to {to_contact_name}."
+msgstr "Изменена ассигментация с {from_contact_name} на {to_contact_name}."
+
+msgid "Set In Progress"
+msgstr "В процессе выполнения"
+
+msgid "Set Completed"
+msgstr "Набор завершен"
+
+msgid "Invalid status."
+msgstr "Неверный статус."
+
+msgid "Status changed."
+msgstr "Статус изменен."
+
+msgid "Name"
+msgstr "Название "
+
+msgid "Filter by name..."
+msgstr "Фильтр по названию ..."
+
+msgid "Creator"
+msgstr "Создатель"
+
+msgid "Filter by creator..."
+msgstr "Фильтр по создателю ..."
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Priority"
+msgstr "Приоритет"
+
+msgid "Comments"
+msgstr "Коментарии"
+
+msgid "New"
+msgstr "Новый"
+
+msgid "In progress"
+msgstr "В процессе выполнения"
+
+msgid "Completed"
+msgstr "Выполнено"
+
+msgid "Deleted"
+msgstr "Удалено"
+
+msgid "Public"
+msgstr "Общественный"
+
+msgid "Staff Only"
+msgstr "Только для сотрудников"
+
+msgid "Admins Only"
+msgstr "Только для администраторов"
+
+msgid "shop"
+msgstr "магазин"
+
+msgid "name"
+msgstr "название"
+
+msgid "task type"
+msgstr "тип задачи"
+
+msgid "task types"
+msgstr "типы задач"
+
+msgid "status"
+msgstr "статус"
+
+msgid "priority"
+msgstr "приоритет"
+
+msgid "creator"
+msgstr "создатель"
+
+msgid "assigned to"
+msgstr "предназначенный для"
+
+msgid "completed by"
+msgstr "завершенный"
+
+msgid "completed on"
+msgstr "выполненный"
+
+msgid "created on"
+msgstr "созданный"
+
+msgid "modified on"
+msgstr "изменённый"
+
+msgid "task"
+msgstr "задача"
+
+msgid "author"
+msgstr "автор"
+
+msgid "visibility"
+msgstr "видимость"
+
+msgid "body"
+msgstr "тело"
+
+msgid "Task Created"
+msgstr ""
+
+msgid "Task"
+msgstr "Задача"
+
+msgid "Type"
+msgstr ""
+
+msgid "New Task"
+msgstr "Новая задача"
+
+msgid "General Information"
+msgstr "Общая информация"
+
+msgid "Created on"
+msgstr "создано"
+
+msgid "Completed on"
+msgstr "Выполненный"
+
+msgid "Completed by"
+msgstr "Завершенный"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "Visibility"
+msgstr "Видимость"
+
+msgid "Comment"
+msgstr "Комментарий"
+
+msgid "Post a new comment"
+msgstr "Опубликовать новый комментарий"
+
+msgid "New Task Type"
+msgstr "Новый тип задачи"
+
+msgid "Last 10 pending tasks assigned for you"
+msgstr "Последние 10 нерешенных задач, поставленных перед вами"

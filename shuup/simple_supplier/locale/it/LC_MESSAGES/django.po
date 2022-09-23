@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Fabrizio Arzeni <fabrizio.arz@gmail.com>, 2016
+# Marco Badan <marco.badan@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Shuup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-02 18:31+0000\n"
+"PO-Revision-Date: 2021-06-02 23:25+0000\n"
+"Last-Translator: Christian Hess\n"
+"Language-Team: Italian (http://www.transifex.com/shuup/shuup/language/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Stock management"
+msgstr "Gestione magazzino"
+
+msgid "SKU"
+msgstr "SKU"
+
+msgid "Filter by SKU..."
+msgstr "Filtra per SKU..."
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Filter by name..."
+msgstr "Filtra per nome..."
+
+msgid "Supplier"
+msgstr "Fornitore"
+
+msgid "Stock information"
+msgstr "Informazione magazzino"
+
+msgid "Adjust stock"
+msgstr "Modifica disponibilità"
+
+#, python-format
+msgid ""
+"Success! Added %(delta)s `%(unit_symbol)s` for product `%(product_name)s` "
+"stock (%(supplier_name)s)."
+msgstr ""
+
+#, python-format
+msgid ""
+"Success! Removed %(delta)s `%(unit_symbol)s` from product `%(product_name)s`"
+" stock (%(supplier_name)s)."
+msgstr ""
+
+#, python-format
+msgid "Alert limit for product `%(product_name)s` set to `%(value)s`."
+msgstr ""
+
+msgid "Non-POST request methods are forbidden."
+msgstr ""
+
+msgid "Please check submitted values and try again."
+msgstr ""
+
+#, python-format
+msgid "Please check submitted values and try again (%(error)s)."
+msgstr ""
+
+#, python-brace-format
+msgid "Stock management is now enabled for {product}."
+msgstr ""
+
+#, python-brace-format
+msgid "Stock management is now disabled for {product}."
+msgstr ""
+
+#, python-brace-format
+msgid "Purchase price per unit ({currency_name})"
+msgstr ""
+
+msgid "Quantity"
+msgstr "Quantità"
+
+msgid "Only non-zero values can be added to stock."
+msgstr "Possono essere inseriti solo valori diversi da zero per il magazzino."
+
+msgid "Alert limit"
+msgstr "Soglia limite"
+
+msgid "product"
+msgstr "prodotto"
+
+msgid "supplier"
+msgstr "fornitore"
+
+msgid "created on"
+msgstr "creato il"
+
+msgid "created by"
+msgstr "creato da"
+
+msgid "delta"
+msgstr "differenza"
+
+msgid "type"
+msgstr "tipo"
+
+msgid "alert limit"
+msgstr "soglia limite"
+
+msgid "stock managed"
+msgstr ""
+
+msgid "Use this to override the supplier default stock behavior per product."
+msgstr ""
+
+msgid "logical count"
+msgstr "conto logico"
+
+msgid "physical count"
+msgstr "conto fisico"
+
+msgid "Simple Supplier"
+msgstr ""
+
+msgid "Error! Insufficient quantity in stock."
+msgstr ""
+
+#, python-format
+msgid "%(name)s (physical stock: %(quantity)s)"
+msgstr ""
+
+#, python-format
+msgid ""
+"Insufficient physical stock count for the following products: "
+"`%(product_counts)s`."
+msgstr ""
+
+msgid "Alert Limit Reached"
+msgstr "Soglia Limite Raggiunta"
+
+msgid "Product"
+msgstr "Prodotto"
+
+msgid "Supplier Email"
+msgstr ""
+
+msgid "Shop Email"
+msgstr ""
+
+msgid "Fired in the last 24 hours?"
+msgstr ""
+
+msgid ""
+"This will be True if this event was already dispatched in the last 24 hours "
+"for the same product and supplier. This is useful to prevent sending "
+"identical notifications in a short period of time."
+msgstr ""
+
+msgid "Send to?"
+msgstr ""
+
+msgid "Send email to whom?"
+msgstr ""
+
+msgid "Do not send the same email within 24 hours."
+msgstr ""
+
+msgid ""
+"If enabled, avoids sending the same email for the same product and supplier "
+"within 24 hours."
+msgstr ""
+
+msgid "Send Stock Limit Alert Email"
+msgstr ""
+
+msgid ""
+"Send me an email when a product stock is lower than the configured limit."
+msgstr ""
+
+msgid ""
+"This script will send an email to the configured destination alerting about "
+"the a product's low stock of a supplier. You can configure to not send the "
+"same email multiple times in a period of 24 hours. Every time a product's "
+"stock reach its configured limit, this notification will be fired and the "
+"email sent."
+msgstr ""
+
+msgid "Low stock of: {{ product }} from {{ supplier }}"
+msgstr ""
+
+msgid ""
+"Hi!\n"
+"You are receiving this message because the product {{ product}} from {{ supplier }} has a low stock."
+msgstr ""
+
+msgid "Add stock"
+msgstr "Aggiungi scorte"
+
+#, python-format
+msgid ""
+"Alert limit <a href=\"%(notify_url)s\" target=\"_blank\">notification "
+"scripts</a> are executed when product stock falls below set quantity."
+msgstr "Gli <a href=\"%(notify_url)s\" target=\"_blank\">script di notifica</a> per la soglia limite sono eseguiti quanto le scorte scendono sotto la quantità impostata."
+
+msgid "Change alert limit"
+msgstr "Cambia soglia limite"
+
+msgid "Disable stock management"
+msgstr ""
+
+msgid "Enable stock management"
+msgstr ""
+
+#, python-format
+msgid ""
+"Product <a href=\"%(product_url)s\" target=\"_blank\">%(product_name)s</a> "
+"does not have suppliers with %(module_name)s module."
+msgstr "Il prodotto <a href=\"%(product_url)s\" target=\"_blank\">%(product_name)s</a> non ha fornitori dal modulo %(module_name)s."
+
+#, python-format
+msgid ""
+"Please go in this product's Additional tab section and add enabled Suppliers"
+" that have both %(module_name)s module and stock management enabled."
+msgstr ""
+
+#, python-format
+msgid "No suppliers with %(module_name)s available."
+msgstr "Nessun fornitore disponibile per %(module_name)s."
+
+#, python-format
+msgid ""
+"Please set %(module_name)s module for at least one of the enabled <a "
+"href=\"%(supplier_url)s\" target=\"_blank\">Suppliers</a> and enable the "
+"stock management for them."
+msgstr ""
+
+#, python-brace-format
+msgid "Physical count ({sales_unit})"
+msgstr ""
+
+#, python-brace-format
+msgid "Logical count ({sales_unit})"
+msgstr ""
+
+msgid "Value per unit"
+msgstr ""
+
+msgid "Total value"
+msgstr ""
+
+#, python-brace-format
+msgid "Alert limit ({sales_unit})"
+msgstr ""
+
+msgid "No stock information available."
+msgstr "Nessuna informazione di magazzino disponibile."

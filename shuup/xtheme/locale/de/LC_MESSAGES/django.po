@@ -1,0 +1,657 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Christian Hess, 2021
+# Melanie Missbach <melanie@buyhappy.de>, 2021
+msgid ""
+msgstr ""
+"Project-Id-Version: Shuup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-03 16:47+0000\n"
+"PO-Revision-Date: 2021-08-09 17:04+0000\n"
+"Last-Translator: Melanie Missbach <melanie@buyhappy.de>\n"
+"Language-Team: German (http://www.transifex.com/shuup/shuup/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.1.1\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Theme identifiers must match."
+msgstr "Designkennungen müssen übereinstimmen."
+
+msgid "Either theme_settings or shop should be informed."
+msgstr "Entweder theme_settings oder der Marktplatz sollten informiert werden."
+
+msgid "Global plugins"
+msgstr "Globale Plugins"
+
+msgid "Theme plugins"
+msgstr "Design Plugins"
+
+msgid "Shuup Extensible Theme Engine"
+msgstr "Shuup Extensible Design Engine"
+
+msgid "Themes"
+msgstr "Designs"
+
+msgid "Customize the look and feel of your shop"
+msgstr "Passe das Erscheinungsbild Deines Marktplatzes an"
+
+msgid "Customize theme"
+msgstr "Design anpassen"
+
+msgid "No theme is active. Click here to activate one."
+msgstr "Kein Design ist aktiv. Klicke hier, um eines zu aktivieren."
+
+msgid "Theming"
+msgstr "Theming / Designs"
+
+msgid "Shuup Extensible Theme Engine Fonts"
+msgstr "Shuup Extensible Theme Engine-Schriften"
+
+msgid "Fonts"
+msgstr "Schriftarten"
+
+msgid "Allow the user to select fonts in admin."
+msgstr "Dem Benutzer erlauben, Schriftarten im Admininstrationsbereich auszuwählen."
+
+msgid "Shuup Extensible Theme Engine Snippets"
+msgstr "Shuup Extensible Theme Engine Snippets"
+
+msgid "Snippets"
+msgstr "Snippets"
+
+msgid "Theme Custom CSS/JS"
+msgstr "Benutzerdefiniertes Design- CSS / JS"
+
+msgid ""
+"Select the themes that will have this snippet injected. Leave the field "
+"blank to inject in all themes."
+msgstr "Wähle die Designs aus, in die dieses Snippet eingefügt werden soll. Lass das Feld leer, um alle Designs einzufügen."
+
+msgid "Select the location of the page to inject the snippet."
+msgstr "Wähle den Ort der Seite aus, an dem das Snippet eingefügt werden soll."
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Filter by name..."
+msgstr "Nach Name filtern..."
+
+msgid "Location"
+msgstr "Ort"
+
+msgid "Filter by location..."
+msgstr "Nach Ort filtern ..."
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "activate"
+msgstr "aktivieren"
+
+msgid "Theme"
+msgstr "Design"
+
+msgid "Choose a theme for your shop"
+msgstr "Wähle ein Design für Deinen Marktplatz"
+
+msgid "Theme activated."
+msgstr "Design aktiviert."
+
+msgid "Custom CSS/JS"
+msgstr "Benutzerdefiniertes CSS / JS"
+
+msgid "Woff"
+msgstr "Woff"
+
+msgid "Woff2"
+msgstr "Woff2"
+
+msgid "TTF"
+msgstr "TTF"
+
+msgid "SVG"
+msgstr "SVG"
+
+msgid "EOT"
+msgstr "EOT"
+
+msgid "Stylesheets"
+msgstr "Stylesheets"
+
+msgid "The fonts, colors, and styles to use with your theme."
+msgstr "Die Schriftarten, Farben und Stile, die für Dein Desing verwendet werden sollen."
+
+msgid "Choose the primary color:"
+msgstr "Wähle die Grundfarbe:"
+
+msgid "Choose the secondary color:"
+msgstr "Wähle die Sekundärfarbe:"
+
+msgid "Choose the primary text color:"
+msgstr "Wähle die primäre Textfarbe:"
+
+msgid "Choose the success (green) style primary color:"
+msgstr "Wähle die Primärfarbe des Erfolgsstils (grün):"
+
+msgid "Choose the danger (red) style primary color:"
+msgstr "Wählen Sie die Primärfarbe des Gefahrenstils (rot):"
+
+msgid "Admin Header Font"
+msgstr "Admin-Header-Schriftart"
+
+msgid "Admin Body Font"
+msgstr "Schriftart des Admin-Texts"
+
+msgid "Failed to render the plugin"
+msgstr "Fehler beim Rendern des Plugins"
+
+msgid "Content in this box is shown to all user types without limitations."
+msgstr "Der Inhalt in diesem Feld wird allen Benutzertypen ohne Einschränkungen angezeigt."
+
+#, python-format
+msgid ""
+"Content in this placeholder is shown for %(category_name)s category only."
+msgstr "Der Inhalt dieses Platzhalters wird nur für die Kategorie %(category_name)s angezeigt."
+
+msgid "Content in this box is shown to guests (anonymous users) only."
+msgstr "Der Inhalt in diesem Feld wird nur Gästen (anonymen Benutzern) angezeigt."
+
+msgid "Content in this box is shown to company contacts only."
+msgstr "Der Inhalt in diesem Feld wird nur Unternehmenskontakten angezeigt."
+
+msgid ""
+"Content in this box is shown to all logged-in contacts (both person and "
+"company; not anonymous)."
+msgstr "Der Inhalt in diesem Feld wird allen angemeldeten Kontakten angezeigt (sowohl Person als auch Firma; nicht anonym)."
+
+msgid "Content in this box is shown to person contacts only."
+msgstr "Der Inhalt in diesem Feld wird nur Personenkontakten angezeigt."
+
+#, python-format
+msgid "Content in this placeholder is shown for %(product_name)s only."
+msgstr "Der Inhalt dieses Platzhalters wird nur für %(product_name)s angezeigt."
+
+msgid "Shop '{}' has no active theme"
+msgstr "Der Marktplatz \"{}\" hat kein aktives Design"
+
+msgid "Inline JavaScript"
+msgstr "Inline-JavaScript"
+
+msgid "Inline CSS"
+msgstr "Inline-CSS"
+
+msgid "Inline HTML"
+msgstr "Inline-HTML"
+
+msgid "Inline Jinja HTML"
+msgstr "Inline Jinja HTML"
+
+msgid "current draft"
+msgstr "aktueller Entwurf"
+
+msgid "old version"
+msgstr "alte Version"
+
+msgid "public"
+msgstr "öffentlich"
+
+msgid "theme identifier"
+msgstr "Designkennung"
+
+msgid "view name"
+msgstr "Name anzeigen"
+
+msgid "created on"
+msgstr "erstellt am"
+
+msgid "modified on"
+msgstr "geändert am"
+
+msgid "status"
+msgstr "Status"
+
+msgid "internal data"
+msgstr "interne Daten"
+
+msgid "active"
+msgstr "aktiv"
+
+msgid "data"
+msgstr "Daten"
+
+#, python-format
+msgid "Theme configuration for %s"
+msgstr "Design-Konfiguration für %s"
+
+msgid "Shop"
+msgstr "Marktplatz"
+
+msgid "name"
+msgstr "Name"
+
+msgid "Font family name"
+msgstr "Name der Schriftfamilie"
+
+msgid "Font Family CSS Property"
+msgstr "CSS-Eigenschaft der Schriftfamilie"
+
+msgid ""
+"(Optional) Input css font family property directly. Ex: font-family: Roboto;"
+msgstr "(Optional) Gib die Eigenschaft der CSS-Schriftfamilie direkt ein. Bsp: Schriftfamilie: Roboto;"
+
+msgid "WOFF Font"
+msgstr "WOFF Schriftart"
+
+msgid "WOFF2 Font"
+msgstr "WOFF2 Schriftart"
+
+msgid "TTF font"
+msgstr "TTF-Schriftart"
+
+msgid "SVG font"
+msgstr "SVG-Schriftart"
+
+msgid "EOT font"
+msgstr "EOT-Schriftart"
+
+msgid "Font Family"
+msgstr "Schriftfamilie"
+
+msgid "Font Families"
+msgstr "Schriftfamilien"
+
+msgid "primary color"
+msgstr "Primärfarbe"
+
+msgid "secondary color"
+msgstr "sekundäre Farbe"
+
+msgid "text color"
+msgstr "Textfarbe"
+
+msgid "success color"
+msgstr "Erfolgsfarbe"
+
+msgid "danger color"
+msgstr "Gefahrenfarbe"
+
+msgid "base font size"
+msgstr "Basisschriftgröße"
+
+#, python-format
+msgid "Admin Theme configuration for %s"
+msgstr "Admin Theme-Konfiguration für %s"
+
+msgid "snippet name"
+msgstr "Name des Snippets"
+
+msgid "Untitled"
+msgstr "Ohne Titel"
+
+msgid "location"
+msgstr "Standort"
+
+msgid "snippet type"
+msgstr "Snippet typ"
+
+msgid "snippet"
+msgstr "Snippet"
+
+msgid "themes"
+msgstr "Designs"
+
+msgid "Snippet"
+msgstr "Snippet"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Categories"
+msgstr "Kategorien"
+
+msgid "Category Links"
+msgstr "Kategorien-Links"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Show all categories"
+msgstr "Alle Kategorien anzeigen"
+
+msgid "All categories are shown, even if not selected"
+msgstr "Alle Kategorien werden angezeigt, auch wenn sie nicht ausgewählt sind"
+
+msgid "Image"
+msgstr "Bild"
+
+msgid "Image Link URL"
+msgstr "Bildlink-URL"
+
+msgid "Full width"
+msgstr "Volle Breite"
+
+msgid "Set image to the full width of cell."
+msgstr "Stelle das Bild auf die volle Breite der Zelle ein."
+
+msgid "Width (px)"
+msgstr "Breite (px)"
+
+msgid "Leave blank for default width."
+msgstr "Lass das Feld für die Standardbreite leer."
+
+msgid "Height (px)"
+msgstr "Höhe (px)"
+
+msgid "Newest"
+msgstr "Neuste"
+
+msgid "Best Selling"
+msgstr "Meistverkauft"
+
+msgid "Random"
+msgstr "Zufällig"
+
+msgid "Product Highlights"
+msgstr "Produkt-Highlights"
+
+msgid "Count"
+msgstr "Anzahl"
+
+msgid "Only show in-stock and orderable items"
+msgstr "Nur vorrätige und bestellbare Artikel anzeigen"
+
+msgid ""
+"Warning: The final number of products can be lower than 'Count' as it will "
+"filter out unorderable products from a set of 'Count' products."
+msgstr "Achtung: die endgültige Anzahl der Artikel kann niedriger sein als die tatsächliche \"Anzahl\", da nicht bestellbare Artikel aus der Menge der \"Artikel-Anzahl\" herausgefiltert werden."
+
+msgid "Product Cross Sells"
+msgstr "Artikel-Cross-Selling-Möglichkeiten"
+
+msgid "Show variation parents"
+msgstr "Übergeordnete Produktvarianten anzeigen"
+
+msgid "Render variation parents instead of the children."
+msgstr "Übergeordnete Produktvarianten anstatt der untergeordneten Produkte wiedergeben"
+
+msgid "Category"
+msgstr "Kategorie"
+
+msgid "Category Products Highlight"
+msgstr "Produkt-Highlights-Kategorie"
+
+msgid "Products"
+msgstr "Artikel"
+
+msgid "Select all products you want to show"
+msgstr "Wähle alle Artikel, die Du anzeigen lassen möchtest"
+
+msgid "Product Selection"
+msgstr "Artikelauswahl"
+
+msgid "Product Highlights (asynchronous)"
+msgstr "Produkt-Highlights (asynchron)"
+
+msgid "Cutoff days"
+msgstr "Stichtage"
+
+msgid "Cache timeout (seconds)"
+msgstr "Cache-Timeout (in Sekunden)"
+
+msgid "Product Cross Sells (asynchronous)"
+msgstr "Artikel-Cross-Selling-Möglichkeiten (asynchron)"
+
+msgid "Category Products Highlight (asynchronous)"
+msgstr "Produkt-Highlights-Kategorie (asynchron)"
+
+msgid "Product Selection (asynchronous)"
+msgstr "Artikelauswahl (asynchron)"
+
+msgid "In-Place Snippet"
+msgstr "In-Place-Snippet"
+
+msgid "Resource snippet for start of head"
+msgstr "Ressourcen-Snippet für den Start des Kopfes"
+
+msgid "Resource snippet for end of head"
+msgstr "Ressourcen-Snippet für das Kopfende"
+
+msgid "Resource snippet for beginning of body"
+msgstr "Ressourcen-Snippet für den Anfang des Körpers"
+
+msgid "Resource for end of body"
+msgstr "Ressource für das Ende des Körpers"
+
+msgid "URL"
+msgstr "URL"
+
+#, python-format
+msgid "%(name)s Ordering"
+msgstr "%(name)s Reihenfolge"
+
+msgid "Ordering"
+msgstr "Reihenfolge"
+
+msgid "Social Media Links"
+msgstr "Social Media Links"
+
+msgid "Topic"
+msgstr "Thema"
+
+msgid "Icon Size"
+msgstr "Icongröße"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Large"
+msgstr "Groß"
+
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+msgid "Left"
+msgstr "Linksbündig"
+
+msgid "Center"
+msgstr "Zentriert"
+
+msgid "Right"
+msgstr "Rechtsbündig"
+
+msgid "text"
+msgstr "Text"
+
+#, python-format
+msgid "Click to edit placeholder: %s"
+msgstr "Klicke hier, um den Platzhalter zu bearbeiten: %s"
+
+msgid ""
+"This placeholder is global and content of this placeholder is shown on all "
+"pages."
+msgstr "Dieser Platzhalter ist global und der Inhalt dieses Platzhalters wird auf allen Seiten angezeigt."
+
+msgid "End of head"
+msgstr "Kopfende"
+
+msgid "Start of head"
+msgstr "Kopfanfang"
+
+msgid "End of body"
+msgstr "Ende des Körpers"
+
+msgid "Start of body"
+msgstr "Beginn des Körpers"
+
+msgid "Content start"
+msgstr "Inhaltsanfang"
+
+msgid "Content end"
+msgstr "Inhaltsende"
+
+msgid "(Error while rendering.)"
+msgstr "(Wiedergabefehler)"
+
+msgid "Delete This Cell"
+msgstr "Diese Zelle löschen"
+
+msgid "Untranslated"
+msgstr "Nicht übersetzt"
+
+msgid "There's nothing to configure in this plugin."
+msgstr "In diesem Plugin ist nichts zu konfigurieren."
+
+msgid "Save Plugin"
+msgstr "Plugin speichern"
+
+msgid ""
+"Remember to publish your changes for this placeholder when you are done, by "
+"clicking the Publish Changes button at the top."
+msgstr "Denke daran, Deine Änderungen für diesen Platzhalter zu veröffentlichen, wenn Du fertig bist, indem Du oben auf die Schaltfläche Änderungen veröffentlichen klickst."
+
+msgid "Edit Placeholder"
+msgstr "Platzhalter bearbeiten"
+
+msgid ""
+"Edit plugins inside this placeholder. By saving the individual plugin, the "
+"changes are saved as a draft, and only you are able to see the changes. To "
+"make your changes Public, Click the Publish Changes button."
+msgstr "Bearbeite Plugins in diesem Platzhalter. Durch Speichern des einzelnen Plugins werden die Änderungen als Entwurf gespeichert, und nur Du kannst die Änderungen sehen. Um Deine Änderungen öffentlich zu machen, klicke auf die Schaltfläche \"Änderungen veröffentlichen\"."
+
+msgid "Add new cell"
+msgstr "Neue Zelle hinzufügen"
+
+msgid "Delete row"
+msgstr "Zeile löschen"
+
+msgid "Move row"
+msgstr "Zeile verschieben"
+
+msgid "Add new row"
+msgstr "Neue Zeile hinzufügen"
+
+msgid "Admin Theme Configuration"
+msgstr "Konfiguration des Admin-Designs"
+
+msgid "Change Theme"
+msgstr "Theme ändern"
+
+msgid "Shop Theme Configuration"
+msgstr "Marktplatz-Theme-Konfiguration"
+
+msgid "No themes are installed."
+msgstr "Es sind keine Designs / Themes installiert."
+
+#, python-format
+msgid "Theme Configuration: %(name)s"
+msgstr "Design-Konfiguration: %(name)s"
+
+msgid "Theme Configuration"
+msgstr "Designkonfiguration"
+
+msgid "There's nothing to configure in this theme."
+msgstr "In diesem Design gibt es nichts zu konfigurieren."
+
+msgid "Select theme"
+msgstr "Design wählen"
+
+msgid "Theme Guide"
+msgstr "Design-Leitfaden"
+
+msgid "Theme screenshot"
+msgstr "Theme-Screenshot"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Configure"
+msgstr "Konfigurieren"
+
+msgid "Activate"
+msgstr "Aktivieren"
+
+msgid "Admin Theme"
+msgstr "Admin-Theme"
+
+msgid "Edit Admin Theme"
+msgstr "Admin-Design bearbeiten"
+
+msgid "Theme Name"
+msgstr "Design-Name"
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Currently active"
+msgstr "Gerade aktiv"
+
+msgid "Revert Changes"
+msgstr "Änderungen rückgängig machen"
+
+msgid "Publish Changes"
+msgstr "Änderungen veröffentlichen"
+
+msgid "No access to editing."
+msgstr "Kein Zugriff auf die Bearbeitung."
+
+#, python-format
+msgid "Unknown command: `%s`."
+msgstr "Unbekannter Befehl: \"%s\"."
+
+msgid "Unable to determine the current theme."
+msgstr "Das aktuelle Design kann nicht gefunden werden."
+
+#, python-format
+msgid "Can't add more than %d cells in one row."
+msgstr "Es können nicht mehr als %d-Zellen in einer Zeile hinzugefügt werden."
+
+msgid "Published"
+msgstr "Veröffentlicht"
+
+msgid "Reverted"
+msgstr "Rückgängig gemacht"
+
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+msgid "Full Width"
+msgstr "Volle Breite"
+
+msgid "Three Fourths (3/4)"
+msgstr "Drei Viertel (3/4)"
+
+msgid "Two Thirds (2/3)"
+msgstr "Zwei Drittel (2/3)"
+
+msgid "Half (1/2)"
+msgstr "Die Hälfte (1/2)"
+
+msgid "One Third (1/3)"
+msgstr "Ein Drittel (1/3)"
+
+msgid "One Fourth (1/4)"
+msgstr "Ein Viertel (1/4)"
+
+msgid "Auto"
+msgstr "Automatisch"
+
+msgid "Cell width"
+msgstr "Zellenbreite"
+
+msgid "Cell align"
+msgstr "Zellenausrichtung"
+
+msgid "Extra classes"
+msgstr "Zusätzliche Klassen"
+
+msgid "Add extra CSS classes names to the cell"
+msgstr "Füge der Zelle zusätzliche CSS-Klassennamen hinzu"
+
+msgid "No Plugin"
+msgstr "Kein Plugin"

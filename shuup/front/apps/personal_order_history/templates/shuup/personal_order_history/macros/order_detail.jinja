@@ -1,0 +1,157 @@
+{% from "shuup/front/macros/order.jinja" import render_lines_table with context%}
+
+{% macro basic_info() %}
+    {% call content_block(_("Basic Information")) %}
+        <table class="table table-condensed">
+            {{ info_row(_("Order Number"), order.identifier) }}
+            {{ info_row(_("Order Date"), order.order_date|datetime) }}
+            {{ info_row(_("Reference"), order.reference_number) }}
+            {{ info_row(_("Label"), order.label) }}
+            {{ info_row(_("Customer"), order.customer) }}
+            {{ info_row(_("Ordered by"), order.orderer) }}
+            {{ info_row(_("Creator"), order.creator) }}
+            {{ info_row(_("Phone"), order.phone, "tel:" ~ order.phone) }}
+            {{ info_row(_("Email"), order.email, "mailto:" ~ order.email) }}
+            {{ info_row(_("Tax Number"), order.tax_number) }}
+            {{ price_row(_("Total Price"), order.taxful_total_price) }}
+            {{ price_row(_("Total Price (taxless)"), order.taxless_total_price) }}
+            {{ info_row(_("Order Status"), order.get_status_display()) }}
+            {{ info_row(_("Payment Status"), order.get_payment_status_display()) }}
+            {{ info_row(_("Shipping Status"), order.get_shipping_status_display()) }}
+        </table>
+    {% endcall %}
+{% endmacro %}
+
+{% macro shipping_address() %}
+    {% call content_block(_("Shipping Address")) %}
+        {% for line in order.shipping_address %}
+            {{ line }}<br>
+        {% endfor %}
+    {% endcall %}
+{% endmacro %}
+
+{% macro render_products_cell(shipment) %}
+    {%- for shipment_product in shipment.products.all() -%}
+        {% set product = shipment_product.product %}
+        {% set unit = product.sales_unit %}
+        {{- product.name -}}&nbsp;({{- unit.round(shipment_product.quantity) -}})
+        {%- if not loop.last %}, {% endif -%}
+    {%- endfor -%}
+{% endmacro %}
+
+{% macro sent_shipments(shipments) %}
+    {% call content_block(_("Shipments")) %}
+        <table class="table table-condensed">
+            <thead>
+                <tr>
+                    <th>{{ _("Identifier") }}</th>
+                    <th>{{ _("Products") }}</th>
+                    <th class="text-center">{{ _("Tracking code") }}</th>
+                </tr>
+            </thead>
+            {% for shipment in shipments %}
+            <tr>
+                <td>{{ shipment.identifier or '' }}</td>
+                <td>{{ render_products_cell(shipment) }}</td>
+                <td class="text-center">
+                    {%- if shipment.tracking_url %}
+                    <a href="{{ shipment.tracking_url }}" target="_blank" rel="noopener">
+                    {% endif -%}
+                    {{- shipment.tracking_code -}}
+                    {%- if shipment.tracking_url %}</a>{% endif -%}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% endcall %}
+{% endmacro %}
+
+{% macro billing_address() %}
+    {% call content_block(_("Billing Address")) %}
+        {% for line in order.billing_address %}
+            {{ line }}<br>
+        {% endfor %}
+    {% endcall %}
+{% endmacro %}
+
+{% macro order_status_history(order_history) %}
+    {% call content_block(_("Status history")) %}
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>{% trans %}When{% endtrans %}</th>
+                <th>{% trans %}Status{% endtrans %}</th>
+                <th>{% trans %}Description{% endtrans %}</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for status_history_item in order_history %}
+                <tr>
+                    <td>{{ status_history_item.created_on|datetime }}</td>
+                    <td>{{ status_history_item.next_order_status }}</td>
+                    <td>{{ status_history_item.description or '-' }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endcall %}
+{% endmacro %}
+
+{% macro order_contents() %}
+    {% call content_block(_("Order Contents")) %}
+        {{ render_lines_table(order.lines.order_by("ordering"), order.taxful_total_price, order.taxless_total_price) }}
+    {% endcall %}
+{% endmacro %}
+
+{% macro content_block(heading, action_button="") %}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            {% if heading %}
+                <h2 class="panel-title">{{ heading }}</h2>
+            {% endif %}
+        </div>
+        <div class="panel-body">
+            {{ caller() }}
+        </div>
+    </div>
+{% endmacro %}
+
+{% macro info_row(header, value, url=None, class="") %}
+    {% if value is defined and value is not none and value != "" %}
+        <tr>
+            <th>{{ header }}</th>
+            <td class="{{ class }}">
+                {%- if url %}<a href="{{ url }}">{% endif -%}
+                {{ value }}
+                {%- if url %}</a>{% endif -%}
+            </td>
+        </tr>
+    {% endif %}
+{% endmacro %}
+
+{% macro price_row(header, value) %}
+    {{ info_row(header, value|money) }}
+{% endmacro %}
+
+{% macro price_cell(value, elem="td") %}
+    {{ number_cell(value|money, elem) }}
+{% endmacro %}
+
+{% macro number_cell(value, elem="td") %}
+    <{{ elem }} class="text-right">{{ value }}</{{ elem }}>
+{% endmacro %}
+
+{% macro price_or_empty_cell(value, elem="td") %}
+    {%- if value != 0 -%}
+        {{ price_cell(value, elem) }}
+    {%- else -%}
+        {{ number_cell("", elem) }}
+    {%- endif -%}
+{% endmacro %}
+
+{%- macro render_objects(objs) -%}
+    {%- for obj in objs -%}
+        {{- obj -}}
+        {%- if not loop.last %}, {% endif -%}
+    {%- endfor -%}
+{%- endmacro -%}

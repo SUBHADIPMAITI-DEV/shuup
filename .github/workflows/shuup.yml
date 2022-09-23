@@ -1,0 +1,111 @@
+name: CI
+
+on:
+  push:
+    branches: [ master, 2.x ]
+  pull_request:
+    branches: [ master, 2.x ]
+
+jobs:
+
+  codestyle:
+    name: "Code style & sanity checks"
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.6
+    - name: Install dev dependencies
+      run: pip install -r requirements-dev.txt
+    - name: Run sanity check
+      run: _misc/check_sanity.py
+    - name: Run license headers check
+      run: _misc/ensure_license_headers.py -s shuup
+    - name: Check flake8
+      run: flake8 .
+    - name: Check isort
+      run: isort --check --diff .
+    - name: Check black
+      run: black --check --diff .
+
+  core:
+    name: "Test Shuup, migrations and messages"
+    runs-on: ubuntu-latest
+    env:
+      SHUUP_BROWSER_TESTS: 0
+      SHUUP_TESTS_CI: 1
+    strategy:
+      matrix:
+        python-version: ['3.6', '3.7', '3.8']
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install gettext
+      run: sudo apt-get -y install gettext
+    - name: Install test dependencies
+      run: pip install -r requirements-tests.txt
+    - name: Create logs folder
+      run: mkdir .unit_tests
+    - name: Run makemessages
+      run: python -m shuup_workbench shuup_makemessages -l en
+    - name: Run tests
+      run: py.test --nomigrations shuup_tests --cov shuup --cov-config=.coveragerc
+    - name: Run compilemessages
+      run: python -m shuup_workbench compilemessages
+    - name: Code coveragerc
+      run: codecov
+
+    - uses: actions/upload-artifact@v2
+      if: failure()
+      with:
+        name: unit_tests
+        path: .unit_tests/*.*
+
+  browser:
+    name: "Test Shuup with browser"
+    runs-on: ubuntu-latest
+    env:
+      SHUUP_BROWSER_TESTS: 1
+      SHUUP_TESTS_CI: 1
+    strategy:
+      matrix:
+        python-version: ['3.6']
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: "Setup Firefox driver"
+      uses: browser-actions/setup-geckodriver@latest
+    - run: geckodriver --version
+
+    - name: Install gettext
+      run: sudo apt-get -y install gettext
+
+    - name: Build static files
+      run: python setup.py build_resources
+
+    - name: Install test dependencies
+      run: pip install -r requirements-tests.txt
+
+    - name: Compile messages
+      run: python -m shuup_workbench compilemessages
+
+    - name: Create logs folder
+      run: mkdir .unit_tests
+
+    - name: Run tests
+      run: py.test -v --nomigrations shuup_tests/browser/front shuup_tests/browser/admin --splinter-headless --splinter-screenshot-dir=.unit_tests/
+
+    - uses: actions/upload-artifact@v2
+      if: failure()
+      with:
+        name: unit_tests
+        path: .unit_tests/*.*

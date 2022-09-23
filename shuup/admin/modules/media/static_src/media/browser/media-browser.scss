@@ -1,0 +1,378 @@
+@import '~bootstrap/scss/_functions';
+@import '~bootstrap/scss/_variables';
+@import "../../../../../static_src/base/scss/variables";
+@import '~bootstrap/scss/mixins/_breakpoints';
+
+.folder-icon {
+    color: $icon-folder-color;
+}
+
+.folder-tree {
+    flex-basis: 260px;
+    max-width: 260px;
+
+    @include media-breakpoint-down(md) {
+        display: none;
+    }
+
+    ul, li {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul ul {
+        padding-left: 1.5rem;
+    }
+
+    li a {
+        font-size: 0.9rem;
+        padding: 5px 0;
+        display: block;
+        text-decoration: none;
+        color: var(--text-color);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    li.in-path > a .name {
+        color: var(--text-color)
+    }
+
+    li.current > a .name {
+        color: var(--primary);
+        font-weight: 500;
+    }
+
+    ul li.new-folder-item a {
+        color: $gray-light;
+    }
+
+    i {
+        margin-right: 6px;
+    }
+
+}
+
+.title {
+    margin-bottom: 20px;
+
+    i, a {
+        margin-right: 7px;
+        font-size: 1.2rem;
+    }
+    a.current {
+        font-size: 1.5rem;
+        color: var(--text-color)
+    }
+}
+
+.folder-view {
+
+    .btn-toolbar {
+        margin: 0;
+        margin-bottom: 30px;
+
+        @include media-breakpoint-down(md) {
+            margin-bottom: 20px;
+        }
+
+        .btn-group {
+            margin-left: 0;
+            margin-right: 15px;
+            flex-wrap: wrap;
+
+            @include media-breakpoint-down(md) {
+                margin-bottom: 10px;
+            }
+
+            button {
+                white-space: nowrap;
+                flex-grow: 0;
+            }
+
+            &.icons {
+                button {
+                    padding-top: 6px;
+                    padding-bottom: 2px;
+                }
+
+                i {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+
+    .folder-contents {
+        min-height: 350px;
+
+        .custom-browser-row {
+            display: flex;
+            flex-flow: row wrap;
+
+            @supports (display: grid) {
+                display: grid;
+                grid-gap: 25px 15px;
+                grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+
+                @include media-breakpoint-down(xs) {
+                    grid-gap: 20px 10px;
+                }
+            }
+        }
+
+        .grid-folder,
+        .grid-file {
+            position: relative;
+            margin: 0 15px 25px 0;
+            flex-basis: 180px;
+
+            @supports (display: grid) {
+                margin: 0;
+                flex-basis: unset;
+            }
+
+            a.file-preview {
+                display: block;
+                background: #fff;
+                text-align: center;
+                padding: 10px;
+                border: 1px solid $border-color;
+                border-radius: $border-radius;
+                transition: border-color 0.1s;
+                width: 100%;
+
+                &:hover,
+                &:focus {
+                    border-color: var(--primary);
+                }
+
+                .preview-img-wrap {
+                    max-width: 120px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    object-fit: contain;
+                    margin: auto;
+
+                    img {
+                        margin: auto;
+                    }
+                }
+            }
+
+            .file-name {
+                text-align: center;
+                font-size: .8rem;
+                margin-top: 5px;
+                overflow-wrap: break-word;
+
+                @include media-breakpoint-down(xs) {
+                    font-size: .75rem;
+                }
+
+                a {
+                    color: var(--text-color);
+                    text-decoration: none;
+
+                    &:hover {
+                        color: var(--primary);
+                    }
+                }
+            }
+        }
+
+        .grid-file {
+            display: flex;
+        }
+
+        .grid-folder {
+            a.file-preview {
+                padding: 30px 15px;
+            }
+
+            i {
+                font-size: 60px;
+            }
+        }
+
+        .upload-hint {
+            padding-top: 60px;
+            color: $gray-light;
+            text-align: center;
+            transition: opacity 0.2s;
+
+            span {
+                font-weight: 700;
+            }
+        }
+
+        .empty-folder {
+            text-align: center;
+            padding: 50px 0px;
+            border: 3px dashed #eee;
+            color: #999;
+            transition: all 0.2s;
+
+            .empty-image {
+                margin-bottom: 25px;
+
+                img {
+                    max-width: 300px;
+                }
+            }
+
+            .empty-text {
+                font-size: 18px;
+
+                span {
+                    font-size: 26px;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .upload-indicator {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s;
+            background: rgba($info, 0.15);
+            color: #fff;
+            text-align: center;
+            padding: 53px 0px;
+
+            .image {
+                margin-bottom: 50px;
+                max-width: 300px;
+                margin: 0 auto;
+            }
+
+            .text {
+                font-size: 2.5rem;
+                font-weight: 500;
+            }
+        }
+    }
+
+}
+
+
+.fd-zone {
+    position: relative;
+    transition: background 0.5s;
+
+    .empty-folder,
+    .upload-hint {
+        transition: border-color, color 0.5s;
+    }
+
+    &.over {
+        &.grid-folder {
+            background: rgba($info, 85%);
+        }
+
+        .empty-folder {
+            visibility: hidden;
+            color: #fff;
+        }
+
+        .upload-hint {
+            opacity: 0;
+        }
+
+        .upload-indicator {
+            z-index: 10;
+            opacity: 1;
+            visibility: visible;
+
+            @keyframes uploadIndicator {
+                0% {
+                    transform: scale(1)
+                }
+                40% {
+                    transform: scale(0.9)
+                }
+                100% {
+                    transform: scale(1)
+                }
+            }
+
+            .image {
+                animation: uploadIndicator 1.5s infinite;
+            }
+        }
+    }
+}
+
+.queue-view {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    background: #eee;
+    padding: 5px;
+    box-shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.16), 0 -2px 10px 0 rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    transition: transform 0.4s;
+
+    &.done {
+        transform: translateY(100%)
+    }
+
+    .queue-file {
+        border: 2px solid #aaa;
+        background: #fff;
+        transition: background 0.5s;
+
+        &.uploading {
+            background: var(--primary-lightest);
+        }
+
+        &.error {
+            background: var(--danger-very-light);
+        }
+
+        &.done {
+            background: rgba($success, 0.2);
+
+            .qf-progress {
+                opacity: 0
+            }
+        }
+
+        border-radius: 4px;
+        float: left;
+        margin-right: 4px;
+
+        .qf-name {
+            padding: 3px;
+        }
+
+        .qf-progress {
+            height: 5px;
+            background: --primary;
+            border-radius: 2px;
+            transition: width 0.1s, opacity 1s;
+        }
+    }
+}
+
+.file-cog-btn {
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+}

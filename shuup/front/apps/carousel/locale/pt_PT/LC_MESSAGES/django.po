@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Ricardo Ibrahim <ricardo.ibrahim@qintera.pt>, 2021
+msgid ""
+msgstr ""
+"Project-Id-Version: Shuup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-22 17:54+0000\n"
+"PO-Revision-Date: 2021-08-10 19:06+0000\n"
+"Last-Translator: Ricardo Ibrahim <ricardo.ibrahim@qintera.pt>\n"
+"Language-Team: Portuguese (Portugal) (http://www.transifex.com/shuup/shuup/language/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Carousels"
+msgstr "Carrosséis"
+
+#, python-format
+msgid "%s has been deleted."
+msgstr "%s foi eliminado."
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Filter by name..."
+msgstr "Filtrar por nome..."
+
+msgid "Carousel"
+msgstr "Carrossel"
+
+msgid "Active"
+msgstr "Ativo"
+
+msgid "Slide"
+msgstr "Slide"
+
+msgid "Fade"
+msgstr "Desvanecer"
+
+msgid "Current page"
+msgstr "Página atual"
+
+msgid "New page"
+msgstr "Nova página"
+
+msgid "shops"
+msgstr "lojas"
+
+msgid "Select which shops you would like the carousel to be visible in."
+msgstr "Selecionar as lojas nas quais gostaria que o carrossel seja visível."
+
+msgid "name"
+msgstr "nome"
+
+msgid "The carousel name use for carousel configuration."
+msgstr "A utilização do nome de carrossel para configuração de carrossel."
+
+msgid "animation"
+msgstr "animação"
+
+msgid "Animation type for cycling slides."
+msgstr "Tipo de animação para círculos de slides."
+
+msgid "interval"
+msgstr "intervalo"
+
+msgid "Slide interval in seconds."
+msgstr "Intervalo de slide em segundos."
+
+msgid "pause on hover"
+msgstr "pausa em passagem"
+
+msgid "When checked, the carousel cycling pauses on mouse over."
+msgstr "Quando selecionado, o círculo de carrossel pausa quando o rato passa por cima."
+
+msgid "show navigation arrows"
+msgstr "mostrar setas de navegação"
+
+msgid ""
+"When checked, navigational arrows are shown on the carousel allowing for "
+"customers to go back and forward."
+msgstr "Quando selecionado, as setas de navegação aparecem no carrossel permitindo aos clientes ir para trás e para a frente."
+
+msgid "show navigation dots"
+msgstr "mostrar pontos de navegação"
+
+msgid "When checked, navigational indicator dots are shown."
+msgstr "Quando selecionado, os pontos indicadores de navegação são exibidos."
+
+msgid "image width"
+msgstr "largura de imagem"
+
+msgid "Slide images will be cropped to this width."
+msgstr "As imagens serão recortadas para esta largura."
+
+msgid "image height"
+msgstr "altura da imagem"
+
+msgid "Slide images will be cropped to this height."
+msgstr "As imagens serão recortadas para esta altura."
+
+msgid "Arrows color"
+msgstr "Cor das setas"
+
+msgid "Set the custom color for the arrows."
+msgstr "Definir a cor personalizada para as setas."
+
+msgid "Name is only used to configure slides."
+msgstr "O nome é apenas utilizado para configurar slides."
+
+msgid "product link"
+msgstr "link do produto"
+
+msgid ""
+"Set the product detail page that should be shown when this slide is clicked,"
+" if any."
+msgstr "Definir a página de detalhes do produto que deverá ser exibida ao clicar neste slide, se quiser alguma."
+
+msgid "category link"
+msgstr "link de categoria"
+
+msgid ""
+"Set the product category page that should be shown when this slide is "
+"clicked, if any."
+msgstr "Definir a página de categoria de produto que deverá ser exibida ao clicar neste slide, se quiser alguma."
+
+msgid "cms page link"
+msgstr "link página de serviço de gestão de cliente"
+
+msgid ""
+"Set the web page that should be shown when the slide is clicked, if any."
+msgstr "Definir a página web que deverá ser exibida ao clicar neste slide, se quiser alguma."
+
+msgid "ordering"
+msgstr "ordem"
+
+msgid ""
+"Set the numeric order in which this slide should appear relative to other "
+"slides in this carousel."
+msgstr "Definir a ordem numérica na qual este slide deverá aparecer relativamente a outros slides neste carrossel."
+
+msgid "link target"
+msgstr "alvo do link"
+
+msgid ""
+"Set this to current if clicking on this slide should open a new browser tab."
+msgstr "Definir isto como atual se ao clicar neste slide quiser abrir uma nova barra de navegação."
+
+msgid "available since"
+msgstr "disponível desde"
+
+msgid ""
+"Set the date and time, starting from which this slide should be visible in "
+"the carousel. This is useful to advertise sales campaigns or other time-"
+"sensitive marketing."
+msgstr "Definir data e hora, a partir da qual este slide deve ser visível no carrossel. É útil para publicitar campanhas de vendas ou outro marketing sensível em termos de tempo."
+
+msgid "available until"
+msgstr "disponível até"
+
+msgid ""
+"Set the date and time, until which this slide should be visible in the "
+"carousel. This is useful to advertise sales campaigns or other time-"
+"sensitive marketing."
+msgstr "Definir data e hora, até à qual este slide deve ser visível no carrossel. É útil para publicitar campanhas de vendas ou outro marketing sensível em termos de tempo."
+
+msgid "Inactive dot border color"
+msgstr "Cor do limite pontos desativo"
+
+msgid "Customize the dot border color when slide is not active."
+msgstr "Personalizar a cor do limite de pontos quando o slide não está ativo."
+
+msgid "Active dot color"
+msgstr "Cor do limite pontos ativo"
+
+msgid "Customize the dot color when slide is active."
+msgstr "Personalizar a cor do limite de pontos quando o slide está ativo."
+
+msgid "caption"
+msgstr "captura"
+
+msgid ""
+"Text that describes the image. It is displayed on top of the image if "
+"'Render image text' box is enabled in front-end. Also used for search engine"
+" purposes."
+msgstr "Texto que descreve a imagem. É exibido no topo da imagem se a caixa “Apresentar texto imagem” estiver verificada no front-end. Também é utilizado para propósitos de motor de busca."
+
+msgid "caption text"
+msgstr "texto captura"
+
+msgid ""
+"Caption text is displayed as secondary text on top of the image if 'Render "
+"image text' box is enabled in front-end for 'Carousel plugin' type (disabled"
+" for 'Banner box' type). It is also shown as a tooltip."
+msgstr "O texto de captura é exibido como texto secundário no topo da imagem se a caixa “Apresentar texto imagem” estiver verificada no front-end para tipo “Plugin Carrossel’ (desativo para tipo ‘Caixa banner’. Também é exibido como um tooltip."
+
+msgid "external link"
+msgstr "link externo"
+
+msgid ""
+"Set the external site that should be shown when this slide is clicked, if "
+"any."
+msgstr "Definir o site externo que deve ser exibido ao clicar neste slide, se quiser algum."
+
+msgid "image"
+msgstr "imagem"
+
+msgid "The slide image to show."
+msgstr "A imagem de slide a mostrar."
+
+msgid "Slides"
+msgstr "Slides"
+
+msgid "Carousel Plugin"
+msgstr "Plugin Carrossel"
+
+msgid "Render image text"
+msgstr "Apresentar texto imagem"
+
+msgid "Display the text on top of the image."
+msgstr "Exibir o texto no topo da imagem."
+
+msgid "Banner Box"
+msgstr "Caixa Banner"
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Slides can be added after saving the Carousel."
+msgstr "Podem ser adicionados slides após guardar o Carrossel."
+
+msgid ""
+"This form is also used to define banner boxes. Marked fields only apply to "
+"banner boxes."
+msgstr "Este formulário também é utilizado para definir caixas banner. Os campos marcados apenas se aplicam a caixas banner."
+
+msgid "Adding the carousel to your site"
+msgstr "Adicionar o carrossel ao seu site"
+
+msgid ""
+"To add a carousel to your site, you must edit the page using the placeholder"
+" editor. To do this, go to your site and click the 'Edit page' on the page "
+"you want to add the carousel banner to. Then, select the placeholder to "
+"change and add a new plugin row and from the plugin dropdown and select "
+"'Carousel Plugin'. From 'Carousel' dropdown options choose the carousel you "
+"want to display. As a final step, save the plugin and publish changes."
+msgstr "Para adicionar um carrossel ao seu site, deve editar a página utilizando o editor de espaços reservados. Para tal, vá ao seu site e clique em ‘Editar página’, na página em que pretende adicionar o banner de carrossel. Depois, selecione o espaço reservado a alterar e adicione uma nova coluna de plugin e da lista de plugins selecione ‘Plugin de Carrossel’. Das opções em lista de ‘Carrossel’ escolha o carrossel que pretende exibir. Por último, guarde o plugin e publique as alterações."
+
+msgid "Learn more."
+msgstr "Saber mais."
+
+msgid "Basic details"
+msgstr "Detalhes básicos"
+
+msgid "Advanced options"
+msgstr "Opções avançadas"
+
+msgid "Remove Slide"
+msgstr "Retirar Slide"
+
+msgid "Only image for default language is required."
+msgstr "Apenas são necessárias imagens para o idioma padrão."
+
+msgid ""
+"If external link is not set link will fallback to product link, category "
+"link or cms page link in this order."
+msgstr "Se um link externo não está definido, o link irá redirecionar para o link de produto, de categoria ou de página cms (sistema de gestão de conteúdos) nesta encomenda."
+
+msgid "Add new slide"
+msgstr "Adicionar novo slide"
+
+msgid "New Carousel"
+msgstr "Novo Carrossel"

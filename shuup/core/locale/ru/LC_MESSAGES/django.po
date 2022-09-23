@@ -1,0 +1,2601 @@
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# An Nesterov <arch.nesterov@gmail.com>, 2021
+# Christian Hess, 2021
+# Eugene <eugene.mechanism@gmail.com>, 2016
+# Eugene <eugene.mechanism@gmail.com>, 2016
+# George Voronin <sonictorment@gmail.com>, 2017
+# Алекс Прометеев <promet.alex@gmail.com>, 2017
+# Translator HIO.E <translater@hiqe.ru>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Shuup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-03 19:01+0000\n"
+"PO-Revision-Date: 2021-08-05 14:24+0000\n"
+"Last-Translator: Transifex Bot <>\n"
+"Language-Team: Russian (http://www.transifex.com/shuup/shuup/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.1.1\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#, python-format
+msgid "Error! Invalid command `%s`."
+msgstr "Ошибка! Недействительная команда `%s`."
+
+#, python-format
+msgid "Error! The quantity `%f` is not allowed. Please use an integer value."
+msgstr "Ошибка! Количество `%f` не допускается. Пожалуйста, используйте целое значение."
+
+#, python-format
+msgid "Error! The quantity `%s` is not valid."
+msgstr "Ошибка! Количество `%s` недействительно."
+
+#, python-format
+msgid "Error! The quantity `%s` is not valid, should be bigger than zero."
+msgstr "Ошибка! Количество `%s` недействительно, должно быть больше нуля."
+
+msgid "Error! This variation is not available."
+msgstr "Ошибка! Этот вариант недоступен."
+
+msgid "Customer is not active."
+msgstr "Клиент не активен."
+
+msgid "Shop does not have all the necessary permissions for this customer."
+msgstr "Магазин не имеет всех необходимых разрешений для этого клиента."
+
+msgid "You don't have the required permission to assign this customer."
+msgstr "У вас нет необходимого разрешения, чтобы назначить этого клиента."
+
+msgid "You must specify the order, in which customer is a company."
+msgstr "Вы должны указать заказ, в котором клиент является компанией."
+
+msgid "Invalid customer."
+msgstr "Недействительный клиент."
+
+msgid "Orderer is not a member of the company."
+msgstr "Заказчик не является членом компании."
+
+msgid "You are not a member of the company."
+msgstr "Вы не являетесь членом компании."
+
+#, python-format
+msgid "Basket loading failed: Incompatible basket (%s)."
+msgstr "Ошибка загрузки корзины: несовместимая корзина (%s)."
+
+msgid "Try to remove some products from the basket and order them separately."
+msgstr "Попробуйте убрать некоторые продукты из корзины и заказать их отдельно."
+
+#, python-format
+msgid "Products in basket can't be shipped together. %s"
+msgstr "Продукты в корзине не могут быть отправлены вместе. %s"
+
+#, python-format
+msgid "Products in basket have no common payment method. %s"
+msgstr "Продукты в корзине не имеют общего способа оплаты. %s"
+
+msgid "internal identifier"
+msgstr "внутренний идентификатор"
+
+msgid "Do not change this value if you are not sure what you are doing."
+msgstr "Не меняйте это значение, если вы не уверены, за что оно отвечает."
+
+msgid "Invalid color"
+msgstr "Недействительный цвет"
+
+msgid "Enter a valid JSON."
+msgstr "Введите действительный JSON."
+
+msgid "Error!"
+msgstr "Ошибка!"
+
+msgid "No such shop is configured."
+msgstr "Такой магазин не настроен."
+
+msgid "shipping address"
+msgstr "адрес доставки"
+
+msgid "billing address"
+msgstr "платежный адрес"
+
+msgid "disabled"
+msgstr "отключено"
+
+msgid "enabled"
+msgstr "включено"
+
+msgid "name prefix"
+msgstr "префикс имени"
+
+msgid "The name prefix. For example, Mr, Mrs, Ms, Dr, etc."
+msgstr "Приставка к имени. Например мистер, миссис, мисс, доктор, и др."
+
+msgid "name"
+msgstr "имя"
+
+msgid "The name for the address."
+msgstr "Имя для данного адреса."
+
+msgid "name suffix"
+msgstr "суффикс имени"
+
+msgid "The name suffix. For example, Jr, Sr, etc."
+msgstr "Приставка к имени. Например джуниор, сэр, и т.д."
+
+msgid "name extension"
+msgstr "Расширение имени"
+
+msgid ""
+"Any other text to display along with the address. This could be department "
+"names (for companies) or titles (for people)."
+msgstr "Любой другой текст для отображения вместе с адресом. Это могут быть названия отделов (для компаний) или статусы (для людей)."
+
+msgid "company name"
+msgstr "имя компании"
+
+msgid "The company name for the address."
+msgstr "Название компании для адреса."
+
+msgid "tax number"
+msgstr "Налоговый номер"
+
+msgid ""
+"The business tax number. For example, EIN in the USA or VAT code in the EU."
+msgstr "Номер налога на бизнес. Например, EIN в США или код НДС в ЕС."
+
+msgid "phone"
+msgstr "телефон"
+
+msgid "The primary phone number for the address."
+msgstr "Основной номер телефона для адреса."
+
+msgid "email"
+msgstr "email"
+
+msgid "The primary email for the address."
+msgstr "Основной электронный адрес для данного адреса."
+
+msgid "street"
+msgstr "улица"
+
+msgid "The street address."
+msgstr "Физический адрес."
+
+msgid "street (2)"
+msgstr "улица (2)"
+
+msgid "An additional street address line."
+msgstr "Дополнительная строка физического адреса. "
+
+msgid "street (3)"
+msgstr "улица (3)"
+
+msgid "Any additional street address line."
+msgstr "Любая дополнительная строка физического адреса. "
+
+msgid "postal code"
+msgstr "почтовый индекс"
+
+msgid "The address postal/zip code."
+msgstr "Почтовый индекс"
+
+msgid "city"
+msgstr "город"
+
+msgid "The address city."
+msgstr "Город"
+
+msgid "region code"
+msgstr "код региона"
+
+msgid "The address region, province, or state."
+msgstr "Регион, провинция или штат."
+
+msgid "region"
+msgstr "регион"
+
+msgid "country"
+msgstr "страна"
+
+msgid "The address country."
+msgstr "Страна"
+
+msgid "address"
+msgstr "адрес"
+
+msgid "addresses"
+msgstr "адреса"
+
+msgid "owner"
+msgstr "владелец"
+
+msgid "role"
+msgstr "роль"
+
+msgid "status"
+msgstr "статус"
+
+msgid "title"
+msgstr "заголовок"
+
+msgid "saved address"
+msgstr "сохраненный адрес"
+
+msgid "saved addresses"
+msgstr "сохраненные адреса"
+
+msgid "hidden"
+msgstr "скрытый"
+
+msgid "shown on product page"
+msgstr "показан на странице товара"
+
+msgid "searchable metadata"
+msgstr "Метаданные, доступные для поиска"
+
+msgid "private metadata"
+msgstr "Частные метаданные"
+
+msgid "integer"
+msgstr "целое число"
+
+msgid "decimal"
+msgstr "десятичная дробь"
+
+msgid "boolean"
+msgstr "логическое значение"
+
+msgid "time interval"
+msgstr "временной интервал"
+
+msgid "date and time"
+msgstr "дата и время"
+
+msgid "date only"
+msgstr "только дата"
+
+msgid "translated string"
+msgstr "переведённая строка"
+
+msgid "untranslated string"
+msgstr "непереведённая строка"
+
+msgid "choices"
+msgstr ""
+
+msgid "searchable"
+msgstr "доступное для поиска"
+
+msgid ""
+"Searchable attributes will be used for product lookup when customers search "
+"in your store."
+msgstr "Атрибуты с возможностью поиска будут использоваться для поиска товаров, когда покупатели ищут в вашем магазине."
+
+msgid "type"
+msgstr "тип"
+
+msgid ""
+"The attribute data type. Attribute values can be set on the product editor "
+"page."
+msgstr "Тип данных параметров.  Значения параметров могут быть установлены на странице редактирования товара."
+
+msgid "Minimum amount of choices"
+msgstr ""
+
+msgid ""
+"Minimum amount of choices that user can choose from existing options. This "
+"field has affect only for choices type."
+msgstr ""
+
+msgid "Maximum amount of choices"
+msgstr ""
+
+msgid ""
+"Maximum amount of choices that user can choose from existing options. This "
+"field has affect only for choices type."
+msgstr ""
+
+msgid "visibility mode"
+msgstr "режим видимости"
+
+msgid ""
+"Select the attribute visibility setting. Attributes can be shown on the "
+"product detail page or can be used to enhance product search results."
+msgstr "Выберите настройку видимости параметра. Параметры могут отображаться на странице сведений о товаре или могут использоваться для улучшения результатов поиска товаров."
+
+msgid "The ordering in which your attribute will be displayed."
+msgstr ""
+
+msgid ""
+"The attribute name. Product attributes can be used to list the various "
+"features of a product and can be shown on the product detail page. The "
+"product attributes for a product are determined by the product type and can "
+"be set on the product editor page."
+msgstr "Название параметра. Параметры товара могут использоваться для отображения различных функций товара и показываться на странице сведений о продукте. Параметры товара определяются типом товара и могут быть установлены на странице редактирования товара."
+
+msgid "attribute"
+msgstr "атрибут"
+
+msgid "attributes"
+msgstr "атрибуты"
+
+msgid "The attribute choice option name. "
+msgstr ""
+
+msgid "chosen options"
+msgstr ""
+
+msgid "numeric value"
+msgstr "числовое значение"
+
+msgid "datetime value"
+msgstr "Значение места и времени"
+
+msgid "untranslated value"
+msgstr "непереведённое значение"
+
+msgid "queue name"
+msgstr ""
+
+msgid "task identifier"
+msgstr ""
+
+msgid "created on"
+msgstr "создано"
+
+msgid "modified on"
+msgstr "изменен"
+
+msgid "task function"
+msgstr ""
+
+msgid "task arguments"
+msgstr ""
+
+msgid "shop"
+msgstr "магазин"
+
+msgid "supplier"
+msgstr "поставщик"
+
+msgid "user"
+msgstr "пользователь"
+
+msgid "background task"
+msgstr ""
+
+msgid "background tasks"
+msgstr ""
+
+msgid "running"
+msgstr ""
+
+msgid "success"
+msgstr ""
+
+msgid "error"
+msgstr ""
+
+msgid "started on"
+msgstr ""
+
+msgid "finished on"
+msgstr ""
+
+msgid "results"
+msgstr ""
+
+msgid "error log"
+msgstr ""
+
+msgid "background task execution"
+msgstr ""
+
+msgid "background task executions"
+msgstr ""
+
+msgid "The following fields are protected and can not be changed."
+msgstr "Следующие поля защищены и не могут быть изменены."
+
+msgid "key"
+msgstr "ключ"
+
+msgid "customer"
+msgstr "покупатель"
+
+msgid "orderer"
+msgstr "заказчик"
+
+msgid "creator"
+msgstr "автор"
+
+msgid "updated on"
+msgstr "обновление"
+
+msgid "persistent"
+msgstr "постоянный сайт"
+
+msgid "deleted"
+msgstr "удаленный"
+
+msgid "finished"
+msgstr "завершённый сайт"
+
+msgid "data"
+msgstr "дата"
+
+msgid "taxless total price"
+msgstr "безналоговая общая цена"
+
+msgid "taxful total price"
+msgstr "облагаемая налогом общая цена"
+
+msgid "currency"
+msgstr "валюта"
+
+msgid "prices include tax"
+msgstr "цены включают в себя налог"
+
+msgid "product_count"
+msgstr "количество товара"
+
+msgid "products"
+msgstr "товары"
+
+msgid "basket"
+msgstr "корзина"
+
+msgid "baskets"
+msgstr "корзины"
+
+msgid "invisible"
+msgstr "невидимый"
+
+msgid "visible"
+msgstr "видимый"
+
+msgid "visible to all"
+msgstr "видимый для всех"
+
+msgid "visible to logged-in customers"
+msgstr "видимый для зарегистрированных клиентов"
+
+msgid "visible to certain customer groups"
+msgstr "видимый для некоторых групп покупателей"
+
+msgid "parent category"
+msgstr "родительская категория"
+
+msgid ""
+"If your category is a sub-category of another category, you can link them "
+"here."
+msgstr "Если ваша категория является подкатегорией другой категории, вы можете связать их здесь."
+
+msgid "shops"
+msgstr "магазины"
+
+msgid "You can select which shops the category is visible in."
+msgstr "Вы можете выбрать, в каких магазинах данная категория будет отображена."
+
+msgid "Choose if you want this category to be visible in your store."
+msgstr "Выберите, хотите ли вы, чтобы эта категория была видна в вашем магазине."
+
+msgid "image"
+msgstr "изображение"
+
+msgid ""
+"Category image. Will be shown in places defined by the graphical theme in "
+"use."
+msgstr "Изображение категории. Будет показано в местах, определенных используемой графической темой."
+
+msgid "ordering"
+msgstr "Упорядочивание"
+
+msgid ""
+"You can assign numerical values to images to tell the order in which they "
+"shall be displayed on the vendor page. You can also use the `Organize` "
+"button in the list view to order them visually with a drag-and-drop."
+msgstr "Изображениям можно присвоить числовые значения, чтобы указать заказ, в котором они будут отображаться на странице поставщика. Также Вы можете воспользоваться кнопкой `Организация` в просмотре списка, чтобы визуально упорядочить их с помощью перетаскивания."
+
+msgid "visibility limitations"
+msgstr "ограничения видимости"
+
+msgid ""
+"You can choose to limit who sees your category based on whether they are "
+"logged in or if they are part of a certain customer group."
+msgstr "Вы можете ограничить, кто видит вашу категорию, в зависимости от того, вошли ли они в систему или являются ли они частью определенной группы клиентов."
+
+msgid "visible in menu"
+msgstr "Отображается в меню"
+
+msgid "Enable if this category should be visible in the store front's menu."
+msgstr "Включите, если эта категория должна быть видна в меню магазина."
+
+msgid "visible for groups"
+msgstr "видимый для групп"
+
+msgid ""
+"Select the customer groups you want to see this category. There are three "
+"groups created by default: Company, Person, Anonymous. In addition you can "
+"also define custom groups by searching for `Contact Groups`."
+msgstr "Выберите группы клиентов, которые вы хотите видеть в этой категории. По умолчанию создаются три группы: Компания, Человек, Аноним. Кроме того, вы также можете определить собственные группы, выполнив поиск по запросу `Группы контактов`."
+
+msgid ""
+"Enter a descriptive name for your product category. Products can be found in"
+" the store front under the defined product category either directly in menus"
+" or while searching."
+msgstr "Введите название описывающие свою категорию продукта. Продукты можно найти на витрине магазина в определенной категории продуктов либо непосредственно в меню, либо во время поиска."
+
+msgid "description"
+msgstr "описание"
+
+msgid ""
+"Give your product category a detailed description. This will help shoppers "
+"find your products under that category in your store and on the web."
+msgstr "Дайте подробное описание вашей категории продуктов. Это поможет покупателям находить ваши товары данной категории в вашем магазине и в Интернете."
+
+msgid "slug"
+msgstr "слаг"
+
+msgid ""
+"Enter a URL slug for your category. Slug is user- and search engine-friendly"
+" short text used in a URL to identify and describe a resource. In this case "
+"it will determine what your product category page URL in the browser address"
+" bar will look like. A default will be created using the category name."
+msgstr "Введите ярлык URL-адреса для своей категории. Слаг - это удобный для пользователя и поисковой системы короткий текст, используемый в URL-адресе для идентификации и описания ресурса. В этом случае он определит, как будет выглядеть URL-адрес страницы категории вашего продукта в адресной строке браузера. По умолчанию будет создано имя категории."
+
+msgid "category"
+msgstr "категория"
+
+msgid "categories"
+msgstr "категории"
+
+msgid "value"
+msgstr "значение"
+
+msgid "configuration item"
+msgstr "Элемент конфигурации"
+
+msgid "configuration items"
+msgstr "Элементы конфигурации"
+
+#, python-format
+msgid "%(key)s for shop %(shop)s"
+msgstr "%(key)s для магазина %(shop)s"
+
+#, python-format
+msgid "%(key)s (global)"
+msgstr "%(key)s (глобально)"
+
+msgid "show as pricing option"
+msgstr "показать как вариант ценообразования"
+
+msgid "show prices including taxes"
+msgstr "показать стоимость с учётом налогов"
+
+msgid "hide prices"
+msgstr "Скрыть стоимости"
+
+msgid "Unknown"
+msgstr "Неизвестный"
+
+#, python-format
+msgid "Price Display Options for Contact Group %s"
+msgstr "Варианты отображения цен для контактной группы %s"
+
+msgid "contact group price display"
+msgstr "отображение цены контактной группы"
+
+msgid "contact group price displays"
+msgstr "отображение цены контактной группы"
+
+msgid "members"
+msgstr "участники"
+
+msgid ""
+"The contact group name. Contact groups can be used to target sales and "
+"campaigns to a specific set of users."
+msgstr "Имя контактной группы. Контактные группы можно использовать для нацеливания продаж и кампаний на определенную группу пользователей."
+
+msgid "contact group"
+msgstr "группа контактов"
+
+msgid "contact groups"
+msgstr "группы контактов"
+
+msgid "Cannot set shop for default Contact Group."
+msgstr "Невозможно установить магазин для контактной группы по умолчанию."
+
+msgid "Can't delete. This object is protected."
+msgstr "Невозможно удалить. Данный объект защищён"
+
+msgid "active"
+msgstr "активно"
+
+msgid "Enable this if the contact is an active customer."
+msgstr "Включите эту опцию, если контакт является активным клиентом."
+
+msgid "Inform which shops have access to this contact."
+msgstr "Сообщите, какие магазины имеют доступ к этому контакту."
+
+msgid "registration shop"
+msgstr "магазин регистрации"
+
+msgid "default shipping method"
+msgstr "способ доставки по умолчанию"
+
+msgid "default payment method"
+msgstr "способ оплаты по умолчанию"
+
+msgid "language"
+msgstr "язык"
+
+msgid ""
+"The primary language to be used in all communications with the contact."
+msgstr "Основной язык для использования во всех коммуникациях с контактом"
+
+msgid "marketing permission"
+msgstr "Маркетинговое разрешение"
+
+msgid ""
+"Enable this if the contact can receive marketing and promotional materials."
+msgstr "Включите эту опцию, если контакт может получать маркетинговые и рекламные материалы."
+
+msgid "The primary phone number of the contact."
+msgstr "Основной номер телефона данного контакта."
+
+msgid "web address"
+msgstr "веб-адрес"
+
+msgid "The web address of the contact, if any."
+msgstr "Веб адрес контакта, если есть."
+
+msgid "time zone"
+msgstr "часовой пояс"
+
+msgid ""
+"The timezone in which the contact resides. This can be used to target the "
+"delivery of promotional materials at a particular time."
+msgstr "Часовой пояс, в котором находится контакт. Это может использоваться для обеспечения доставки рекламных материалов в определенное время."
+
+msgid "The name prefix of the contact. For example, Mr, Mrs, Dr, etc."
+msgstr "Приставка к контакту. Например мистер, миссис, мисс, доктор, и др."
+
+msgid "The contact name"
+msgstr "Имя контакта"
+
+msgid "The name suffix of the contact. For example, Sr, Jr, etc."
+msgstr "Приставка к имени контакта. Например Сэр, джуниор и др."
+
+msgid ""
+"The email that will receive order confirmations and promotional materials "
+"(if permitted)."
+msgstr "Электронный адрес, на который будут высланы подтверждения заказов и рекламные материалы (если разрешено)."
+
+msgid "tax group"
+msgstr "группа налогов"
+
+msgid ""
+"Select the contact tax group to use for this contact. Tax groups can be used"
+" to customize the tax rules the that apply to any of this contact's orders. "
+"Tax groups are defined in `Customer Tax Groups` and can be applied to tax "
+"rules in `Tax Rules`."
+msgstr "Выберите налоговую группу контактов, которая будет использоваться для этого контакта. Налоговые группы могут быть использованы для настройки налоговых правил, которые применяются к любому из заказов этого контакта. Налоговые группы определяются в `Группах налогоплательщиков` и могут быть применены к налоговым правилам в `Правилах налогообложения`."
+
+msgid "merchant notes"
+msgstr "Торговые замечания"
+
+msgid ""
+"Enter any private notes for this customer that are only accessible in Shuup "
+"admin."
+msgstr "Введите любые личные примечания для этого клиента, которые доступны только в режиме администратора Shuup."
+
+msgid "account manager"
+msgstr "Управляющий аккаунтом"
+
+msgid "options"
+msgstr "опции"
+
+msgid "picture"
+msgstr "изображение "
+
+msgid ""
+"Contact picture. Can be used alongside contact profile, reviews and messages"
+" for example."
+msgstr "Изображение контакта. Может использоваться вместе с профилем контакта, отзывами и сообщениями, например."
+
+msgid "contact"
+msgstr "контакт"
+
+msgid "contacts"
+msgstr "контакты"
+
+msgid "Company Contacts"
+msgstr "Контакты компании"
+
+msgid "e.g. EIN in US or VAT code in Europe"
+msgstr "Например: EIN для США и VAT для Европы."
+
+msgid "company"
+msgstr "компания"
+
+msgid "companies"
+msgstr "компании"
+
+msgid "undisclosed"
+msgstr "нераскрытый"
+
+msgid "male"
+msgstr "мужской"
+
+msgid "female"
+msgstr "женский"
+
+msgid "other"
+msgstr "другой"
+
+msgid "Person Contacts"
+msgstr "Контакты персоны"
+
+msgid "gender"
+msgstr "пол"
+
+msgid "The gender of the contact."
+msgstr "Пол контакта."
+
+msgid "birth date"
+msgstr "дата рождения"
+
+msgid "The birth date of the contact."
+msgstr "Дата рождения контакта."
+
+msgid "first name"
+msgstr "Имя"
+
+msgid "The first name of the contact."
+msgstr "Имя контакта."
+
+msgid "last name"
+msgstr "фамилия"
+
+msgid "The last name of the contact."
+msgstr "Фамилия контакта."
+
+msgid "person"
+msgstr "персона"
+
+msgid "persons"
+msgstr "персоны"
+
+msgid "Anonymous Contacts"
+msgstr "Анонимные контакты"
+
+msgid "order reference"
+msgstr "Справка по заказу"
+
+msgid "identifier"
+msgstr "идентификатор"
+
+msgid "counter"
+msgstr "счетчик"
+
+msgid "counters"
+msgstr "счетчики"
+
+msgid "code"
+msgstr "код"
+
+msgid "The ISO-4217 code of the currency"
+msgstr "ISO-4217 код валюты"
+
+msgid "decimal places"
+msgstr "Десятичные знаки"
+
+msgid "The number of decimal places supported by this currency."
+msgstr "Число знаков после запятой, поддерживаемых этой валютой."
+
+msgid "Enter a valid ISO-4217 currency code."
+msgstr "Введите действующий код валюты ISO-4217"
+
+msgid "currencies"
+msgstr "Валюты"
+
+msgid "label"
+msgstr "ярлык"
+
+msgid "labels"
+msgstr "ярлыки"
+
+msgid "added"
+msgstr "добавлен"
+
+msgid ""
+"Enter the manufacturer’s name. Products can be filtered by the manufacturer "
+"and this can be useful for inventory and stock management."
+msgstr "Введите название производителя. Продукция может быть отфильтрована по производителю, что может быть полезно для инвентаризации и управления запасами."
+
+msgid "URL"
+msgstr "URL"
+
+msgid ""
+"Enter the URL of the product manufacturer if you would like customers to be "
+"able to visit the manufacturer's website."
+msgstr "Введите URL-адрес производителя продукта, если вы хотите, чтобы клиенты могли посетить веб-сайт производителя."
+
+msgid "logo"
+msgstr "логотип"
+
+msgid "manufacturer"
+msgstr "производитель"
+
+msgid "manufacturers"
+msgstr "производители"
+
+msgid "file"
+msgstr "файл"
+
+msgid "Select which shops you would like the files to be visible in."
+msgstr "Выберите, в каких магазинах вы хотите, чтобы файлы были видны."
+
+msgid "folder"
+msgstr "папка"
+
+msgid "Select which shops you would like the folder to be visible in."
+msgstr "Выберите, в каких магазинах вы хотите видеть папку."
+
+msgid "Should this folder be visible for everyone in the media browser"
+msgstr "Должна ли эта папка быть видимой для всех в браузере мультимедиа."
+
+msgid "owning_media_folders"
+msgstr "собственные медиа-папки"
+
+msgid "owners"
+msgstr "владельцы"
+
+msgid "Select which users will own this folder."
+msgstr "Выберите, каким пользователям будет принадлежать эта папка."
+
+msgid "product"
+msgstr "товар"
+
+msgid "shipping"
+msgstr "доставка"
+
+msgid "payment"
+msgstr "платеж"
+
+msgid "discount"
+msgstr "дисконт"
+
+msgid "refund"
+msgstr "Возмещение"
+
+msgid "rounding"
+msgstr "округление"
+
+msgid "parent line"
+msgstr "родительская строка"
+
+msgid "line type"
+msgstr "тип строки"
+
+msgid "line SKU"
+msgstr "Строка артикула"
+
+msgid "line text"
+msgstr "текст строки"
+
+msgid "accounting identifier"
+msgstr "идентификатор учета"
+
+msgid "require verification"
+msgstr "требуется проверка"
+
+msgid "verified"
+msgstr "подтвержден"
+
+msgid "extra data"
+msgstr "дополнительные данные"
+
+msgid "quantity"
+msgstr "количество"
+
+msgid "unit price amount (undiscounted)"
+msgstr "Цена за единицу (без скидок)"
+
+msgid "total amount of discount"
+msgstr "Полная сумма скидки"
+
+msgid "order line"
+msgstr "строка заказа"
+
+msgid "order lines"
+msgstr "строки заказа"
+
+msgid "order"
+msgstr "Заказ"
+
+msgid "tax"
+msgstr "налог"
+
+msgid "tax name"
+msgstr "название налога"
+
+msgid "tax amount"
+msgstr "размер налога"
+
+msgid "base amount"
+msgstr "базовая сумма"
+
+msgid "Amount that this tax is calculated from."
+msgstr "Сумма, из которой рассчитывается этот налог."
+
+msgid "not paid"
+msgstr "Не оплачено"
+
+msgid "partially paid"
+msgstr "частично оплачен"
+
+msgid "fully paid"
+msgstr "полностью оплачен"
+
+msgid "canceled"
+msgstr "отменен"
+
+msgid "deferred"
+msgstr "Отсроченный"
+
+msgid "not shipped"
+msgstr "не доставлено"
+
+msgid "partially shipped"
+msgstr "частично доставлен"
+
+msgid "fully shipped"
+msgstr "полностью доставлен"
+
+msgid "none"
+msgstr "ничего"
+
+msgid "Initial"
+msgstr "изначальный"
+
+msgid "Complete"
+msgstr "Завершено"
+
+msgid "Canceled"
+msgstr "Отменено"
+
+msgid "Processing"
+msgstr "Обработка"
+
+msgid "Received"
+msgstr "Получено"
+
+msgid "In Progress"
+msgstr "В процессе"
+
+msgid ""
+"Internal identifier for status. This is used to identify and distinguish the"
+" statuses in Shuup."
+msgstr "Внутренний идентификатор статуса. Он используется для идентификации и различения статусов в Shuup."
+
+msgid "The processing order of statuses. Default is always processed first."
+msgstr "Порядок обработки статусов. Сначала всегда обрабатывается значение по умолчанию."
+
+msgid "The role of this status. One role can have multiple order statuses."
+msgstr "Роль этого статуса. Одна роль может иметь несколько статусов заказа."
+
+msgid "default"
+msgstr "по умолчанию"
+
+msgid ""
+"Defines if the status should be considered as default. Default is always "
+"processed first."
+msgstr "Свойство определяет, следует ли считать статус статусом по умолчанию. По умолчанию всегда обрабатывается в первую очередь."
+
+msgid "is active"
+msgstr "активно"
+
+msgid "Defines if the status is usable."
+msgstr "Определяет, можно ли использовать статус."
+
+msgid "Name of the order status."
+msgstr "Название статуса заказа."
+
+msgid "public name"
+msgstr "публичное имя"
+
+msgid "The name shown to the customers in shop front."
+msgstr "Имя, показываемое покупателям в магазине."
+
+msgid "allowed next statuses"
+msgstr ""
+
+msgid "is visible for the user"
+msgstr ""
+
+msgid "Indicates whether this status is visible for the customers"
+msgstr ""
+
+msgid "order status"
+msgstr "статус заказа"
+
+msgid "order statuses"
+msgstr "статусы заказов"
+
+msgid "order id"
+msgstr ""
+
+msgid "previous order status"
+msgstr ""
+
+msgid "next order status"
+msgstr ""
+
+msgid "creating user"
+msgstr "Создание пользователя"
+
+msgid "order identifier"
+msgstr "идентификатор заказа"
+
+msgid "reference number"
+msgstr "справочный номер"
+
+msgid "email address"
+msgstr "Адрес электронной почты"
+
+msgid "customer groups"
+msgstr "группы клиентов"
+
+msgid "modifier user"
+msgstr "Пользователь-модификатор"
+
+msgid "payment status"
+msgstr "статус оплаты"
+
+msgid "shipping status"
+msgstr "статус отправления"
+
+msgid "payment method"
+msgstr "способ оплаты"
+
+msgid "payment method name"
+msgstr "название способа оплаты"
+
+msgid "payment data"
+msgstr "данные оплаты"
+
+msgid "shipping method"
+msgstr "способ доставки"
+
+msgid "shipping method name"
+msgstr "имя способа доставки"
+
+msgid "shipping data"
+msgstr "данные доставки"
+
+msgid "grand total"
+msgstr "Общая сумма"
+
+msgid "taxless total"
+msgstr "итог без учёта налогов"
+
+msgid "display currency"
+msgstr "показать валюту"
+
+msgid "display currency rate"
+msgstr "отображать валютный курс"
+
+msgid "IP address"
+msgstr "IP-адрес"
+
+msgid "order date"
+msgstr "дата платежа"
+
+msgid "payment date"
+msgstr "дата оплаты"
+
+msgid "customer comment"
+msgstr "комментарий клиента"
+
+msgid "admin comment/notes"
+msgstr "комментарии/заметки администратора"
+
+msgid "requires verification"
+msgstr "требуется проверка"
+
+msgid "all lines verified"
+msgstr "все строки подтверждены"
+
+msgid "codes"
+msgstr "коды"
+
+msgid "orders"
+msgstr "заказы"
+
+msgid "Order was marked as paid."
+msgstr "Заказ был отмечен как оплаченный."
+
+msgid "Order was marked as partially paid."
+msgstr "Заказ был отмечен как частично оплаченный."
+
+#, python-format
+msgid "Success! Shipment #%d was created."
+msgstr "Успех! Отправка #%d создана."
+
+msgid "All rows requiring verification have been verified."
+msgstr "Все строки для подтверждения были подтверждены"
+
+#, python-format
+msgid "New shipping status is set to: %(shipping_status)s."
+msgstr "Настройка нового статуса доставки: %(shipping_status)s"
+
+#, python-format
+msgid "New payment status is set to: %(payment_status)s."
+msgstr "Статус нового платежа установлен: %(payment_status)s"
+
+msgid "Error! Can not change to this status"
+msgstr ""
+
+msgid "gateway ID"
+msgstr "Идентификатор шлюза"
+
+msgid "amount"
+msgstr "Стоимость"
+
+msgid "foreign amount"
+msgstr "сумма за рубежом"
+
+msgid "foreign amount currency"
+msgstr "валюта суммы за рубежом"
+
+msgid "payments"
+msgstr "платежи"
+
+msgid "module"
+msgstr "модуль"
+
+msgid "time"
+msgstr "время"
+
+msgid "cache entry"
+msgstr "запись в кеш"
+
+msgid "cache entries"
+msgstr "записи в кэш"
+
+msgid "Monday"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
+
+msgid "Pricing module identifier"
+msgstr ""
+
+msgid "price"
+msgstr ""
+
+msgid "The indexed product price"
+msgstr ""
+
+msgid "is available"
+msgstr ""
+
+msgid ""
+"Whether the product is available for purchasing. This status is managed by "
+"the supplier module."
+msgstr ""
+
+msgid "Catalog rule"
+msgstr ""
+
+msgid "The rule in which this price is available."
+msgstr ""
+
+msgid "Discount module identifier"
+msgstr ""
+
+msgid "Valid start date and time"
+msgstr ""
+
+msgid "Valid end date and time"
+msgstr ""
+
+msgid "Valid start hour"
+msgstr ""
+
+msgid "Valid end hour"
+msgstr ""
+
+msgid "Valid weekday"
+msgstr ""
+
+msgid "discounted price"
+msgstr ""
+
+msgid "The indexed discounted product price."
+msgstr ""
+
+msgid "The rule in which this discounted price is available."
+msgstr ""
+
+msgid "documentation"
+msgstr "документация"
+
+msgid "sample"
+msgstr "пример"
+
+msgid "Select which shops you would like the product media to be visible in."
+msgstr "Выберите, в каких магазинах вы хотели бы отображать информацию о товаре."
+
+msgid "kind"
+msgstr "вид"
+
+msgid ""
+"Select what type the media is. It can either be a normal file, part of the "
+"documentation, or a sample."
+msgstr "Выберите тип информации. Это может быть обычный файл, часть документации или образец."
+
+msgid ""
+"Enter URL to external file. If this field is filled, the selected media "
+"doesn't apply."
+msgstr "Введите URL-адрес для внешнего файла. Если это поле заполнено, выбранная информация не применяется."
+
+msgid ""
+"You can assign numerical values to images to tell the order in which they "
+"shall be displayed on the product page."
+msgstr "Вы можете присвоить изображениям числовые значения, чтобы указать порядок, в котором они должны отображаться на странице продукта."
+
+msgid "public (shown on product page)"
+msgstr "Публичный (показан на странице товара)"
+
+msgid ""
+"Enable this if you want this image be shown on the product page. Enabled by "
+"default."
+msgstr "Включите эту опцию, если вы хотите, чтобы это изображение было показано на странице продукта. По умолчанию включено."
+
+msgid "purchased (shown for finished purchases)"
+msgstr "Куплено (показано для готовых покупок)"
+
+msgid ""
+"Enable this if you want the product media to be shown for completed "
+"purchases."
+msgstr "Включите эту опцию, если вы хотите, чтобы носители информации о продукте показывались для завершенных покупок."
+
+msgid ""
+"Choose a title for your product media. This will help it be found in your "
+"store and on the web."
+msgstr "Выберите заголовок для своего продукта. Это поможет вам найти его в вашем магазине и в Интернете."
+
+msgid ""
+"Write a description for your product media. This will help it be found in "
+"your store and on the web."
+msgstr "Напишите описание для своего продукта. Это поможет вам найти его в вашем магазине и в Интернете."
+
+msgid "product attachment"
+msgstr "приложение для продукта"
+
+msgid "product attachments"
+msgstr "приложения для продукта"
+
+msgid "attachment"
+msgstr "приложение"
+
+msgid "parent product"
+msgstr "Родительский продукт"
+
+msgid "child product"
+msgstr "дочерний продукт"
+
+msgid "not visible"
+msgstr "невидимый"
+
+msgid "listed"
+msgstr "указанный"
+
+msgid "always visible"
+msgstr "всегда видимый"
+
+msgid "suppliers"
+msgstr "поставщики"
+
+msgid ""
+"List your suppliers here. Suppliers can be found by searching for "
+"`Suppliers`."
+msgstr "Перечислите ваших поставщиков здесь. Поставщиков можно найти путем поиска `Поставщики`."
+
+msgid "visibility"
+msgstr "Отображаемость"
+
+msgid ""
+"Choose how you want your product to be seen and found by the customers. "
+"<p>Not visible: Product will not be shown in your store front nor found in "
+"search.</p><p>Searchable: Product will be shown in search, but not listed on"
+" any category page.</p><p>Listed: Product will be shown on category pages, "
+"but not shown in search results.</p><p>Always Visible: Product will be shown"
+" in your store front and found in search.</p>"
+msgstr "Выберите, каким вы хотите, чтобы ваш продукт был виден и найден покупателями. <p>Не отображается: продукт не будет отображаться в вашем магазине и не будет найден в поиске.</p><p>Доступный для поиска: продукт будет отображаться в поиске, но не указан ни на одной странице категории. <p>В списке: продукт будет отображаться на страницах категорий, но не в результатах поиска.<p>Всегда виден: продукт будет отображаться в вашем магазине и найден в поиске.</p>"
+
+msgid "purchasable"
+msgstr "Доступно для покупки"
+
+msgid ""
+"Select whether you want your product to have special limitations on its "
+"visibility in your store. You can make products visible to all, visible to "
+"only logged-in users, or visible only to certain customer groups."
+msgstr "Выберите, хотите ли вы, чтобы ваш продукт имел специальные ограничения видимости в вашем магазине. Вы можете сделать продукты видимыми для всех, видимыми только для зарегистрированных пользователей или видимыми только для определенных групп покупателей."
+
+msgid ""
+"Select the groups you want to make your product visible for. These groups "
+"are defined in Contacts Settings - Contact Groups."
+msgstr "Выберите группы, для которых вы хотите сделать ваш продукт видимым. Эти группы определяются в разделе Настройки контактов - Группы контактов."
+
+msgid "backorder maximum"
+msgstr "Максимум невыполненных заказов"
+
+msgid ""
+"The number of units that can be purchased after the product is already sold "
+"out (out of stock). Set to blank for product to be purchasable without "
+"limits."
+msgstr "Количество единиц, которые можно приобрести после того, как товар уже распродан (отсутствует на складе). Установите пустое значение, чтобы продукт можно было покупать без ограничений."
+
+msgid "purchase multiple"
+msgstr "купить несколько"
+
+msgid ""
+"Set this to other than 0 if the product needs to be purchased in multiples. "
+"For example, if the purchase multiple is set to 2, then customers are "
+"required to order the product in multiples of 2. Not to be confused with the"
+" Minimum Purchase Quantity."
+msgstr ""
+
+msgid "minimum purchase quantity"
+msgstr "минимальное количество покупок"
+
+msgid ""
+"Set a minimum number of products needed to be ordered for the purchase. This"
+" is useful for setting bulk orders and B2B purchases."
+msgstr "Установите минимальное количество продуктов, которые необходимо заказать для покупки. Это полезно для настройки оптовых заказов и покупок в формате B2B."
+
+msgid "limit the shipping methods"
+msgstr "ограничить способы доставки"
+
+msgid ""
+"Enable this if you want to limit your product to use only the select "
+"shipping methods. You can select the allowed shipping method(s) in the field"
+" below - all the rest are disallowed."
+msgstr ""
+
+msgid "limit the payment methods"
+msgstr "ограничить способы оплаты"
+
+msgid ""
+"Enable this if you want to limit your product to use only the select payment"
+" methods. You can select the allowed payment method(s) in the field below - "
+"all the rest are disallowed."
+msgstr ""
+
+msgid "shipping methods"
+msgstr "способы доставки"
+
+msgid ""
+"If you enabled the `Limit the payment methods` choice above, then here you "
+"can select the individual shipping methods you want to ALLOW for this "
+"product. The ones not mentioned are disabled. To change this, search for "
+"`Shipping Methods`."
+msgstr ""
+
+msgid "payment methods"
+msgstr "способы оплаты"
+
+msgid ""
+"If you enabled the `Limit the payment methods` choice above, then here you "
+"can select the individuals payment methods you want to ALLOW for this "
+"product. The ones not mentioned are disabled. To change this, search for "
+"`Payment Methods`."
+msgstr ""
+
+msgid "primary category"
+msgstr "основная категория"
+
+msgid ""
+"Choose the primary category for the product. This will be the main category "
+"for classification in the system. The product will be found under this "
+"category in your store. To change this, search for `Categories`."
+msgstr ""
+
+msgid ""
+"Add secondary categories for your product. These are other categories that "
+"your product fits under and that it can be found by in your store."
+msgstr "Добавьте дополнительные категории для своего продукта. Это другие категории, к которым подходит ваш продукт и которые можно найти в вашем магазине."
+
+msgid "primary image"
+msgstr "основное изображение"
+
+msgid ""
+"Click this to set this image as the primary display image for the product."
+msgstr ""
+
+msgid "default price"
+msgstr "стоиость по умолчанию"
+
+msgid ""
+"This is the default individual base unit (or multi-pack) price of the "
+"product. All discounts or coupons will be calculated based off of this "
+"price."
+msgstr ""
+
+msgid "minimum price"
+msgstr "минимальная стоимость"
+
+msgid ""
+"This is the default price that the product cannot go under in your store, "
+"despite coupons or discounts being applied. This is useful to make sure your"
+" product price stays above the cost."
+msgstr ""
+
+msgid "available until"
+msgstr "доступно до"
+
+msgid "After this date this product will be invisible in store front."
+msgstr "После этой даты данный товар будет невидим в магазине."
+
+msgid "display unit"
+msgstr "Отобразить блок"
+
+msgid "Unit for displaying quantities of this product."
+msgstr "Единица для отображения количества данного продукта."
+
+msgid ""
+"Enter a descriptive name for your product. This will be its title in your "
+"store front."
+msgstr "Введите название которое описывает ваш продукт. Это будет его заголовок в магазине."
+
+msgid ""
+"To make your product stands out, give it an awesome description. This is "
+"what will help your shoppers learn about your products. It will also help "
+"shoppers find them in the store and on the web."
+msgstr "Чтобы ваш продукт выделялся среди других, дайте ему отличное описание. Это то, что поможет вашим покупателям узнать о ваших товарах. Это также поможет покупателям найти их в магазине и в Интернете."
+
+msgid "short description"
+msgstr "короткое описание"
+
+msgid ""
+"Enter a short description for your product. The short description will be "
+"used to get the attention of your customer with a small, but precise "
+"description of your product. It also helps with getting more traffic via "
+"search engines."
+msgstr "Введите краткое описание вашего продукта. Краткое описание будет использовано, чтобы привлечь внимание вашего покупателя небольшим, но точным описанием вашего продукта. Это также помогает получить больше трафика через поисковые системы."
+
+msgid "status text"
+msgstr "текст статуса"
+
+msgid ""
+"This text will be shown alongside the product in the shop. It is useful for "
+"informing customers of special stock numbers or preorders. (Ex.: Available "
+"in a month)"
+msgstr "Этот текст будет отображаться рядом с товаром в магазине. Это полезно для информирования клиентов о специальных складских номерах или предварительных заказах. (Например: доступно через месяц)"
+
+msgid "shop product"
+msgstr "товар"
+
+msgid "shop products"
+msgstr "товары"
+
+msgid ""
+"Error! Invalid display unit: Internal unit of the selected display unit does"
+" not match with the sales unit of the product."
+msgstr "Ошибка! Недопустимая единица отображения: внутренняя единица выбранной единицы отображения не совпадает с единицей продажи продукта."
+
+msgid "This product has been deleted."
+msgstr "Товар был удалён."
+
+msgid "This product is not visible."
+msgstr "Данный товар не отображается. "
+
+msgid "Error! This product is not available until the current date."
+msgstr "Ошибка! Этот продукт недоступен до текущей даты."
+
+msgid "The Product is invisible to users not logged in."
+msgstr "Товар не виден для пользователей, не вошедших в систему."
+
+msgid "This product is not visible to your group."
+msgstr "Товар не отображается для вашей группы."
+
+msgid "The product is not purchasable."
+msgstr "Продукт не подлежит приобретению."
+
+#, python-format
+msgid "The purchase quantity needs to be at least %d for this product."
+msgstr "Количество покупок должно быть не менее%d для этого продукта. "
+
+#, python-brace-format
+msgid ""
+"The product can only be ordered in multiples of {package_size}, for example "
+"{amount}."
+msgstr "Товар можно заказать только в количестве, кратном {package_size}, например {amount}."
+
+#, python-brace-format
+msgid ""
+"The product can only be ordered in multiples of {package_size}, for example "
+"{smaller_amount} or {larger_amount}."
+msgstr "Товар можно заказать только в количестве, кратном {package_size}, например {smaller_amount} или {larger_amount}."
+
+msgid "The product has no supplier."
+msgstr "У данного товара нет поставщика."
+
+#, python-format
+msgid "The product is not supplied by %s."
+msgstr "Продукт не поставляется%s."
+
+msgid "Product has no sellable children."
+msgstr "Нет позиций в продаже из этой упаковки."
+
+msgid "variation variable"
+msgstr "вариационная переменная"
+
+msgid "variation variables"
+msgstr "вариационные переменные"
+
+msgid "variation value"
+msgstr "значение изменения"
+
+msgid "variation values"
+msgstr "значения изменений"
+
+msgid "combination hash"
+msgstr "Комбинационный хэш"
+
+msgid "result"
+msgstr "результат"
+
+msgid "variation result"
+msgstr "результат изменений"
+
+msgid "variation results"
+msgstr "результаты изменений"
+
+msgid "normal"
+msgstr "нормальный"
+
+msgid "package parent"
+msgstr "Родитель пакета"
+
+msgid "variation parent (simple)"
+msgstr "Родитель вариации (простой)"
+
+msgid "variation parent (variable)"
+msgstr "Родитель вариации (переменной)"
+
+msgid "variation child"
+msgstr "Дочерняя вариация"
+
+msgid "subscription"
+msgstr "подписка"
+
+msgid "visible to logged in"
+msgstr "отображено для вошедших на сайт"
+
+msgid "visible to groups"
+msgstr "отображено для групп"
+
+msgid "stocked"
+msgstr "имеющийся в наличии"
+
+msgid "unstocked"
+msgstr "не имеющийся в наличии"
+
+msgid "recommended"
+msgstr "рекомендуемый"
+
+msgid "related"
+msgstr "связанный"
+
+msgid "computed"
+msgstr "вычисленный"
+
+msgid "bought with"
+msgstr "купленный"
+
+msgid "not shipped (non-deliverable)"
+msgstr "не отгружен (не доставляется)"
+
+msgid "shipped (deliverable)"
+msgstr "отгруженный (поставляемый)"
+
+msgid "no verification required"
+msgstr "Подтверждение не требуется"
+
+msgid "admin verification required"
+msgstr "Требуется подтверждение администратора"
+
+msgid "third party verification required"
+msgstr "Требуется подтверждение третьей стороны"
+
+msgid ""
+"Enter a descriptive name for your product type. Products and attributes for "
+"products of this type can be found under this name."
+msgstr "Введите описательное имя для своего типа товара. Товары и свойства товаров этого типа можно найти под этим именем."
+
+msgid ""
+"Select attributes that go with your product type. To change available "
+"attributes search for `Attributes`."
+msgstr "Выберите атрибуты, соответствующие вашему типу продукта. Чтобы изменить доступные атрибуты, ищите `Атрибуты`."
+
+msgid "product type"
+msgstr "тип товара"
+
+msgid "product types"
+msgstr "типы товара"
+
+msgid "mode"
+msgstr "режим"
+
+msgid "variation parent"
+msgstr "Родитель вариации"
+
+msgid "shipping mode"
+msgstr "Режим доставки"
+
+msgid "Set to `shipped` if the product requires shipment."
+msgstr "Настройка на `отгрузку`, если товар требует отгрузки."
+
+msgid "sales unit"
+msgstr "единица продаж"
+
+msgid ""
+"Select a sales unit for your product. This is shown in your store front and "
+"is used to determine whether the product can be purchased using fractional "
+"amounts. To change settings search for `Sales Units`."
+msgstr "Выберите торговую единицу для вашего продукта. Это отображается в вашем магазине и используется, чтобы определить, можно ли купить продукт за дробные суммы. Чтобы изменить настройки, найдите `Единицы продаж`."
+
+msgid "tax class"
+msgstr "налоговый класс"
+
+msgid ""
+"Select a tax class for your product. The tax class is used to determine "
+"which taxes to apply to your product. Define tax classes by searching for "
+"`Tax Classes`. To define the rules by which taxes are applied search for "
+"`Tax Rules`."
+msgstr "Выберите класс налога для вашего продукта. Класс налогов используется для определения того, какие налоги должны применяться к вашему продукту. Определите классы налогов путем поиска `Класс налогов`. Чтобы определить правила, по которым применяются налоги, выполните поиск по `Правилам налогов`."
+
+msgid ""
+"Select a product type for your product. These allow you to configure custom "
+"attributes to help with classification and analysis."
+msgstr "Выберите тип товара. Это позволит настраивать пользовательские параметры для помощи в классификации и анализе."
+
+msgid "SKU"
+msgstr "Артикул"
+
+msgid ""
+"Enter a SKU (Stock Keeping Unit) number for your product. This is a product "
+"identification code that helps you track products through your inventory and"
+" analyze their movement. People often use the product's barcode number, but "
+"you can set up any numerical system you want to keep track of products."
+msgstr ""
+
+msgid "GTIN"
+msgstr "Международный код маркировки и учёта логистических единиц"
+
+msgid ""
+"You can enter a Global Trade Item Number. This is typically a 14 digit "
+"identification number for all of your trade items. It can often be found by "
+"the barcode."
+msgstr "Вы можете ввести глобальный номер товарной позиции. Обычно это 14-значный идентификационный номер для всех ваших товарных позиций. Его часто можно найти по штрих-коду."
+
+msgid "barcode"
+msgstr "штрих-код"
+
+msgid ""
+"You can enter the barcode number for your product. This is useful for "
+"inventory/stock tracking and analysis."
+msgstr "Вы можете ввести номер штрих-кода для своего продукта. Это полезно для инвентаризации / отслеживания запасов и анализа."
+
+msgid "bookkeeping account"
+msgstr "Бухгалтерский счет"
+
+msgid "profit center"
+msgstr "центр прибыли"
+
+msgid "cost center"
+msgstr "центр затрат"
+
+msgid "width ({})"
+msgstr "ширина ({})"
+
+msgid ""
+"Set the measured width of your product or product packaging. This will "
+"provide customers with the product size and help with calculating shipping "
+"costs."
+msgstr ""
+
+msgid "height ({})"
+msgstr "высота ({})"
+
+msgid ""
+"Set the measured height of your product or product packaging. This will "
+"provide customers with the product size and help with calculating shipping "
+"costs."
+msgstr ""
+
+msgid "depth ({})"
+msgstr "глубина ({})"
+
+msgid ""
+"Set the measured depth or length of your product or product packaging. This "
+"will provide customers with the product size and help with calculating "
+"shipping costs."
+msgstr ""
+
+msgid "net weight ({})"
+msgstr "вес нетто ({})"
+
+msgid ""
+"Set the measured weight of your product WITHOUT its packaging. This will "
+"provide customers with the actual product's weight."
+msgstr ""
+
+msgid "gross weight ({})"
+msgstr "вес брутто ({})"
+
+msgid ""
+"Set the measured gross weight of your product WITH its packaging. This will "
+"help with calculating shipping costs."
+msgstr ""
+
+msgid ""
+"Select a manufacturer for your product. To define these, search for "
+"`Manufacturers`."
+msgstr ""
+
+msgid ""
+"To make your product stand out, give it an awesome description. This is what"
+" will help your shoppers learn about your products. It will also help "
+"shoppers find them in the store and on the web."
+msgstr "Чтобы ваш товар выделялся, дайте ему потрясающее описание. Именно это поможет вашим покупателям узнать о ваших товарах. Это также поможет покупателям найти их в магазине и в Интернете."
+
+msgid ""
+"Enter a URL slug for your product. Slug is user- and search engine-friendly "
+"short text used in a URL to identify and describe a resource. In this case "
+"it will determine what your product page URL in the browser address bar will"
+" look like. A default will be created using the product name."
+msgstr ""
+
+msgid "keywords"
+msgstr "ключевые слова"
+
+msgid ""
+"You can enter keywords that describe your product. This will help your "
+"shoppers learn about your products. It will also help shoppers find them in "
+"the store and on the web."
+msgstr "Вы можете ввести ключевые слова, описывающие ваш товар. Это поможет вашим покупателям узнать о ваших товарах. Это также поможет покупателям найти их в магазине и в Интернете."
+
+msgid "variation name"
+msgstr "название вариации"
+
+msgid ""
+"You can enter a name for the variation of your product. This could be for "
+"example different colors, sizes or versions. To manage variations, at the "
+"top of the the individual product page, click `Actions` -> `Manage "
+"Variations`."
+msgstr ""
+
+msgid ""
+"Multilevel parentage hierarchies aren't supported (parent is a child "
+"already)."
+msgstr ""
+
+msgid "Parent is a variable variation parent, yet variables were not passed."
+msgstr ""
+
+msgid ""
+"Multilevel parentage hierarchies aren't supported (this product is a simple "
+"variation parent)."
+msgstr ""
+
+msgid ""
+"Multilevel parentage hierarchies aren't supported (this product is a "
+"variable variation parent)."
+msgstr ""
+
+msgid ""
+"Product is currently not a normal product, and can't be turned into a "
+"package."
+msgstr ""
+
+msgid "Package can't contain itself."
+msgstr ""
+
+msgid "Variation parents can't belong in the package."
+msgstr ""
+
+msgid "Packages can't be nested."
+msgstr "Пакеты не могут быть вложенными."
+
+#, python-format
+msgid "Quantity %s is invalid."
+msgstr "Количество %s недействительно."
+
+msgid "primary product"
+msgstr "основной товар"
+
+msgid "secondary product"
+msgstr "вторичный товар"
+
+msgid "weight"
+msgstr "вес"
+
+msgid "cross sell link"
+msgstr "Ссылка на кросс-продажу"
+
+msgid "cross sell links"
+msgstr "Ссылки на кросс-продажу"
+
+msgid "translated value"
+msgstr "переведенное значение"
+
+msgid "product attribute"
+msgstr "атрибут товара"
+
+msgid "product attributes"
+msgstr "атрибуты товара"
+
+msgid "Enable this if this service provider can be used when placing orders."
+msgstr ""
+
+msgid "The service provider name."
+msgstr "Название поставщика услуг."
+
+msgid ""
+"This service provider will be available only for order sources of the given "
+"shop. If blank, this service provider is available for any order source."
+msgstr ""
+
+msgid ""
+"This service provider will be available only for order sources that contain "
+"all items from the configured supplier. If blank, this service provider is "
+"available for any order source."
+msgstr ""
+
+msgid "Enable this if this service should be selectable on checkout."
+msgstr ""
+
+msgid "The shop for this service."
+msgstr "Магазин, выбранный для данного сервиса."
+
+msgid ""
+"The supplier for this service. This service will be available only for order"
+" sources that contain all items from this supplier."
+msgstr ""
+
+msgid "choice identifier"
+msgstr "идентификатор выбора"
+
+msgid ""
+"The tax class to use for this service. Define by searching for `Tax "
+"Classes`."
+msgstr ""
+
+msgid "behavior components"
+msgstr "Компоненты поведения"
+
+#, python-format
+msgid "%s is disabled."
+msgstr "%s выключен."
+
+#, python-format
+msgid "%s is for different shop."
+msgstr "%s для другого магазина."
+
+#, python-format
+msgid "%(service_name)s: %(sub_item)s"
+msgstr "%(service_name)s : %(sub_item)s"
+
+msgid "Fixed cost"
+msgstr "Фиксированная стоимость"
+
+msgid "Add a fixed cost to the price of the service."
+msgstr "Добавьте фиксированную цену услуги."
+
+msgid "The fixed cost to apply to this service."
+msgstr "Фиксированная цена для применения к данному сервису."
+
+msgid "The order line text to display when this behavior is applied."
+msgstr "Текст строки заказа для отображения при применении данного действия."
+
+msgid "Waiving cost"
+msgstr "Отклонение в цене"
+
+msgid ""
+"If the total price of the products is less than a waive limit add cost to "
+"the price of the service."
+msgstr ""
+
+msgid ""
+"The cost to apply to this service if the total price is below the waive "
+"limit."
+msgstr "Стоимость, которая будет применена к услугам, если общая стоимость товаров будет меньше предела отклонения."
+
+msgid ""
+"The total price of products limit, at which this service cost is waived."
+msgstr ""
+
+msgid "Weight limits"
+msgstr "Пределы веса"
+
+msgid ""
+"Limit availability of the service based on total weight of the products."
+msgstr ""
+
+msgid "minimum weight"
+msgstr "минимальный вес"
+
+msgid "The minimum weight required for this service to be available."
+msgstr "Минимальный вес, необходимый для предоставления этой услуги."
+
+msgid "maximum weight"
+msgstr "максимальный вес"
+
+msgid "The maximum weight allowed by this service."
+msgstr "Макимальный вес, разрешенный данным сервисом."
+
+msgid "Minimum weight not met."
+msgstr "Минимальный вес не набран."
+
+msgid "Maximum weight exceeded."
+msgstr "Максимальный вес превышен."
+
+msgid "min weight ({})"
+msgstr "минимальный вес ({})"
+
+msgid "The minimum weight for this price to apply."
+msgstr "Минимальный вес для применения этой цены."
+
+msgid "max weight ({})"
+msgstr "максимальный вес ({})"
+
+msgid "The maximum weight before this price no longer applies."
+msgstr "Максимальный вес до этой цены больше не применяется."
+
+msgid "The cost to apply to this service when the weight criteria is met."
+msgstr "Стоимость, которая будет применяться к этой услуге при соблюдении весовых критериев."
+
+msgid "Weight-based pricing"
+msgstr "Ценообразование, основанное на весе товара"
+
+msgid ""
+"Define price based on basket weight. Range minimums are counted in range "
+"only as zero e.g. if there are 2 ranges (range1 = min 0, max 5; range2 = min"
+" 5, max 10), only range1's 'min 0' is going to be counted, but not range2's "
+"'min 5'."
+msgstr ""
+
+msgid "Weight does not match with any range."
+msgstr "Вес не соответствует ни оному диапазону."
+
+msgid "Contact group availability"
+msgstr "Доступность группы контактов"
+
+msgid "Make service available only for specific contact groups."
+msgstr "Обслуживание доступно только для определенных контактных групп."
+
+msgid "groups"
+msgstr "группы"
+
+msgid "The contact groups for which this service is available."
+msgstr "Группы контактов, для которых доступна данная услуга."
+
+msgid "Customer does not belong to any group."
+msgstr "Клиент не принадлежит ни одной из групп."
+
+msgid "Service is not available for any of the customer's groups."
+msgstr "Услуга не доступна ни для одной из групп клиентов."
+
+msgid "Access to Admin Panel only availability"
+msgstr "Доступ только в админпанели"
+
+msgid ""
+"Make service available only for people with `Access to Admin Panel` rights."
+msgstr ""
+
+msgid ""
+"Service is only available for people with `Access to Admin Panel` "
+"(`is_staff`) rights."
+msgstr ""
+
+msgid "Order total price limit"
+msgstr "Лимит общей цены заказа"
+
+msgid "Limit service availability based on order's total price."
+msgstr "Ограничьте доступность услуги на основе общей стоимости заказа."
+
+msgid "min price value"
+msgstr "минимальное значение цены"
+
+msgid "max price value"
+msgstr "максимальное значение цены"
+
+msgid "Order's total price is not within the defined service limits."
+msgstr "Общая стоимость заказа выходит за рамки установленных лимитов услуги."
+
+msgid "Country limit"
+msgstr "Лимит на страну"
+
+msgid "Limit service availability based on countries selected."
+msgstr "Ограничьте доступность услуг в зависимости от выбранных стран."
+
+msgid "available in countries"
+msgstr "доступно в странах"
+
+msgid "available in european union"
+msgstr "доступный в странах Евро союза"
+
+msgid "unavailable in countries"
+msgstr "недоступно в странах"
+
+msgid "unavailable in european union"
+msgstr "недоступный в странах Евро союза"
+
+msgid "Service is not available without a defined country."
+msgstr "Услуга недоступна без определенной страны."
+
+msgid "Service is not available for this country."
+msgstr "Услуги недоступны в данной стране."
+
+msgid "round up to the nearest number with ties going up, away from zero"
+msgstr ""
+
+msgid "round to the nearest number with ties going down, towards zero"
+msgstr ""
+
+msgid "round up, away from zero, towards the farther round number"
+msgstr ""
+
+msgid "round down, towards zero, towards the closest round number"
+msgstr ""
+
+msgid "payment processor"
+msgstr "платёжная система"
+
+msgid ""
+"The payment method name. This name is shown to the customers on checkout."
+msgstr ""
+
+msgid ""
+"The description of the payment method. This description is shown to the "
+"customers on checkout."
+msgstr ""
+
+msgid "rounding quantize"
+msgstr "Округлить"
+
+msgid "Choose rounding quantize (precision) for cash payment."
+msgstr ""
+
+msgid "rounding mode"
+msgstr "режим округления"
+
+msgid "Choose rounding mode for cash payment."
+msgstr "Выберите режим округления для оплаты наличными."
+
+msgid "custom payment processor"
+msgstr "Пользовательская платёжная система"
+
+msgid "custom payment processors"
+msgstr "Пользовательские платёжные системы"
+
+msgid "Manually processed payment"
+msgstr "Платёж, проведённый вручную"
+
+msgid "Cash payment"
+msgstr "Оплата наличными"
+
+msgid "carrier"
+msgstr "Служба доставки"
+
+msgid ""
+"The shipping method name. This name is shown to the customers on checkout."
+msgstr ""
+
+msgid ""
+"The description of the shipping method. This name is shown to the customers "
+"on checkout."
+msgstr ""
+
+msgid "custom carrier"
+msgstr "Таможенный перевозчик"
+
+msgid "custom carriers"
+msgstr "Таможенные перевозчики"
+
+msgid "Manually processed shipment"
+msgstr "Доставка своими силами"
+
+msgid "Not sent"
+msgstr ""
+
+msgid "Sent"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Deleted"
+msgstr ""
+
+msgid "outgoing"
+msgstr "исходящее"
+
+msgid "incoming"
+msgstr "входящее"
+
+msgid "tracking code"
+msgstr "код отслеживания"
+
+msgid "tracking url"
+msgstr ""
+
+msgid "volume ({})"
+msgstr "громкость ({})"
+
+msgid "weight ({})"
+msgstr "вес ({})"
+
+msgid "shipment"
+msgstr "отправка"
+
+msgid "shipments"
+msgstr "отправки"
+
+msgid "unit volume ({})"
+msgstr "единичный объем ({})"
+
+msgid "unit weight ({})"
+msgstr "единичный вес ({})"
+
+msgid "sent product"
+msgstr "отправленный товар"
+
+msgid "sent products"
+msgstr "отправленные товары"
+
+msgid ""
+"The following fields can't be changed because there are existing orders for "
+"this shop."
+msgstr ""
+
+msgid "domain"
+msgstr "домен"
+
+msgid ""
+"Your shop domain name. Use this field to configure the URL that is used to "
+"visit your store front. Note: this requires additional configuration through"
+" your internet domain registrar."
+msgstr ""
+
+msgid ""
+"Your shop's status. Disable your shop if it's no longer in use. For "
+"temporary closing enable the maintenance mode, available in the `Maintenance"
+" Mode` tab on the left."
+msgstr ""
+
+msgid ""
+"The primary shop currency. This is the currency used when selling the "
+"products."
+msgstr ""
+
+msgid ""
+"This option defines whether product prices entered in admin include taxes. "
+"Note: this behavior can be overridden with contact group pricing."
+msgstr ""
+
+msgid "Shop's logo. Will be shown at theme."
+msgstr "Логотип магазина. Будет показано в теме."
+
+msgid "favicon"
+msgstr "значок"
+
+msgid ""
+"Shop's favicon - a mini-image graphically representing your shop. Depending "
+"on the browser, it will be shown next to the address bar and/or on the "
+"website title tab."
+msgstr ""
+
+msgid "maintenance mode"
+msgstr "режим обслуживания"
+
+msgid ""
+"Enable if you want to make your shop temporarily unavailable to visitors "
+"while you do regular shop maintenance, fight the security breach or for some"
+" other reason. If you don't plan to have this shop open again, change the "
+"`Status` on the main `General Information` tab to `Disabled`."
+msgstr ""
+
+msgid "contact address"
+msgstr "контактный адрес"
+
+msgid "staff members"
+msgstr "сотрудники"
+
+msgid "The shop name. This name is displayed throughout Admin Panel."
+msgstr ""
+
+msgid ""
+"The public shop name. This name is displayed in the store front and in any "
+"customer email correspondence."
+msgstr "Название магазина. Это название отображается в витрине магазина и в любой корреспонденции электронной почты клиента."
+
+msgid ""
+"To make your shop stand out, give it an awesome description. This is what "
+"will help your shoppers learn about your shop. It will also help shoppers "
+"find your store from the web."
+msgstr ""
+
+msgid ""
+"Enter a short description for your shop. The short description will be used "
+"to get the attention of your customer with a small, but precise description "
+"of your shop. It also helps with getting more traffic via search engines."
+msgstr ""
+
+msgid "maintenance message"
+msgstr "сообщение для режима обслуживания"
+
+msgid ""
+"The message to display to customers while your shop is in a maintenance "
+"mode."
+msgstr ""
+
+msgid "alert limit"
+msgstr "лимит предупреждений"
+
+msgid "physical stock count"
+msgstr "физический подсчёт запасов"
+
+msgid "logical stock count"
+msgstr "логический подсчет запасов"
+
+msgid "internal"
+msgstr "внутренний"
+
+msgid "external"
+msgstr "внешний"
+
+msgid ""
+"The product supplier's name. You can enable suppliers to manage the "
+"inventory of stocked products."
+msgstr ""
+
+msgid "supplier type"
+msgstr "тип поставщика"
+
+msgid ""
+"The supplier type indicates whether the products are supplied through an "
+"internal supplier or an external supplier, and which group this supplier "
+"belongs to."
+msgstr ""
+
+msgid "stock managed"
+msgstr "складирование организовано"
+
+msgid ""
+"Enable this if this supplier will manage the inventory of the stocked "
+"products. Having a managed stock enabled is unnecessary if e.g. selling "
+"digital products that will never run out no matter how many are being sold. "
+"There are some other cases when it could be an unnecessary complication. "
+"This settingmerely assigns a sensible default behavior, which can be "
+"overwritten on a product-by-product basis."
+msgstr ""
+
+msgid "supplier modules"
+msgstr ""
+
+msgid ""
+"Select the supplier module to use for this supplier. Supplier modules define"
+" the rules by which inventory is managed."
+msgstr "Выберите модуль поставщика, который будет использоваться для этого поставщика. Модули поставщиков определяют правила управления инвентарем."
+
+msgid "module data"
+msgstr "данные модуля"
+
+msgid ""
+"You can select which particular shops fronts the supplier should be "
+"available in."
+msgstr ""
+
+msgid ""
+"Indicates whether this supplier is currently enabled. In order to "
+"participate fully, the supplier also needs to be `Approved`."
+msgstr ""
+
+msgid ""
+"Enter a URL slug for your supplier. Slug is user- and search engine-friendly"
+" short text used in a URL to identify and describe a resource. In this case "
+"it will determine what your supplier page URL in the browser address bar "
+"will look like. A default will be created using the supplier name."
+msgstr ""
+
+msgid "Approved"
+msgstr "Одобрено "
+
+msgid "Indicates whether this supplier is currently approved for work."
+msgstr ""
+
+msgid "module identifier"
+msgstr ""
+
+msgid ""
+"Select the types of products this supplier can handle.Example for normal "
+"products select just Simple Supplier."
+msgstr ""
+
+msgid "Module name"
+msgstr ""
+
+msgid "Supplier modules name."
+msgstr ""
+
+msgid "Can't change the business critical fields of the Tax that is in use."
+msgstr ""
+
+msgid "The abbreviated tax code name."
+msgstr "Сокращенное название кода налога."
+
+msgid ""
+"The name of the tax. It is shown in order lines, in order invoices and "
+"confirmations."
+msgstr ""
+
+msgid "tax rate"
+msgstr "Соотношение налога"
+
+msgid ""
+"The percentage rate of the tax. Mutually exclusive with the flat amount tax "
+"(flat tax is rarely used and the option is therefore hidden by default; "
+"contact Shuup to enable)."
+msgstr ""
+
+msgid "tax amount value"
+msgstr "размер налога"
+
+msgid ""
+"The flat amount of the tax. Mutually exclusive with percentage rates tax."
+msgstr ""
+
+msgid "currency of the amount tax"
+msgstr "валюта налога на сумму"
+
+msgid "Enable if this tax is valid and should be active."
+msgstr ""
+
+msgid "Either rate or amount tax is required."
+msgstr "Требуется либо ставка, либо сумма налога."
+
+msgid "Can't have both rate and amount taxes. They are mutually exclusive."
+msgstr ""
+
+msgid "Currency is required if the amount tax value is specified."
+msgstr ""
+
+msgid "taxes"
+msgstr "Налоги"
+
+msgid ""
+"The tax class name. Tax classes are used to control how taxes are applied to"
+" the products."
+msgstr ""
+
+msgid "Enable if this tax class is valid and should be active."
+msgstr ""
+
+msgid "tax classes"
+msgstr "налоговые классы"
+
+msgid ""
+"The customer tax group name. Customer tax groups can be used to control how "
+"taxes are applied to a set of customers. "
+msgstr "Название группы контактов. Группы контактов могут использоваться для контроля налогообложения, применимого к определённой группе пользователей."
+
+msgid "customer tax group"
+msgstr "группа налогов клиентов"
+
+msgid "customer tax groups"
+msgstr "группы налогов клиентов"
+
+msgid "Retail Customers"
+msgstr "Розничные клиенты"
+
+msgid "Company Customers"
+msgstr "Клиенты компании"
+
+msgid "allowed decimal places"
+msgstr "Допустимые десятичные разряды"
+
+msgid ""
+"The number of decimal places allowed by this sales unit.Set this to a value "
+"greater than zero if products with this sales unit can be sold in fractional"
+" quantities."
+msgstr ""
+
+msgid "sales units"
+msgstr "единицы продаж"
+
+msgid ""
+"The sales unit name to use for products (e.g. 'pieces' or 'units'). Sales "
+"units can be set individually for each product through the product editor "
+"view."
+msgstr ""
+
+msgid "unit symbol"
+msgstr "условное обозначение"
+
+msgid ""
+"An abbreviated name for this sales unit that is shown throughout admin and "
+"order invoices."
+msgstr "Сокращенное имя для данной единицы продаж, которое отображается на всех счетах администратора и заказа."
+
+msgid "Value must be positive and non-zero."
+msgstr "Значение должно быть положительным и отличным от нуля."
+
+msgid "internal unit"
+msgstr "Внутренний блок"
+
+msgid "The sales unit that this display unit is linked to."
+msgstr "Единица продаж, с которой связан этот блок."
+
+msgid "ratio"
+msgstr "Соотношение"
+
+msgid ""
+"Size of the display unit in internal unit. E.g. if internal unit is kilogram"
+" and display unit is gram, ratio is 0.001."
+msgstr ""
+
+msgid ""
+"The number of decimal places to use for values in the display unit. The "
+"internal values are still rounded based on the settings of the internal "
+"unit."
+msgstr ""
+
+msgid "comparison value"
+msgstr "Сравнительная величина"
+
+msgid ""
+"Value to use when displaying unit prices. E.g. if the display unit is a gram"
+" and the comparison value is 100, then unit prices are shown per 100g, like:"
+" $2.95 per 100g."
+msgstr ""
+
+msgid "allow bare number"
+msgstr "Разрешить простое число"
+
+msgid ""
+"If true, values of this unit can occasionally be shown without the symbol "
+"attached to it. E.g. if the unit is a `piece`, then you might want for the "
+"product listings to only show '$5.95' rather than '$5.95 per pc.'."
+msgstr ""
+
+msgid "use by default"
+msgstr "Использовать по умолчанию"
+
+msgid ""
+"Use this display unit by default when displaying values of the internal "
+"unit."
+msgstr "Используйте этот блок по умолчанию при отображении значений внутреннего блока."
+
+msgid "Name of the display unit, e.g. grams."
+msgstr ""
+
+msgid "symbol"
+msgstr "Символ"
+
+msgid "An abbreviated name of the display unit, e.g. 'g'."
+msgstr "Сокращенное имя блока отображения, например: 'г'."
+
+msgid "display units"
+msgstr "дисплейные блоки"
+
+msgid "Pieces"
+msgstr "фрагменты"
+
+msgctxt "Symbol for pieces unit"
+msgid "pc."
+msgstr "шт."
+
+#, python-brace-format
+msgctxt "Display the value with the unit symbol (with or without space) "
+msgid "{value}{symbol}"
+msgstr "{value} {symbol}"
+
+msgid "inherit"
+msgstr "наследовать"
+
+msgid "skip"
+msgstr "пропустить"
+
+msgid "delete"
+msgstr "удалить"
+
+msgid "The total price should be greater than {} to be ordered."
+msgstr ""
+
+#, python-format
+msgid "%s is not available in this shop."
+msgstr "%sне продается в этом магазине."
+
+msgid "Default Pricing"
+msgstr "Цена по умолчанию"
+
+#, python-brace-format
+msgid "The product kind {value} is not unique!"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "inventory"
+msgstr "Опись"
+
+msgid "restock"
+msgstr "пополнить запасы"
+
+msgid "restock logical"
+msgstr "логическое пополнение заказов"
+
+msgid "Failed to execute the task"
+msgstr ""
+
+msgid "An unexpeted error occurred."
+msgstr ""
+
+#, python-format
+msgid "Refund for %s"
+msgstr "Возврат за %s"
+
+msgid "Misc refund"
+msgstr "Другой возврат"
+
+msgid "Untaxed"
+msgstr "Без налогообложения"
+
+msgid "This field cannot be changed since it is protected."
+msgstr "Данное поле не может быть изменено, т.к. находится под защитой."
+
+msgid "Region"
+msgstr "Регион"
+
+msgid "Username"
+msgstr "Имя пользователя"
+
+msgid "Email"
+msgstr "Электронная почта "
+
+msgid "Please provide either username or email, not both."
+msgstr "Пожалуйста, укажите имя пользователя или адрес электронной почты, а не оба."
+
+msgid "Please provide either username or email."
+msgstr "Пожалуйста, укажите имя пользователя или адрес электронной почты."
+
+msgid "First Last"
+msgstr "Первый Последний"
